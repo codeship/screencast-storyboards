@@ -9,8 +9,8 @@ I've got a simple Ruby on Rails application called (`codefish`)[https://github.c
 
 We're gonna deploy this application to Heroku using the Codeship.
 
-![Codeship landingpage](../../screenshots/codeship-landingpage.png)
+![Codeship landingpage](../../../screenshots/codeship-landingpage.png)
 
 Let's sign in with GitHub:
 
-![GitHub OAuth](../oauth.png)
+![GitHub OAuth](../screenshots/oauth.png)
