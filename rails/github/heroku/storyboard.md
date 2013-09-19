@@ -33,3 +33,14 @@ I search for my repo "codefish-rails" and select it.
 
 ![Repo selection GitHub filtered](../screenshots/repo-selection-filtered.png)
 
+Now we can set up our test commands:
+
+![Codeship welcome screen](../../../screenshots/codeship-technology.png)
+
+We select "Ruby on Rails" as our framework. Now the setup commands and the test commands are already prefilled. Let's uncomment the test command `bundle exec rspec` to run our RSpec examples on every build.
+
+![Rails test commands](../screenshots/test-commands.png)
+
+Now let's finish our setup and go to the dashboard.
+
+![Codeship welcome screen](../../../screenshots/codeship-dashboard.png)
