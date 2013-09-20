@@ -52,3 +52,31 @@ To can trigger a build for our application by pushing to our repository. Let's a
 Now let's commit and push this change.
 
 ![GitHub Push](../screenshots/push.png)
+
+This triggered a new build on the Codeship.
+
+![Codeship running build](../screenshots/first-build-running.png)
+
+And a few seconds later, we can see that our build succeeded! Great!
+
+![Codeship finished build](../screenshots/first-build-finished.png)
+
+Now we let's inspect our build and see what's happened.
+[click on build name]
+We see all the commands that were run. After a few preparation commands, the commands ran that we specified during the project setup.
+
+![Codeship build details](../screenshots/build-details.png)
+
+We can inspect the output of a single command by clicking on it.
+[click on RSpec command]
+So we can see that two RSpec examples were run
+
+![Codeship build log](../screenshots/build-log.png)
+
+[click on RSpec command again to close log]
+
+Now we've pushed to our repository, watched our build log and got a green build. So we can finish this assistent.
+
+[click on road to success finish button]
+
+![Codeship build without road to success](../screenshots/build-without-road-to-success.png)
