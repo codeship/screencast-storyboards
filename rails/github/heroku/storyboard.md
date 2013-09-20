@@ -45,7 +45,7 @@ Now let's finish our setup and go to the dashboard.
 
 ![Codeship welcome screen](../../../screenshots/codeship-dashboard.png)
 
-To can trigger a build for our application by pushing to our repository. Let's add the Codeship status image to the README file.
+We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image to the README file.
 
 ![Codeship welcome screen](../../screenshots/codeship-image.png)
 
