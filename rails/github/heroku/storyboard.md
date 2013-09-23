@@ -37,9 +37,13 @@ Now our repository is connected and we can set up our test commands:
 
 ![Codeship welcome screen](../../../screenshots/codeship-technology.png)
 
-We select "Ruby on Rails" as our framework. This prefills the setup commands and the test commands for us.
+We select "Ruby on Rails" as our framework. This prepopulates the setup commands and the test commands for us.
 
-By default Ruby 1.9.3 is loaded, but I'd like to use Ruby 2.0.0, so I just change the `rvm use` command.
+On my computer I use Ruby 2.0.0 for our application. [enter `rvm list` in Terminal]
+
+![Ruby Version.Png](../../screenshots/ruby-version.png.png)
+
+The Codeship suggests Ruby 1.9.3 by default, but we can use Ruby 2.0 by changing the `rvm use` command.
 
 Let's uncomment the test command `bundle exec rspec` to run our RSpec examples on every build.
 
@@ -61,15 +65,15 @@ This triggered a new build on the Codeship.
 
 ![Codeship running build](../screenshots/first-build-running.png)
 
-When we go to the build details, we can follow the running build.
+We can access the build details by clicking the arrow on the right. Here we can follow the running build.
 
 ![Codeship running build details](../screenshots/first-build-running-details.png)
 
-And a few seconds later, our build succeeded! Great!
+And a few seconds later our build succeeded! Great!
 
 ![Codeship finished build](../screenshots/first-build-finished.png)
 
-We see all the commands that were run. After a few preparation commands, the commands ran that we specified during the project setup.
+We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
 
 We can inspect the output of a single command by clicking on it.
 [click on RSpec command]
@@ -113,7 +117,7 @@ and create it.
 
 ![Heroku app created](screenshots/heroku-app-created.png)
 
-So back at our deployment configuration I enter the application name "codefish-rails".
+Back at our deployment configuration I enter the application name "codefish-rails".
 
 ![Heroku deployment name entered](screenshots/heroku-deployment-name.png)
 
@@ -153,4 +157,6 @@ When we open http://codefish-rails.herokuapp.com/ now, our deployed application 
 
 ![Deployed Application](screenshots/deployed-application.png)
 
-This was it, thanks for watching!
+If you need help with setting up your own application, please use the support link in the top-right corner or tweet us!
+
+![Build Deployment Complete](screenshots/build-deployment-complete.png)
