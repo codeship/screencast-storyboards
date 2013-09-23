@@ -118,3 +118,31 @@ To retrieve my Heroku API key, I follow the link to my Heroku account and click 
 I copy it and insert it into my deployment configuration at the Codeship.
 
 ![Complete Heroku deployment](screenshots/complete-heroku-deployment.png)
+
+Now let's save our deployment configuration.
+
+![Saved Heroku deployment](screenshots/saved-heroku-deployment.png)
+
+The Codeship will deploy our application to Heroku the next time we push a change to our GitHub repository. Let's add a paragraph "And I set it up in 2 minutes" to our template.
+
+![Added paragraph](screenshots/added-paragraph.png)
+
+I commit and push the change
+
+![Commit and push paragraph](screenshots/commit-and-push-paragraph.png)
+
+and immediately another build starts running on the Codeship.
+
+![Deploy build started](../screenshots/deploy-build-started.png)
+
+After the commands that already run in the first build, our application is deployed to Heroku
+
+![Build Deployment](screenshots/build-deployment.png)
+
+After about 2 minutes our application was deployed successfully.
+
+![Build Deployment Complete](screenshots/build-deployment-complete.png)
+
+We can open http://codefish-rails.herokuapp.com/ in our browser and our application appears.
+
+This was it, thanks for watching!
