@@ -147,4 +147,6 @@ After about 2 minutes our application was deployed successfully.
 
 We can open http://codefish-rails.herokuapp.com/ in our browser and our application appears.
 
+![Deployed Application](screenshots/deployed-application.png)
+
 This was it, thanks for watching!
