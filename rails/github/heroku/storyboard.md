@@ -65,11 +65,7 @@ And a few seconds later, our build succeeded! Great!
 
 ![Codeship finished build](../screenshots/first-build-finished.png)
 
-Let's inspect our build and see what's happened.
-[click on build name]
 We see all the commands that were run. After a few preparation commands, the commands ran that we specified during the project setup.
-
-![Codeship build details](../screenshots/build-details.png)
 
 We can inspect the output of a single command by clicking on it.
 [click on RSpec command]
