@@ -75,6 +75,8 @@ So we can see that two RSpec examples were run
 
 [click on RSpec command again to close log]
 
+![Codeship finished build](../screenshots/first-build-finished.png)
+
 We've already pushed to our repository, watched our build log and got a green build. So we can finish this assistent.
 
 [click on road to success finish button]
