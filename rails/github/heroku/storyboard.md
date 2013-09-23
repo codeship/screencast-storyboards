@@ -57,7 +57,9 @@ This triggered a new build on the Codeship.
 
 ![Codeship running build](../screenshots/first-build-running.png)
 
-And a few seconds later, we can see that our build succeeded! Great!
+When we go to the build details, we follow the running build.
+
+And a few seconds later, our build succeeded! Great!
 
 ![Codeship finished build](../screenshots/first-build-finished.png)
 
