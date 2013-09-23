@@ -105,6 +105,8 @@ I name my application "codefish-rails"
 
 ![Create Heroku app](screenshots/create-heroku-app.png)
 
+and create it.
+
 ![Heroku app created](screenshots/heroku-app-created.png)
 
 So back at our deployment configuration I enter the application name "codefish-rails".
@@ -125,11 +127,11 @@ Now let's save our deployment configuration.
 
 The Codeship will deploy our application to Heroku the next time we push a change to our GitHub repository. Let's add a paragraph "And I set it up in 2 minutes" to our template.
 
-![Added paragraph](screenshots/added-paragraph.png)
+![Added paragraph](../screenshots/added-paragraph.png)
 
 I commit and push the change
 
-![Commit and push paragraph](screenshots/commit-and-push-paragraph.png)
+![Commit and push paragraph](../screenshots/commit-and-push-paragraph.png)
 
 and immediately another build starts running on the Codeship.
 
