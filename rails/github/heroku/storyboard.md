@@ -145,7 +145,7 @@ After the commands that already ran in our first build, our application is deplo
 
 ![Build Deployment](screenshots/build-deployment.png)
 
-And about 2 minutes later our application is successfully deployed.
+And about 2 minutes later our application is online.
 
 ![Build Deployment Complete](screenshots/build-deployment-complete.png)
 
