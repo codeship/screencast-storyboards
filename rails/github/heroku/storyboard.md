@@ -89,6 +89,32 @@ Now let's deploy our application to Heroku. We go into our project settings
 
 ![Codeship project settings](../screenshots/project-settings.png)
 
-and then to the "Deployments" page.
+and then to the "Deployment" page.
 
 ![Codeship deployment settings](../screenshots/deployment-settings.png)
+
+We select "Heroku" as our Deployment provider.
+
+![New heroku deployment](screenshots/new-heroku-deployment.png)
+
+Now we need to enter the name of our Heroku application and our API key. Let's go to Heroku and create an application.
+
+![Heroku apps](screenshots/heroku-apps.png)
+
+I name my application "codefish-rails"
+
+![Create Heroku app](screenshots/create-heroku-app.png)
+
+![Heroku app created](screenshots/heroku-app-created.png)
+
+So back at our deployment configuration I enter the application name "codefish-rails".
+
+![Heroku deployment name entered](screenshots/heroku-deployment-name.png)
+
+To retrieve my Heroku API key, I follow the link to my Heroku account and click "Show API key".
+
+![Show Heroku API key](screenshots/show-api-key.png)
+
+I copy it and insert it into my deployment configuration at the Codeship.
+
+![Complete Heroku deployment](screenshots/complete-heroku-deployment.png)
