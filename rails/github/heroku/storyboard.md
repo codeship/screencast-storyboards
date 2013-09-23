@@ -3,7 +3,7 @@ Deploying Rails from GitHub to Heroku
 
 In this screencast we're gonna deploy a Ruby on Rails application from a GitHub repository to Heroku using the Codeship.
 
-I've got a simple Ruby on Rails application called (codefish)[https://github.com/codeship-tutorials/codefish-rails] which contains some RSpec examples.
+I've got a simple Ruby on Rails application called [codefish](https://github.com/codeship-tutorials/codefish-rails) which contains some RSpec examples.
 
 ![GitHub codefish-rails](../screenshots/codefish-rails.png)
 
@@ -61,7 +61,7 @@ And a few seconds later, we can see that our build succeeded! Great!
 
 ![Codeship finished build](../screenshots/first-build-finished.png)
 
-Now we let's inspect our build and see what's happened.
+Let's inspect our build and see what's happened.
 [click on build name]
 We see all the commands that were run. After a few preparation commands, the commands ran that we specified during the project setup.
 
@@ -75,8 +75,18 @@ So we can see that two RSpec examples were run
 
 [click on RSpec command again to close log]
 
-Now we've pushed to our repository, watched our build log and got a green build. So we can finish this assistent.
+We've already pushed to our repository, watched our build log and got a green build. So we can finish this assistent.
 
 [click on road to success finish button]
 
 ![Codeship build without road to success](../screenshots/build-without-road-to-success.png)
+
+Now let's deploy our application to Heroku. We go into our project settings
+
+![Codeship go to project settings](../screenshots/go-to-project-settings.png)
+
+![Codeship project settings](../screenshots/project-settings.png)
+
+and then to the "Deployments" page.
+
+![Codeship deployment settings](../screenshots/deployment-settings.png)
