@@ -157,6 +157,6 @@ When we open http://codefish-rails.herokuapp.com/ now, our deployed application 
 
 ![Deployed Application](screenshots/deployed-application.png)
 
-If you need help with setting up your own application, please use the support link in the top-right corner or tweet us!
+If you need help with setting up your own application, please use the support link in the top-right corner or tweet us at codeship!
 
 ![Build Deployment Complete](screenshots/build-deployment-complete.png)
