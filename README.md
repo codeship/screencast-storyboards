@@ -3,7 +3,7 @@ Screencast storyboards
 
 The storyboards for screecasts about how to set up the Codeship with various technologies.
 
-At the moment there exist these Storyboards:
+At the moment these storyboards exist:
 
 | Technology | Repository | Deployment | Storyboard                                      |
 | ---------- | ---------- | ---------- | ----------------------------------------------- |
