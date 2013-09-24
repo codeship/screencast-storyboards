@@ -135,7 +135,7 @@ Now let's save our deployment configuration.
 
 The Codeship will deploy our application to Heroku the next time we push to our GitHub repository. Let's add a paragraph "And I set it up in 2 minutes" to our template.
 
-![Added paragraph](../screenshots/added-paragraph.png)
+![Added Paragraph](screenshots/added-paragraph.png)
 
 I commit and push the change
 
