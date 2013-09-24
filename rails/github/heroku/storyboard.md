@@ -91,13 +91,13 @@ We've already pushed to our repository, watched our build log and got a green bu
 
 ![Codeship build without road to success](../screenshots/build-without-road-to-success.png)
 
-Now let's deploy our application to Heroku. We go to our project settings
+Now let's deploy our application to Heroku. We go to our project settings by clicking on the settings icon in the projects dropdown.
 
 ![Codeship go to project settings](../screenshots/go-to-project-settings.png)
 
 ![Codeship project settings](../screenshots/project-settings.png)
 
-and then to the "Deployment" section.
+And then to the "Deployment" section.
 
 ![Codeship deployment settings](../screenshots/deployment-settings.png)
 
