@@ -37,6 +37,8 @@ Now our repository is connected and we can set up our test commands:
 
 We select "Ruby on Rails" as our framework. This prepopulates the setup commands and the test commands for us.
 
+TODO: Screenshot after selecting "Ruby on Rails" (with Ruby 1.9.3)
+
 The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `rvm list` in the Terminal, I find out that I use `ruby 2.0.0-p195`.
 
 ![Ruby Version.Png](../../screenshots/ruby-version.png.png)
@@ -67,9 +69,9 @@ This triggered a new build on the Codeship.
 
 We can access the build details by clicking the arrow on the right. Here we can follow the running build.
 
-By the way, if you ever need help, check out the Codeship documentation. [move mouse over documentation link] If you encounter any problems, contact the Codeship crew by clicking on the support links in the top-right or the bottom-right corner. [move mouse over support links]
-
 ![Codeship running build details](../screenshots/first-build-running-details.png)
+
+By the way, if you ever need help, check out the Codeship documentation. [move mouse over documentation link] If you encounter any problems, contact the Codeship crew by clicking on the support links in the top-right or the bottom-right corner. [move mouse over support links]
 
 And a few seconds later our build succeeded! Great!
 
@@ -87,7 +89,7 @@ So we can see that two RSpec examples were run
 
 ![Codeship finished build](../screenshots/first-build-finished.png)
 
-We've already pushed to our repository, watched our build log and got a green build. So we can finish this assistent.
+We've already pushed to our repository, watched our build log and got a green build. So we can finish this assistant.
 
 [click on road to success finish button]
 
@@ -101,6 +103,7 @@ Now let's deploy our application to Heroku. We go to our project settings by cli
 
 And then to the "Deployment" section.
 
+TODO: New screenshot with Nodejitsu.
 ![Codeship deployment settings](../screenshots/deployment-settings.png)
 
 We want to deploy to "Heroku".
@@ -135,8 +138,9 @@ Now let's save our deployment configuration.
 
 ![Saved Heroku deployment](screenshots/saved-heroku-deployment.png)
 
-The Codeship will deploy our application to Heroku the next time we push to our GitHub repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship" to the landing page.
+From now on the Codeship will deploy our application to Heroku everytime we push to our GitHub repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship" to the landing page.
 
+TODO: Change screenshot to new paragraph
 ![Added Paragraph](screenshots/added-paragraph.png)
 
 I commit and push the change
@@ -147,7 +151,7 @@ and immediately another build starts running on the Codeship. Let's go back to o
 
 ![Deploy build started](../screenshots/deploy-build-started.png)
 
-After the commands that already ran in our first build, our application is deployed to Heroku
+After the commands we already know from our first build, our application also gets deployed to Heroku now.
 
 ![Build Deployment](screenshots/build-deployment.png)
 
@@ -157,6 +161,7 @@ And about 2 minutes later our application is online.
 
 When we open http://codefish-rails.herokuapp.com/ now, our deployed application appears.
 
+TODO: Change screenshot to new paragraph
 ![Deployed Application](screenshots/deployed-application.png)
 
 If you need help with setting up your own application, please use the support link in the top-right corner or tweet us at codeship!
