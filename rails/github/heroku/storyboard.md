@@ -102,7 +102,6 @@ Now let's deploy our application to Heroku. We go to our project settings by cli
 
 And then to the "Deployment" section.
 
-TODO: New screenshot with Nodejitsu.
 ![Codeship deployment settings](../screenshots/deployment-settings.png)
 
 We want to deploy to "Heroku".
