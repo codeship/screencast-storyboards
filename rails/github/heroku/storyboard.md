@@ -37,7 +37,7 @@ Now our repository is connected and we can set up our test commands:
 
 We select "Ruby on Rails" as our framework. This prepopulates the setup commands and the test commands for us.
 
-TODO: Screenshot after selecting "Ruby on Rails" (with Ruby 1.9.3)
+![Codeship Technology Rails](../../screenshots/codeship-technology-rails.png)
 
 The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `rvm list` in the Terminal, I find out that I use `ruby 2.0.0-p195`.
 
