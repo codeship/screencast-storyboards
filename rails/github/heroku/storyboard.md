@@ -39,11 +39,11 @@ We select "Ruby on Rails" as our framework. This prepopulates the setup commands
 
 ![Codeship Technology Rails](../../screenshots/codeship-technology-rails.png)
 
-The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `rvm list` in the Terminal, I find out that I use `ruby 2.0.0-p195`.
+The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `ruby -v` in the terminal, I find out that I use Ruby `2.0.0p195`.
 
-![Ruby Version.Png](../../screenshots/ruby-version.png.png)
+![Ruby Version](../../screenshots/ruby-version.png)
 
-So I just copy my Ruby version into the `rvm use` statement.
+So I just copy my Ruby version into the `rvm use` statement and add a hyphen before the patch version.
 
 Let's uncomment the test command `bundle exec rspec` to run our RSpec examples on every build.
 
