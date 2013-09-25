@@ -136,9 +136,8 @@ Now let's save our deployment configuration.
 
 ![Saved Heroku deployment](screenshots/saved-heroku-deployment.png)
 
-From now on the Codeship will deploy our application to Heroku everytime we push to our GitHub repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship" to the landing page.
+From now on the Codeship will deploy our application to Heroku everytime we push to our GitHub repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship." to the landing page.
 
-TODO: Change screenshot to new paragraph
 ![Added Paragraph](screenshots/added-paragraph.png)
 
 I commit and push the change
@@ -159,7 +158,6 @@ And about 2 minutes later our application is online.
 
 When we open http://codefish-rails.herokuapp.com/ now, our deployed application appears.
 
-TODO: Change screenshot to new paragraph
 ![Deployed Application](screenshots/deployed-application.png)
 
 If you need help with setting up your own application, please use the support link in the top-right corner or tweet us at codeship!
