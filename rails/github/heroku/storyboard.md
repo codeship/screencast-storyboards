@@ -47,7 +47,6 @@ So I just copy my Ruby version into the `rvm use` statement.
 
 Let's uncomment the test command `bundle exec rspec` to run our RSpec examples on every build.
 
-TODO: Update screenshot with Ruby version `2.0.0-p195`
 ![Rails test commands](../screenshots/test-commands.png)
 
 Now let's finish our setup and go to the dashboard.
