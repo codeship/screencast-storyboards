@@ -11,11 +11,9 @@ We're gonna deploy this application to Heroku using the Codeship.
 
 ![Codeship landingpage](../../../screenshots/codeship-landingpage.png)
 
-Let's sign in to the Codeship with GitHub:
+Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![GitHub OAuth](../screenshots/oauth.png)
-
-The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 We're back at the Codeship. Now let's create our first project. [click create project button]
 
@@ -40,11 +38,10 @@ Now our repository is connected and we can set up our test commands:
 We select "Ruby on Rails" as our framework. This prepopulates the setup commands and the test commands for us.
 
 I want to use the same Ruby version on the Codeship as on my computer. When I type `rvm list` in the Terminal, I find out that I use `ruby 2.0.0-p195`.
-So I just copy my Ruby version into the `rvm use` statement.
 
 ![Ruby Version.Png](../../screenshots/ruby-version.png.png)
 
-The Codeship suggests Ruby 1.9.3 by default, but we can use Ruby 2.0 by changing the `rvm use` command.
+The Codeship suggests Ruby 1.9.3 by default, but I can just copy my Ruby version into the `rvm use` statement.
 
 Let's uncomment the test command `bundle exec rspec` to run our RSpec examples on every build.
 
