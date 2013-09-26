@@ -45,7 +45,7 @@ The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like
 
 Just copy your Ruby version into the `rvm use` statement and add a hyphen before the patch version.
 
-By deleting the hash you can uncomment the test command `bundle exec rspec` to run your RSpec examples on every build.
+By deleting the hash key you can uncomment the test command `bundle exec rspec` to run your RSpec examples on every build.
 
 ![Rails test commands](../screenshots/test-commands.png)
 
@@ -93,7 +93,7 @@ Then navigate to the "Deployment" section.
 
 ![Codeship deployment settings](../screenshots/deployment-settings.png)
 
-As we want to deploy to Heroku we click on the Heroku button.
+As we want to deploy to Heroku we click on the "Heroku" button.
 
 ![New heroku deployment](screenshots/new-heroku-deployment.png)
 
