@@ -1,13 +1,13 @@
-Deploying Rails from GitHub to Heroku
+How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Heroku
 ======================
 
 In this blog post we're gonna deploy a Ruby on Rails application from a GitHub repository to Heroku using [the Codeship](https://www.codeship.io/).
 
-There's a simple Ruby on Rails application called [codefish](https://github.com/codeship-tutorials/codefish-rails) which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Ruby on Rails application called [codefish](https://github.com/codeship-tutorials/codefish-rails) which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
 
 ![GitHub codefish-rails](../screenshots/codefish-rails.png)
 
-We're gonna deploy this application to Heroku using the Codeship.
+Together, we're gonna deploy this application to Heroku using the Codeship.
 
 ![Codeship landingpage](../../../screenshots/codeship-landingpage.png)
 
@@ -27,7 +27,7 @@ In the list of your GitHub repositories
 
 ![Repo selection GitHub](../screenshots/repo-selection.png)
 
-search for the repository you want to set up and select it.
+search for the repository you want to set up and select it. In my case I search for "codefish".
 
 ![Repo selection GitHub filtered](../screenshots/repo-selection-filtered.png)
 
@@ -35,17 +35,17 @@ Now your repository is connected and you can set up your test commands:
 
 ![Codeship welcome screen](../../../screenshots/codeship-technology.png)
 
-Select "Ruby on Rails" as your framework. This prepopulates the setup commands and the test commands for you.
+Codefish is a Ruby on Rails application. So I choose "Ruby on Rails" as my framework. This prepopulates the setup commands and the test commands for you.
 
 ![Codeship Technology Rails](../../screenshots/codeship-technology-rails.png)
 
 The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. If you're unsure about the Ruby version of your project, type `ruby -v` in the Terminal.
 
-![Ruby Version.Png](../../screenshots/ruby-version.png.png)
+![Ruby Version.Png](../../screenshots/ruby-version.png)
 
 Just copy your Ruby version into the `rvm use` statement and add a hyphen before the patch version.
 
-You can uncomment the test command `bundle exec rspec` to run your RSpec examples on every build.
+By deleting the hash you can uncomment the test command `bundle exec rspec` to run your RSpec examples on every build.
 
 ![Rails test commands](../screenshots/test-commands.png)
 
@@ -53,7 +53,7 @@ Now let's finish your setup and go to the dashboard.
 
 ![Codeship welcome screen](../../../screenshots/codeship-dashboard.png)
 
-You can trigger a build for your application by pushing to your repository. Let's add the Codeship status image to the README file.
+You can trigger a build for your application by pushing to your repository. Let's add the Codeship status image to the README file. I use markdown syntax to insert the image.
 
 ![Codeship welcome screen](../../screenshots/codeship-image.png)
 
@@ -68,8 +68,6 @@ This triggered a new build on the Codeship.
 You can access the build details by clicking the arrow on the right. Here you can follow the running build.
 
 ![Codeship running build details](../screenshots/first-build-running-details.png)
-
-By the way, if you ever need help, check out the Codeship documentation. If you encounter any problems, contact the Codeship crew by clicking on the support links in the top-right or the bottom-right corner.
 
 And a few seconds later your build succeeded! Great!
 
@@ -91,11 +89,11 @@ Now let's deploy your application to Heroku. Go to your project settings by clic
 
 ![Codeship project settings](../screenshots/project-settings.png)
 
-And then to the "Deployment" section.
+Then navigate to the "Deployment" section.
 
 ![Codeship deployment settings](../screenshots/deployment-settings.png)
 
-We want to deploy to "Heroku".
+As we want to deploy to Heroku we click on the Heroku button.
 
 ![New heroku deployment](screenshots/new-heroku-deployment.png)
 
@@ -107,11 +105,11 @@ I named my application "codefish-rails", but please choose whatever name you lik
 
 ![Create Heroku app](screenshots/create-heroku-app.png)
 
-and create it.
+and create your app.
 
 ![Heroku app created](screenshots/heroku-app-created.png)
 
-Back at your deployment configuration enter the application name.
+Back at your deployment configuration on the Codeship enter the application name.
 
 ![Heroku deployment name entered](screenshots/heroku-deployment-name.png)
 
