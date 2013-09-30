@@ -36,7 +36,7 @@ In the list of my GitHub repositories
 
 I search for my repo "codefish-rails" and select it.
 
-![Repo selection GitHub filtered](../screenshots/github/ruby on rails/repo-selection-filtered.png)
+![Repo selection GitHub filtered](../screenshots/github/rails/repo-selection-filtered.png)
 
 Now our repository is connected and we can set up our test commands:
 
@@ -59,7 +59,7 @@ Let's uncomment the test command `bundle exec rspec` to run our RSpec examples o
 
 Now let's finish our setup and go to the dashboard.
 
-![Codeship welcome screen](../screenshots/github/codeship-dashboard.png)
+![Codeship welcome screen](../screenshots/github/rails/codeship-dashboard.png)
 
 We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
