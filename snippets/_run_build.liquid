@@ -1,0 +1,24 @@
+We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
+[add markdown code for image to editor]
+
+![Codeship welcome screen](../screenshots/{{ technology_slug }}/codeship-image.png)
+
+Now let's commit and push this change.
+
+![{{ repository }} Push](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/push.png)
+
+This triggered a new build on the Codeship.
+
+![Codeship running build](../screenshots/{{ technology_slug }}/first-build-running.png)
+
+We can access the build details by clicking the arrow on the right. Here we can follow the running build.
+
+![Codeship running build details](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/first-build-running-details.png)
+
+By the way, if you ever need help, check out the Codeship documentation. [move mouse over documentation link] If you encounter any problems, contact the Codeship crew by clicking on the support links in the top-right or the bottom-right corner. [move mouse over support links]
+
+And a few seconds later our build succeeded! Great!
+
+![Codeship finished build](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/first-build-finished.png)
+
+We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
