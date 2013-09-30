@@ -1,0 +1,10 @@
+The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `ruby -v` in the terminal, I find out that I use Ruby `2.0.0p195`.
+
+![Ruby Version](../screenshots/rails/ruby-version.png)
+
+So I just copy my Ruby version into the `rvm use` statement and add a hyphen before the patch version.
+
+Let's uncomment the test command `bundle exec rspec` to run our RSpec examples on every build.
+
+![Rails test commands](../screenshots/rails/test-commands.png)
+
