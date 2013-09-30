@@ -121,11 +121,11 @@ Copy it and insert it into your deployment configuration at the Codeship.
 
 ![Complete Heroku deployment](screenshots/complete-heroku-deployment.png)
 
-Now save your deployment configuration.
+Now save your deployment by clicking on the green checkmark on the right.
 
 ![Saved Heroku deployment](screenshots/saved-heroku-deployment.png)
 
-From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository. Now let's push a change and see if it gets deployed. Change something in your application first,
+From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository. Let's push a change and see if it gets deployed. Change something in your application first,
 
 ![Added Paragraph](screenshots/added-paragraph.png)
 
@@ -145,10 +145,10 @@ And about 2 minutes later your application is online.
 
 ![Build Deployment Complete](screenshots/build-deployment-complete.png)
 
-When you open the URL of your Heroku app now, your deployed application appears.
+When you open the URL of your Heroku app now, your deployed application appears. You can find mine on [codefish-rails.herokuapp.com][http://codefish-rails.herokuapp.com].
 
 ![Deployed Application](screenshots/deployed-application.png)
 
-If you need help with setting up your own application, please use the support link in the top-right corner or tweet us at codeship!
+If you need help with setting up your own application, please use the support link in the top-right corner or please tweet us [@codeship](http://www.twitter.com/codeship)!
 
 ![Build Deployment Complete](screenshots/build-deployment-complete.png)
