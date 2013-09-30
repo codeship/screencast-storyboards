@@ -13,11 +13,11 @@ I've got a simple Ruby on Rails application called [codefish](https://github.com
 
 ![GitHub codefish-rails](../screenshots/github/rails/codefish-rails.png)
 
-Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
-
 We're gonna deploy this application to Heroku using the Codeship.
 
 ![Codeship landingpage](../screenshots/codeship-landingpage.png)
+
+Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![GitHub OAuth](../screenshots/github/oauth.png)
 
@@ -36,7 +36,7 @@ In the list of my GitHub repositories
 
 I search for my repo "codefish-rails" and select it.
 
-![Repo selection GitHub filtered](../screenshots/github/repo-selection-filtered.png)
+![Repo selection GitHub filtered](../screenshots/github/ruby on rails/repo-selection-filtered.png)
 
 Now our repository is connected and we can set up our test commands:
 
@@ -56,6 +56,10 @@ Let's uncomment the test command `bundle exec rspec` to run our RSpec examples o
 
 ![Rails test commands](../screenshots/rails/test-commands.png)
 
+
+Now let's finish our setup and go to the dashboard.
+
+![Codeship welcome screen](../screenshots/github/codeship-dashboard.png)
 
 We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
@@ -110,7 +114,7 @@ And then to the "Deployment" section.
 
 We want to deploy to "Heroku".
 
-![New Heroku deployment](screenshots/rails/heroku/new-deployment.png)
+![New Heroku deployment](../screenshots/rails/heroku/new-deployment.png)
 
 Now we need to enter the name of our Heroku application and our API key. Let's go to Heroku and create an application.
 
@@ -166,5 +170,5 @@ When we open http://codefish-rails.herokuapp.com/ now, our deployed application 
 
 If you need help with setting up your own application, please use the support link in the top-right corner or tweet us at codeship!
 
-![Build Deployment Complete](screenshots/rails/heroku/build-deployment-complete.png)
+![Build Deployment Complete](../screenshots/rails/heroku/build-deployment-complete.png)
 
