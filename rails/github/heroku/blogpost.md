@@ -1,11 +1,11 @@
 How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Heroku
 ======================
 
-In this blog post we're gonna deploy a Ruby on Rails application from a GitHub repository to Heroku using [the Codeship](https://www.codeship.io/).
+In this blog post we're gonna deploy a Ruby on Rails application from a GitHub repository to Heroku using [the Codeship][codeship].
 
-We've set up a simple Ruby on Rails application called [codefish](https://github.com/codeship-tutorials/codefish-rails) which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Ruby on Rails application called [codefish][codefish-rails] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
 
-![GitHub codefish-rails](../screenshots/codefish-rails.png)
+[![Codefish Rails on GitHub][screenshot-codefish-rails]][screenshot-codefish-rails]
 
 Together, we're gonna deploy this application to Heroku using the Codeship.
 
@@ -152,3 +152,7 @@ When you open the URL of your Heroku app now, your deployed application appears.
 If you need help with setting up your own application, please use the support link in the top-right corner or please tweet us [@codeship](http://www.twitter.com/codeship)!
 
 ![Build Deployment Complete](screenshots/build-deployment-complete.png)
+
+ [codeship]: https://www.codeship.io/
+ [codefish-rails]: https://github.com/codeship-tutorials/codefish-rails
+ [screenshot-codefish-rails]: ../screenshots/codefish-rails.png
