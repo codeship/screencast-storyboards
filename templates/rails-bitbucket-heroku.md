@@ -10,6 +10,7 @@
 {% include 'snippets/project_setup' %}
 {% include 'snippets/rails/technology_setup' %}
 {% include 'snippets/go_to_dashboard' %}
+{% include 'snippets/bitbucket/set_up_hook' %}
 {% include 'snippets/run_build' %}
 {% include 'snippets/rails/inspect_build' %}
 {% include 'snippets/finish_road_to_success' %}

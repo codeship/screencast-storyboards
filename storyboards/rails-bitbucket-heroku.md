@@ -32,11 +32,11 @@ The first step of our project setup is to select Bitbucket as our repository pro
 
 In the list of my Bitbucket repositories
 
-![Repo selection Bitbucket](../screenshots/bitbucket/repo-selection.png)
+![Repo selection Bitbucket](../screenshots/repo-selection.png)
 
 I search for my repo "codefish-rails" and select it.
 
-![Repo selection Bitbucket filtered](../screenshots/bitbucket/rails/repo-selection-filtered.png)
+![Repo selection Bitbucket filtered](../screenshots/rails/repo-selection-filtered.png)
 
 Now our repository is connected and we can set up our test commands:
 
@@ -60,6 +60,20 @@ Let's uncomment the test command `bundle exec rspec` to run our RSpec examples o
 Now let's finish our setup and go to the dashboard.
 
 ![Codeship welcome screen](../screenshots/bitbucket/rails/codeship-dashboard.png)
+
+To start our first build, we need to add a hook on Bitbucket. Let's copy the hook url and follow the link to the service hook settings of our repository. We add a "POST" hook,
+
+![Bitbucket select POST hook](../screenshots/bitbucket/rails/select-post-hook.png)
+
+paste the hook url
+
+![Bitbucket paste hook URL](../screenshots/bitbucket/rails/paste-hook-url.png)
+
+and save the hook.
+
+![Bitbucket hook URL](../screenshots/bitbucket/rails/hook-added.png)
+
+[close Bitbucket tab]
 
 We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]

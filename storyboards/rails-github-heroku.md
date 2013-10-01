@@ -32,11 +32,11 @@ The first step of our project setup is to select GitHub as our repository provid
 
 In the list of my GitHub repositories
 
-![Repo selection GitHub](../screenshots/github/repo-selection.png)
+![Repo selection GitHub](../screenshots/repo-selection.png)
 
 I search for my repo "codefish-rails" and select it.
 
-![Repo selection GitHub filtered](../screenshots/github/rails/repo-selection-filtered.png)
+![Repo selection GitHub filtered](../screenshots/rails/repo-selection-filtered.png)
 
 Now our repository is connected and we can set up our test commands:
 
