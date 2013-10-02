@@ -55,15 +55,15 @@ Now let's finish your setup and go to the dashboard.
 
 To start your first build, you need to add a push hook to your Bitbucket repository. Copy the hook url and follow the link to the service hook settings of your repository. Add a "POST" hook there,
 
-![Bitbucket select POST hook](../screenshots/bitbucket/rails/select-post-hook.png)
+[![Bitbucket select POST hook][screenshot-select-post-hook]][screenshot-select-post-hook]
 
 paste the hook url
 
-![Bitbucket paste hook URL](../screenshots/bitbucket/rails/paste-hook-url.png)
+[![Bitbucket paste hook URL][screenshot-paste-hook-url]][screenshot-paste-hook-url]
 
 and save the hook.
 
-![Bitbucket hook URL](../screenshots/bitbucket/rails/hook-added.png)
+[![Bitbucket hook URL][screenshot-hook-added]][screenshot-hook-added]
 
 You can trigger a build for your application by pushing to your repository. Let's add the Codeship status image to the README file. I use markdown syntax to insert the image.
 
@@ -205,3 +205,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-build-deployment]: ../../../screenshots/rails/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: ../../../screenshots/rails/heroku/build-deployment-complete.png
  [screenshot-deployed-application]: ../../../screenshots/rails/heroku/deployed-application.png
+ [screenshot-select-post-hook]: ../../../screenshots/bitbucket/rails/select-post-hook.png
+ [screenshot-paste-hook-url]: ../../../screenshots/bitbucket/rails/paste-hook-url.png
+ [screenshot-hook-added]: ../../../screenshots/bitbucket/rails/hook-added.png
