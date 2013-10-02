@@ -200,7 +200,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-complete-heroku-deployment]: ../../../screenshots/rails/heroku/complete-deployment.png
  [screenshot-saved-heroku-deployment]: ../../../screenshots/rails/heroku/saved-deployment.png
  [screenshot-added-paragraph]: ../../../screenshots/rails/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: ../../../screenshots/bitbucket/push/commit-and-push-paragraph.png
+ [screenshot-commit-and-push-paragraph]: ../../../screenshots/bitbucket/rails/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../../../screenshots/rails/deploy-build-started.png
  [screenshot-build-deployment]: ../../../screenshots/rails/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: ../../../screenshots/rails/heroku/build-deployment-complete.png
