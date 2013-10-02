@@ -187,7 +187,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-first-build-running-details]: ../../../screenshots/bitbucket/rails/first-build-running-details.png
  [screenshot-first-build-finished]: ../../../screenshots/bitbucket/rails/first-build-finished.png
  [screenshot-build-log]: ../../../screenshots/bitbucket/rails/build-log.png
- [screenshot-build-without-road-to-success]: ../../../bitbucket/rails/screenshots/build-without-road-to-success.png
+ [screenshot-build-without-road-to-success]: ../../../screenshots/bitbucket/rails/build-without-road-to-success.png
  [screenshot-go-to-project-settings]: ../../../screenshots/bitbucket/rails/go-to-project-settings.png
  [screenshot-project-settings]: ../../../screenshots/rails/project-settings.png
  [screenshot-deployment-settings]: ../../../screenshots/rails/deployment-settings.png
