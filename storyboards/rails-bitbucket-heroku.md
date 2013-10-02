@@ -61,7 +61,7 @@ Now let's finish our setup and go to the dashboard.
 
 ![Codeship welcome screen](../screenshots/bitbucket/rails/codeship-dashboard.png)
 
-To start our first build, we need to add a hook on Bitbucket. Let's copy the hook url and follow the link to the service hook settings of our repository. We add a "POST" hook,
+To start our first build, we need to add a push hook to our Bitbucket repository. Let's copy the hook url and follow the link to the service hook settings of our repository. We add a "POST" hook,
 
 ![Bitbucket select POST hook](../screenshots/bitbucket/rails/select-post-hook.png)
 
