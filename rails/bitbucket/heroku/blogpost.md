@@ -41,7 +41,7 @@ Codefish is a Ruby on Rails application. So I choose "Ruby on Rails" as my frame
 
 The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. If you're unsure about the Ruby version of your project, type `ruby -v` in the Terminal.
 
-[![Type ruby -v and find out your Ruby version][screenshot-ruby-version]][[screenshot-ruby-version]]
+[![Type ruby -v and find out your Ruby version][screenshot-ruby-version]][screenshot-ruby-version]
 
 Just copy your Ruby version into the `rvm use` statement and add a hyphen before the patch version.
 
