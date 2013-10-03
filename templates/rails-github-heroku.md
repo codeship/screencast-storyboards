@@ -1,7 +1,9 @@
 {% assign technology = "Ruby on Rails" %}
 {% assign technology_slug = "rails" %}
 {% assign repository = "GitHub" %}
+{% assign repository_slug = "github" %}
 {% assign deployment = "Heroku" %}
+{% assign deployment_slug = "heroku" %}
 {% assign repo_name = "codefish-rails" %}
 
 {% include 'snippets/header' %}
