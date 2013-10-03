@@ -16,3 +16,4 @@
 {% include 'snippets/configure_deployment' %}
 {% include 'snippets/heroku/setup_app' %}
 {% include 'snippets/deployment_and_end' %}
+{% include 'snippets/urls' %}

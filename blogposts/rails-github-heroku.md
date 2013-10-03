@@ -207,3 +207,49 @@ If you need help with setting up your own application, please use the support li
 
 
 
+ [codeship]: https://www.codeship.io/
+ [codeship-twitter]: http://www.twitter.com/codeship
+ 
+ [codefish-rails]: https://github.com/codeship-tutorials/codefish-rails
+ 
+ [codefish-rails-live]: http://codefish-rails.herokuapp.com
+ [screenshot-codefish-rails]: ../screenshots//rails/codefish-rails.png
+ [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
+ [screenshot-oauth]: ../screenshots//oauth.png
+ [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
+ [screenshot-repo-provider-selection]: ../screenshots//repo-provider-selection.png
+ [screenshot-repo-selection]: ../screenshots/repo-selection.png
+ [screenshot-repo-selection-filtered]: ../screenshots/rails/repo-selection-filtered.png
+ [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
+ [screenshot-codeship-technology-selected]: ../screenshots/rails/codeship-technology.png
+ [screenshot-ruby-version]: ../screenshots/rails/ruby-version.png
+ [screenshot-test-commands]: ../screenshots/rails/test-commands.png
+ [screenshot-codeship-dasboard]: ../screenshots//rails/codeship-dashboard.png
+ [screenshot-codeship-image]: ../screenshots/rails/codeship-image.png
+ [screenshot-codeship-push]: ../screenshots//rails/push.png
+ [screenshot-first-build-running]: ../screenshots/rails/first-build-running.png
+ [screenshot-first-build-running-details]: ../screenshots//rails/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots//rails/first-build-finished.png
+ [screenshot-build-log]: ../screenshots//rails/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots//rails/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots//rails/go-to-project-settings.png
+ [screenshot-project-settings]: ../screenshots/rails/project-settings.png
+ [screenshot-deployment-settings]: ../screenshots/rails/deployment-settings.png
+ [screenshot-new-heroku-deployment]: ../screenshots/rails//new-deployment.png
+ [screenshot-heroku-apps]: ../screenshots//heroku-apps.png
+ [screenshot-create-heroku-app]: ../screenshots//create-heroku-app.png
+ [screenshot-heroku-app-created]: ../screenshots//heroku-app-created.png
+ [screenshot-heroku-deployment-name]: ../screenshots/rails//heroku-deployment-name.png
+ [screenshot-show-api-key]: ../screenshots//show-api-key.png
+ [screenshot-complete-heroku-deployment]: ../screenshots/rails//complete-deployment.png
+ [screenshot-saved-heroku-deployment]: ../screenshots/rails//saved-deployment.png
+ [screenshot-added-paragraph]: ../screenshots/rails/added-paragraph.png
+ [screenshot-commit-and-push-paragraph]: ../screenshots//rails/commit-and-push-paragraph.png
+ [screenshot-deploy-build-started]: ../screenshots/rails/deploy-build-started.png
+ [screenshot-build-deployment]: ../screenshots/rails//build-deployment.png
+ [screenshot-build-deployment-complete]: ../screenshots/rails//build-deployment-complete.png
+ [screenshot-deployed-application]: ../screenshots/rails//deployed-application.png
+ [screenshot-select-post-hook]: ../screenshots//rails/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots//rails/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots//rails/hook-added.png
+
