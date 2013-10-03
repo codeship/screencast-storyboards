@@ -57,7 +57,7 @@ Now your repository is connected and you can set up your test commands:
 
 Codefish is a Ruby on Rails application. So I choose "Ruby on Rails" as my framework. This prepopulates the setup commands and the test commands for you.
 
-[![Select Ruby on Rails as your technology][screenshot-codeship-technology-]][screenshot-codeship-technology-]
+[![Select Ruby on Rails as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
 
 
 
