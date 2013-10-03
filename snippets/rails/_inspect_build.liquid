@@ -1,9 +1,19 @@
+{% if format == "storyboard" %}
+
 We can inspect the output of a single command by clicking on it.
 [click on RSpec command]
 So we can see that two RSpec examples were run
 
-![Codeship build log](../screenshots/{{ repository | downcase }}/rails/build-log.png)
+![Codeship build log][screenshot-build-log]
 
 [click on RSpec command again to close log]
 
-![Codeship finished build](../screenshots/{{ repository | downcase }}/rails/first-build-finished.png)
+![Codeship finished build][screenshot-first-build-finished]
+
+{% elsif format == "blogpost" %}
+
+You can inspect the output of a single command by clicking on it. For the `codefish` application, we can see that two RSpec examples were run.
+
+[![Look at the log of a single command by clicking on it][screenshot-build-log]][screenshot-build-log]
+
+{% endif %}

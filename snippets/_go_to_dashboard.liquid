@@ -1,3 +1,13 @@
+{% if format == "storyboard" %}
+
 Now let's finish our setup and go to the dashboard.
 
-![Codeship welcome screen](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/codeship-dashboard.png)
+![Codeship welcome screen][screenshot-codeship-dasboard]
+
+{% elsif format == "blogpost" %}
+
+Now let's finish your setup and go to the dashboard.
+
+[![Finish your setup. You are on the Dashboard now][screenshot-codeship-dasboard]][screenshot-codeship-dasboard]
+
+{% endif %}

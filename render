@@ -6,6 +6,8 @@ Liquid::Template.file_system = Liquid::LocalFileSystem.new(".")
 Dir["./templates/*"].each do |template|
   content = File.read(template)
   file_name = File.basename(template)
-  compiled = Liquid::Template.parse(content).render
-  File.write "./storyboards/#{file_name}", compiled
+  %w{storyboard blogpost}.each do |format|
+    compiled = Liquid::Template.parse(content).render "format" => format
+    File.write "./#{format}s/#{file_name}", compiled
+  end
 end

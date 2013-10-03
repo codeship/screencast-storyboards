@@ -1,13 +1,33 @@
+{% if format == "storyboard" %}
+
 Now let's deploy our application to {{ deployment }}. We go to our project settings by clicking on the settings icon in the projects dropdown.
 
-![Codeship go to project settings](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/go-to-project-settings.png)
+![Codeship go to project settings][screenshot-go-to-project-settings]
 
-![Codeship project settings](../screenshots/{{ technology_slug }}/project-settings.png)
+![Codeship project settings][screenshot-project-settings]
 
 And then to the "Deployment" section.
 
-![Codeship deployment settings](../screenshots/{{ technology_slug }}/deployment-settings.png)
+![Codeship deployment settings][screenshot-deployment-settings]
 
 We want to deploy to "{{ deployment }}".
 
-![New {{ deployment }} deployment](../screenshots/{{ technology_slug }}/{{ deployment | downcase }}/new-deployment.png)
+![New {{ deployment }} deployment][screenshot-new-{{ deployment_slug }}-deployment]
+
+{% elsif format == "blogpost" %}
+
+Now let's deploy your application to {{ deployment }}. Go to your project settings by clicking on the settings icon in the projects dropdown.
+
+[![Go to your project settings by clicking on the settings icon in the projects dropdown][screenshot-go-to-project-settings]][screenshot-go-to-project-settings]
+
+[![You are on the Testing Setup screen now][screenshot-project-settings]][screenshot-project-settings]
+
+Then navigate to the "Deployment" section.
+
+[![You are on the Deployment Setup screen now][screenshot-deployment-settings]][screenshot-deployment-settings]
+
+As we want to deploy to {{ deployment }} we click on the "{{ deployment }}" button.
+
+[![Click on the {{ deployment }} button][screenshot-new-{{ deployment_slug }}-deployment]][screenshot-new-{{ deployment_slug }}-deployment]
+
+{% endif %}

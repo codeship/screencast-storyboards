@@ -1,13 +1,31 @@
+{% if format == "storyboard" %}
+
 To start our first build, we need to add a push hook to our Bitbucket repository. Let's copy the hook url and follow the link to the service hook settings of our repository. We add a "POST" hook,
 
-![Bitbucket select POST hook](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/select-post-hook.png)
+![Bitbucket select POST hook][screenshot-select-post-hook]
 
 paste the hook url
 
-![Bitbucket paste hook URL](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/paste-hook-url.png)
+![Bitbucket paste hook URL][screenshot-paste-hook-url]
 
 and save the hook.
 
-![Bitbucket hook URL](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/hook-added.png)
+![Bitbucket hook URL][screenshot-hook-added]
 
 [close Bitbucket tab]
+
+{% elsif format == "blogpost" %}
+
+To start your first build, you need to add a push hook to your Bitbucket repository. Copy the hook url and follow the link to the service hook settings of your repository. Add a "POST" hook there,
+
+[![Bitbucket select POST hook][screenshot-select-post-hook]][screenshot-select-post-hook]
+
+paste the hook url
+
+[![Bitbucket paste hook URL][screenshot-paste-hook-url]][screenshot-paste-hook-url]
+
+and save the hook.
+
+[![Bitbucket hook URL][screenshot-hook-added]][screenshot-hook-added]
+
+{% endif %}
