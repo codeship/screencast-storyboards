@@ -246,7 +246,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-rails-live]: http://codefish-rails.herokuapp.com
  [screenshot-codefish-rails]: ../screenshots/bitbucket/rails/codefish-rails.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
- [screenshot-github-oauth]: ../screenshots/bitbucket/oauth.png
+ [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png

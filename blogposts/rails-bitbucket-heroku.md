@@ -31,7 +31,7 @@ Together, we're gonna deploy this application to Heroku using the Codeship.
 
 First, sign in to the Codeship with Bitbucket. The Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
 
-[![Bitbucket Access][screenshot-bitbucket-oauth]][screenshot-bitbucket-oauth]
+[![Bitbucket Access][screenshot-oauth]
 
 We're back at the Codeship. Now let's create your first project.
 
@@ -233,7 +233,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-rails-live]: http://codefish-rails.herokuapp.com
  [screenshot-codefish-rails]: ../screenshots/bitbucket/rails/codefish-rails.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
- [screenshot-github-oauth]: ../screenshots/bitbucket/oauth.png
+ [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
