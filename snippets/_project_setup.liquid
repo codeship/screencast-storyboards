@@ -1,19 +1,45 @@
+{% if format == "storyboard" %}
+
 The first step of our project setup is to select {{ repository }} as our repository provider.
 
-![Repo provider selection {{ repository }}](../screenshots/{{ repository | downcase }}/repo-provider-selection.png)
+![Repo provider selection {{ repository }}][screenshot-repo-provider-selection]
 
 In the list of my {{ repository }} repositories
 
-![Repo selection {{ repository }}](../screenshots/repo-selection.png)
+![Repo selection {{ repository }}][screenshot-repo-selection]
 
 I search for my repo "{{ repo_name }}" and select it.
 
-![Repo selection {{ repository }} filtered](../screenshots/{{ technology_slug }}/repo-selection-filtered.png)
+![Repo selection {{ repository }} filtered][screenshot-repo-selection-filtered]
 
 Now our repository is connected and we can set up our test commands:
 
-![Codeship welcome screen](../screenshots/codeship-technology.png)
+![Codeship welcome screen][screenshot-codeship-technology]
 
 We select "{{ technology }}" as our framework. This prepopulates the setup commands and the test commands for us.
 
-![Codeship Technology {{ technology }}](../screenshots/{{ technology_slug }}/codeship-technology.png)
+![Codeship Technology {{ technology }}][screenshot-codeship-technology-{{ repository_slug }}]
+
+{% elsif format == "blogpost" %}
+
+The first step of your project setup is to select {{ repository }} as your repository provider.
+
+[![Select your repository provider][screenshot-repo-provider-selection]][screenshot-repo-provider-selection]
+
+In the list of your {{ repository }} repositories
+
+[![Search for your repository in the list][screenshot-repo-selection]][screenshot-repo-selection]
+
+search for the repository you want to set up and select it. In my case I search for "codefish".
+
+[![Find your repository in the filtered list][screenshot-repo-selection-filtered]][screenshot-repo-selection-filtered]
+
+Now your repository is connected and you can set up your test commands:
+
+[![Set up your test commands][screenshot-codeship-technology]][screenshot-codeship-technology]
+
+Codefish is a {{ technology }} application. So I choose "{{ technology }}" as my framework. This prepopulates the setup commands and the test commands for you.
+
+[![Select {{ technology }} as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
+
+{% endif %}

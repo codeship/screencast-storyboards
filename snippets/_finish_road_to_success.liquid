@@ -1,5 +1,15 @@
+{% if format == "storyboard" %}
+
 We've already pushed to our repository, watched our build log and got a green build. So we can finish this assistant.
 
 [click on road to success finish button]
 
-![Codeship build without road to success](../screenshots/{{ repository | downcase }}/{{ technology_slug }}/build-without-road-to-success.png)
+![Codeship build without road to success][screenshot-build-without-road-to-success]
+
+{% elsif format == "blogpost" %}
+
+You've already pushed to your repository, watched your build log and got a green build. So you can finish the assistant at the top.
+
+[![Finish the setup wizard by clicking on the click to finish button][screenshot-build-without-road-to-success]][screenshot-build-without-road-to-success]
+
+{% endif %}
