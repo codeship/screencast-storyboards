@@ -29,7 +29,7 @@ Together, we're gonna deploy this application to Heroku using the Codeship.
 
 First, sign in to the Codeship with GitHub. The Codeship needs access to your GitHub repositories to be able to set them up. Let's allow access.
 
-[![GitHub Access][screenshot-oauth]
+[![GitHub Access][screenshot-oauth]][screenshot-oauth]
 
 We're back at the Codeship. Now let's create your first project.
 
