@@ -64,9 +64,15 @@ We select "Node.js" as our framework. This prepopulates the setup commands and t
 
 
 
-We've got our node modules in our repository, so we don't need to install them, but we need to install `jasmine-node` to be able to run our Jasmine specs. Let's install it globally. [change `npm install` to `npm install -g jasmine-node`]
+The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. If you're unsure about the Node version of your project, type `node -v` in the Terminal.
 
-To run our tests we don't need `npm test`, so let's comment it. Instead, we want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
+[![Type node -v and find out your Node version][screenshot-technology-version]][screenshot-technology-version]
+
+Just copy your Node version into the `nvm install` and `nvm use` statements.
+
+Additionally to our node modules, we need to install `jasmine-node` globally to be able to run our Jasmine specs. [add `npm install -g jasmine-node` after `npm install`]
+
+We don't need `npm test` for our Jasmine specs, so let's comment it. Instead, we want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
 
 ![Node.js test commands][screenshot-test-commands]
 
@@ -228,7 +234,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-repo-selection-filtered]: ../screenshots/node/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
- [screenshot-technology-version]: ../screenshots/node/ruby-version.png
+ [screenshot-technology-version]: ../screenshots/node/technology-version.png
  [screenshot-test-commands]: ../screenshots/node/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/github/node/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
