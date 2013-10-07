@@ -18,9 +18,9 @@ In this screencast we're gonna deploy a Ruby on Rails application from a Bitbuck
 
 
 
-I've got a simple Ruby on Rails application called [codefish][codefish-rails] which contains some RSpec examples. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
+I've got a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![Bitbucket codefish-rails][screenshot-codefish-rails]
+![Bitbucket codefish-rails][screenshot-codefish-repo]
 
 
 
@@ -242,10 +242,10 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-rails]: https://bitbucket.org/codeship-tutorials/codefish-rails
+ [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-rails
  
  [codefish-rails-live]: http://codefish-rails.herokuapp.com
- [screenshot-codefish-rails]: ../screenshots/bitbucket/rails/codefish-rails.png
+ [screenshot-codefish-repo]: ../screenshots/bitbucket/rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png

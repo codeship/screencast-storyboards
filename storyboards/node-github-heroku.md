@@ -18,9 +18,9 @@ In this screencast we're gonna deploy a Node.js application from a GitHub reposi
 
 
 
-I've got a simple Node.js application called [codefish][codefish-node] which contains some Jasmine specs. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
+I've got a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![GitHub codefish-node][screenshot-codefish-node]
+![GitHub codefish-node][screenshot-codefish-repo]
 
 
 
@@ -211,10 +211,10 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-node]: https://github.com/codeship-tutorials/codefish-node
+ [codefish-repo]: https://github.com/codeship-tutorials/codefish-node
  
  [codefish-rails-live]: http://codefish-rails.herokuapp.com
- [screenshot-codefish-rails]: ../screenshots/github/node/codefish-rails.png
+ [screenshot-codefish-repo]: ../screenshots/github/node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
