@@ -16,7 +16,14 @@ In this screencast we're gonna deploy a Node.js application from a GitHub reposi
 
 
 
-Liquid error: No such template 'snippets/codefish_intro'
+
+
+I've got a simple Node.js application called [codefish][codefish-node] which contains some Jasmine specs. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
+
+![GitHub codefish-node][screenshot-codefish-node]
+
+
+
 
 
 We're gonna deploy this application to Heroku using the Codeship.

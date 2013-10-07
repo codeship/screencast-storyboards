@@ -8,7 +8,7 @@
 {% assign repo_name = "codefish-rails" %}
 
 {% include 'snippets/header' %}
-{% include 'snippets/codefish_intro' %}
+{% include 'snippets/intro' %}
 {% include 'snippets/sign_up' %}
 {% include 'snippets/project_setup' %}
 {% include 'snippets/node/technology_setup' %}
