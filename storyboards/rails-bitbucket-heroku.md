@@ -32,7 +32,7 @@ We're gonna deploy this application to Heroku using the Codeship.
 
 Let's sign in to the Codeship with Bitbucket. The Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
 
-![Bitbucket OAuth][screenshot-bitbucket-oauth]
+![Bitbucket OAuth][screenshot-oauth]
 
 We're back at the Codeship. Now let's create our first project. [click create project button]
 
