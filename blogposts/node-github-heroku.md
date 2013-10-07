@@ -7,6 +7,8 @@
 
 
 
+
+
 How to set up Continuous Integration and Continuous Deployment for a Node.js Application from GitHub to Heroku
 ======================
 
@@ -14,14 +16,7 @@ In this blog post we're gonna deploy a Node.js application from a GitHub reposit
 
 
 
-
-
-We've set up a simple Node.js application called [codefish][codefish-node] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
-
-[![codefish-node on GitHub][screenshot-codefish-node]][screenshot-codefish-node]
-
-
-
+Liquid error: No such template 'snippets/codefish_intro'
 
 
 Together, we're gonna deploy this application to Heroku using the Codeship.
@@ -64,19 +59,6 @@ Codefish is a Node.js application. So I choose "Node.js" as my framework. This p
 
 
 
-The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. If you're unsure about the Ruby version of your project, type `ruby -v` in the Terminal.
-
-[![Type ruby -v and find out your Ruby version][screenshot-ruby-version]][screenshot-ruby-version]
-
-Just copy your Ruby version into the `rvm use` statement and add a hyphen before the patch version.
-
-By deleting the hash key you can uncomment the test command `bundle exec rspec` to run your RSpec examples on every build.
-
-[![Uncomment the test command `bundle exec rspec`][screenshot-test-commands]][screenshot-test-commands]
-
-
-
-
 
 Now let's finish your setup and go to the dashboard.
 
@@ -112,7 +94,7 @@ You see all the commands that were run. After a few initial preparation commands
 
 
 
-You can inspect the output of a single command by clicking on it. For the `codefish` application, we can see that two RSpec examples were run.
+You can inspect the output of a single command by clicking on it. For the `codefish` application, we can see that two Jasmine specs were run.
 
 [![Look at the log of a single command by clicking on it][screenshot-build-log]][screenshot-build-log]
 
@@ -140,7 +122,7 @@ Then navigate to the "Deployment" section.
 
 As we want to deploy to Heroku we click on the "Heroku" button.
 
-[![Click on the Heroku button][screenshot-new--deployment]][screenshot-new--deployment]
+[![Click on the Heroku button][screenshot-new-heroku-deployment]][screenshot-new-heroku-deployment]
 
 
 
@@ -172,11 +154,11 @@ Copy it and insert it into your deployment configuration at the Codeship.
 
 
 
-[![Copy and paste the Heroku API key to the Codeship][screenshot-complete--deployment]][screenshot-complete--deployment]
+[![Copy and paste the Heroku API key to the Codeship][screenshot-complete-heroku-deployment]][screenshot-complete-heroku-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
-[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved--deployment]][screenshot-saved--deployment]
+[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-heroku-deployment]][screenshot-saved-heroku-deployment]
 
 From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository. Let's push a change and see if it gets deployed. Change something in your application first,
 
@@ -207,4 +189,50 @@ If you need help with setting up your own application, please use the support li
 ![If you need help please click the support link in the top-right corner or tweet us @codeship][screenshot-build-deployment-complete]
 
 
+
+ [codeship]: https://www.codeship.io/
+ [codeship-twitter]: http://www.twitter.com/codeship
+ 
+ [codefish-rails]: https://github.com/codeship-tutorials/codefish-rails
+ 
+ [codefish-rails-live]: http://codefish-rails.herokuapp.com
+ [screenshot-codefish-rails]: ../screenshots/github/node/codefish-rails.png
+ [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
+ [screenshot-oauth]: ../screenshots/github/oauth.png
+ [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
+ [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
+ [screenshot-repo-selection]: ../screenshots/repo-selection.png
+ [screenshot-repo-selection-filtered]: ../screenshots/node/repo-selection-filtered.png
+ [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
+ [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
+ [screenshot-ruby-version]: ../screenshots/node/ruby-version.png
+ [screenshot-test-commands]: ../screenshots/node/test-commands.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/node/codeship-dashboard.png
+ [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
+ [screenshot-codeship-push]: ../screenshots/github/node/push.png
+ [screenshot-first-build-running]: ../screenshots/node/first-build-running.png
+ [screenshot-first-build-running-details]: ../screenshots/github/node/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/github/node/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/github/node/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/github/node/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/github/node/go-to-project-settings.png
+ [screenshot-project-settings]: ../screenshots/node/project-settings.png
+ [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
+ [screenshot-new-heroku-deployment]: ../screenshots/node/heroku/new-deployment.png
+ [screenshot-heroku-apps]: ../screenshots/heroku/heroku-apps.png
+ [screenshot-create-heroku-app]: ../screenshots/heroku/create-heroku-app.png
+ [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
+ [screenshot-heroku-deployment-name]: ../screenshots/node/heroku/heroku-deployment-name.png
+ [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
+ [screenshot-complete-heroku-deployment]: ../screenshots/node/heroku/complete-deployment.png
+ [screenshot-saved-heroku-deployment]: ../screenshots/node/heroku/saved-deployment.png
+ [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
+ [screenshot-commit-and-push-paragraph]: ../screenshots/github/node/commit-and-push-paragraph.png
+ [screenshot-deploy-build-started]: ../screenshots/node/deploy-build-started.png
+ [screenshot-build-deployment]: ../screenshots/node/heroku/build-deployment.png
+ [screenshot-build-deployment-complete]: ../screenshots/node/heroku/build-deployment-complete.png
+ [screenshot-deployed-application]: ../screenshots/node/heroku/deployed-application.png
+ [screenshot-select-post-hook]: ../screenshots/github/node/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/github/node/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
 

@@ -118,12 +118,12 @@ We see all the commands that were run. After a few initial preparation commands 
 
 
 We can inspect the output of a single command by clicking on it.
-[click on RSpec command]
+[click on test command]
 So we can see that two RSpec examples were run
 
 ![Codeship build log][screenshot-build-log]
 
-[click on RSpec command again to close log]
+[click on test command again to close log]
 
 ![Codeship finished build][screenshot-first-build-finished]
 
