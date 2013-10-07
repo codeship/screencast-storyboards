@@ -1,9 +1,9 @@
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  {% if repository == "GitHub" %}
- [codefish-rails]: https://github.com/codeship-tutorials/codefish-rails
+ [codefish-{{ technology_slug }}]: https://github.com/codeship-tutorials/codefish-{{ technology_slug }}
  {% elsif repository == "Bitbucket" %}
- [codefish-rails]: https://bitbucket.org/codeship-tutorials/codefish-rails
+ [codefish-{{ technology_slug }}]: https://bitbucket.org/codeship-tutorials/codefish-{{ technology_slug }}
  {% endif %}
  [codefish-rails-live]: http://codefish-rails.herokuapp.com
  [screenshot-codefish-rails]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/codefish-rails.png

@@ -200,7 +200,7 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-rails]: https://github.com/codeship-tutorials/codefish-rails
+ [codefish-node]: https://github.com/codeship-tutorials/codefish-node
  
  [codefish-rails-live]: http://codefish-rails.herokuapp.com
  [screenshot-codefish-rails]: ../screenshots/github/node/codefish-rails.png
