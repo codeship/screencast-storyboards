@@ -50,7 +50,7 @@ In the list of my GitHub repositories
 
 ![Repo selection GitHub][screenshot-repo-selection]
 
-I search for my repo "codefish-rails" and select it.
+I search for my repo "codefish-node" and select it.
 
 ![Repo selection GitHub filtered][screenshot-repo-selection-filtered]
 

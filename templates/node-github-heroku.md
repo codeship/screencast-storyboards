@@ -5,7 +5,7 @@
 {% assign repository_slug = "github" %}
 {% assign deployment = "Heroku" %}
 {% assign deployment_slug = "heroku" %}
-{% assign repo_name = "codefish-rails" %}
+{% assign repo_name = "codefish-node" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}
