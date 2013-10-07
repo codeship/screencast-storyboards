@@ -1,11 +1,29 @@
+{% if format == "storyboard" %}
+
+The Codeship suggests Node.js 0.10.18, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.15`.
+
+![Node Version][screenshot-technology-version]
+
+So I just copy my Node version into the `nvm install` and `nvm use` statements.
+
+Additionally to my node modules, I need to install `jasmine-node` globally to be able to run my {{ tests }}. [add `npm install -g jasmine-node` after `npm install`]
+
+I don't need `npm test` for my {{ tests }}, so I comment it. Instead, I want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
+
+![Node.js test commands][screenshot-test-commands]
+
+{% elsif format == "blogpost" %}
+
 The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. If you're unsure about the Node version of your project, type `node -v` in the Terminal.
 
-[![Type node -v and find out your Node version][screenshot-technology-version]][screenshot-technology-version]
+[![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
 Just copy your Node version into the `nvm install` and `nvm use` statements.
 
-Additionally to our node modules, we need to install `jasmine-node` globally to be able to run our {{ tests }}. [add `npm install -g jasmine-node` after `npm install`]
+Additionally to your node modules, you need to install `jasmine-node` globally to be able to run your {{ tests }}, so let's add `npm install -g jasmine-node` after `npm install`.
 
-We don't need `npm test` for our {{ tests }}, so let's comment it. Instead, we want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
+You don't need `npm test` for your {{ tests }}, so let's comment it by adding a hash key before the command. Instead, let's add `jasmine-node spec` to the test commands to run your {{ tests }}.
 
-![Node.js test commands][screenshot-test-commands]
+[![Comment the test command `npm test` and add `jasmine-node spec`][screenshot-test-commands]][screenshot-test-commands]
+
+{% endif %}

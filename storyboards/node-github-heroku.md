@@ -64,17 +64,21 @@ We select "Node.js" as our framework. This prepopulates the setup commands and t
 
 
 
-The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. If you're unsure about the Node version of your project, type `node -v` in the Terminal.
 
-[![Type node -v and find out your Node version][screenshot-technology-version]][screenshot-technology-version]
 
-Just copy your Node version into the `nvm install` and `nvm use` statements.
+The Codeship suggests Node.js 0.10.18, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.15`.
 
-Additionally to our node modules, we need to install `jasmine-node` globally to be able to run our Jasmine specs. [add `npm install -g jasmine-node` after `npm install`]
+![Node Version][screenshot-technology-version]
 
-We don't need `npm test` for our Jasmine specs, so let's comment it. Instead, we want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
+So I just copy my Node version into the `nvm install` and `nvm use` statements.
+
+Additionally to my node modules, I need to install `jasmine-node` globally to be able to run my Jasmine specs. [add `npm install -g jasmine-node` after `npm install`]
+
+I don't need `npm test` for my Jasmine specs, so I comment it. Instead, I want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
 
 ![Node.js test commands][screenshot-test-commands]
+
+
 
 
 

@@ -64,17 +64,21 @@ Codefish is a Node.js application. So I choose "Node.js" as my framework. This p
 
 
 
+
+
 The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. If you're unsure about the Node version of your project, type `node -v` in the Terminal.
 
-[![Type node -v and find out your Node version][screenshot-technology-version]][screenshot-technology-version]
+[![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
 Just copy your Node version into the `nvm install` and `nvm use` statements.
 
-Additionally to our node modules, we need to install `jasmine-node` globally to be able to run our Jasmine specs. [add `npm install -g jasmine-node` after `npm install`]
+Additionally to your node modules, you need to install `jasmine-node` globally to be able to run your Jasmine specs, so let's add `npm install -g jasmine-node` after `npm install`.
 
-We don't need `npm test` for our Jasmine specs, so let's comment it. Instead, we want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
+You don't need `npm test` for your Jasmine specs, so let's comment it by adding a hash key before the command. Instead, let's add `jasmine-node spec` to the test commands to run your Jasmine specs.
 
-![Node.js test commands][screenshot-test-commands]
+[![Comment the test command `npm test` and add `jasmine-node spec`][screenshot-test-commands]][screenshot-test-commands]
+
+
 
 
 
