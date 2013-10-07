@@ -60,7 +60,7 @@ Now our repository is connected and we can set up our test commands:
 
 We select "Node.js" as our framework. This prepopulates the setup commands and the test commands for us.
 
-![Codeship Technology Node.js][screenshot-codeship-technology-github]
+![Codeship Technology Node.js][screenshot-codeship-technology-selected]
 
 
 

@@ -60,7 +60,7 @@ Now our repository is connected and we can set up our test commands:
 
 We select "Ruby on Rails" as our framework. This prepopulates the setup commands and the test commands for us.
 
-![Codeship Technology Ruby on Rails][screenshot-codeship-technology-bitbucket]
+![Codeship Technology Ruby on Rails][screenshot-codeship-technology-selected]
 
 
 
