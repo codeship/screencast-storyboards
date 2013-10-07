@@ -8,6 +8,7 @@
 
 
 
+
 How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from Bitbucket to Heroku
 ======================
 
@@ -15,14 +16,7 @@ In this blog post we're gonna deploy a Ruby on Rails application from a Bitbucke
 
 
 
-
-
-We've set up a simple Ruby on Rails application called [codefish][codefish-rails] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
-
-[![codefish-rails on Bitbucket][screenshot-codefish-rails]][screenshot-codefish-rails]
-
-
-
+Liquid error: No such template 'snippets/codefish_intro'
 
 
 Together, we're gonna deploy this application to Heroku using the Codeship.

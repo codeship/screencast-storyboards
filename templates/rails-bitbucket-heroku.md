@@ -1,5 +1,6 @@
 {% assign technology = "Ruby on Rails" %}
 {% assign technology_slug = "rails" %}
+{% assign tests = "RSpec examples" %}
 {% assign repository = "Bitbucket" %}
 {% assign repository_slug = "bitbucket" %}
 {% assign deployment = "Heroku" %}
@@ -7,7 +8,7 @@
 {% assign repo_name = "codefish-rails" %}
 
 {% include 'snippets/header' %}
-{% include 'snippets/codefish_rails_intro' %}
+{% include 'snippets/codefish_intro' %}
 {% include 'snippets/sign_up' %}
 {% include 'snippets/project_setup' %}
 {% include 'snippets/rails/technology_setup' %}

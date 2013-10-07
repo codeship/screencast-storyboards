@@ -8,6 +8,7 @@
 
 
 
+
 Deploying Ruby on Rails from Bitbucket to Heroku
 ======================
 
@@ -15,14 +16,7 @@ In this screencast we're gonna deploy a Ruby on Rails application from a Bitbuck
 
 
 
-
-
-I've got a simple Ruby on Rails application called [codefish][codefish-rails] which contains some RSpec examples. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
-
-![Bitbucket codefish-rails][screenshot-codefish-rails]
-
-
-
+Liquid error: No such template 'snippets/codefish_intro'
 
 
 We're gonna deploy this application to Heroku using the Codeship.
