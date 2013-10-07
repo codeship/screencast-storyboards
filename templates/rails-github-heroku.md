@@ -1,11 +1,13 @@
 {% assign technology = "Ruby on Rails" %}
 {% assign technology_slug = "rails" %}
 {% assign repository = "GitHub" %}
+{% assign repository_slug = "github" %}
 {% assign deployment = "Heroku" %}
+{% assign deployment_slug = "heroku" %}
 {% assign repo_name = "codefish-rails" %}
 
 {% include 'snippets/header' %}
-{% include 'snippets/github/rails/codefish_rails_intro' %}
+{% include 'snippets/codefish_rails_intro' %}
 {% include 'snippets/sign_up' %}
 {% include 'snippets/project_setup' %}
 {% include 'snippets/rails/technology_setup' %}
@@ -16,3 +18,4 @@
 {% include 'snippets/configure_deployment' %}
 {% include 'snippets/heroku/setup_app' %}
 {% include 'snippets/deployment_and_end' %}
+{% include 'snippets/urls' %}

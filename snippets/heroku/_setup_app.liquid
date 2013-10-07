@@ -1,21 +1,49 @@
+{% if format == "storyboard" %}
+
 Now we need to enter the name of our Heroku application and our API key. Let's go to Heroku and create an application.
 
-![Heroku apps](../screenshots/heroku/heroku-apps.png)
+![Heroku apps][screenshot-heroku-apps]
 
 I name my application "codefish-rails"
 
-![Create Heroku app](../screenshots/heroku/create-heroku-app.png)
+![Create Heroku app][screenshot-create-heroku-app]
 
 and create it.
 
-![Heroku app created](../screenshots/heroku/heroku-app-created.png)
+![Heroku app created][screenshot-heroku-app-created]
 
 Back at our deployment configuration I enter the application name "codefish-rails".
 
-![Heroku deployment name entered](../screenshots/{{ technology_slug }}/heroku/heroku-deployment-name.png)
+![Heroku deployment name entered][screenshot-heroku-deployment-name]
 
 To retrieve my Heroku API key, I follow the link to my Heroku account and click "Show API key".
 
-![Show Heroku API key](../screenshots/heroku/show-api-key.png)
+![Show Heroku API key][screenshot-show-api-key]
 
 I copy it and insert it into my deployment configuration at the Codeship.
+
+{% elsif format == "blogpost" %}
+
+Now you are asked to enter the name of your Heroku application and your API key. If you haven't already, now is the time to go to Heroku and create an application.
+
+[![You are on the Heroku page now][screenshot-heroku-apps]][screenshot-heroku-apps]
+
+I named my application "codefish-rails", but please choose whatever name you like
+
+[![Create your app and name it codefish-rails][screenshot-create-heroku-app]][screenshot-create-heroku-app]
+
+and create your app.
+
+[![You successfully created your Heroku App][screenshot-heroku-app-created]][screenshot-heroku-app-created]
+
+Back at your deployment configuration on the Codeship enter the application name.
+
+[![Back on the Codeship we enter the application name codefish-rails][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
+
+To retrieve your Heroku API key, follow the link to your Heroku account and click "Show API key".
+
+[![Click on the link to get your Heroku API key][screenshot-show-api-key]][screenshot-show-api-key]
+
+Copy it and insert it into your deployment configuration at the Codeship.
+
+{% endif %}
