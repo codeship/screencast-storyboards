@@ -68,7 +68,7 @@ We select "Ruby on Rails" as our framework. This prepopulates the setup commands
 
 The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `ruby -v` in the terminal, I find out that I use Ruby `2.0.0p195`.
 
-![Ruby Version][screenshot-ruby-version]
+![Ruby Version][screenshot-technology-version]
 
 So I just copy my Ruby version into the `rvm use` statement and add a hyphen before the patch version.
 
@@ -254,7 +254,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-repo-selection-filtered]: ../screenshots/rails/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/rails/codeship-technology.png
- [screenshot-ruby-version]: ../screenshots/rails/ruby-version.png
+ [screenshot-technology-version]: ../screenshots/rails/ruby-version.png
  [screenshot-test-commands]: ../screenshots/rails/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/bitbucket/rails/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/rails/codeship-image.png

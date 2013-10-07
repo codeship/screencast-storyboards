@@ -228,7 +228,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-repo-selection-filtered]: ../screenshots/node/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
- [screenshot-ruby-version]: ../screenshots/node/ruby-version.png
+ [screenshot-technology-version]: ../screenshots/node/ruby-version.png
  [screenshot-test-commands]: ../screenshots/node/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/github/node/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
