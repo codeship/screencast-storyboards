@@ -64,6 +64,11 @@ We select "Node.js" as our framework. This prepopulates the setup commands and t
 
 
 
+We've got our node modules in our repository, so we don't need to install them, but we need to install `jasmine-node` to be able to run our Jasmine specs. Let's install it globally. [change `npm install` to `npm install -g jasmine-node`]
+
+To run our tests we don't need `npm test`, so let's comment it. Instead, we want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
+
+![Node.js test commands][screenshot-test-commands]
 
 
 
