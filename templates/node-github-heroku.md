@@ -1,17 +1,17 @@
-{% assign technology = "Ruby on Rails" %}
-{% assign technology_slug = "rails" %}
-{% assign tests = "RSpec examples" %}
+{% assign technology = "Node.js" %}
+{% assign technology_slug = "node" %}
+{% assign tests = "Jasmine specs" %}
 {% assign repository = "GitHub" %}
 {% assign repository_slug = "github" %}
 {% assign deployment = "Heroku" %}
 {% assign deployment_slug = "heroku" %}
-{% assign repo_name = "codefish-rails" %}
+{% assign repo_name = "codefish-node" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}
 {% include 'snippets/sign_up' %}
 {% include 'snippets/project_setup' %}
-{% include 'snippets/rails/technology_setup' %}
+{% include 'snippets/node/technology_setup' %}
 {% include 'snippets/go_to_dashboard' %}
 {% include 'snippets/run_build' %}
 {% include 'snippets/inspect_build' %}

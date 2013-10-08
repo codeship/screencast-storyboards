@@ -8,6 +8,7 @@
 
 
 
+
 Deploying Ruby on Rails from GitHub to Heroku
 ======================
 
@@ -17,9 +18,9 @@ In this screencast we're gonna deploy a Ruby on Rails application from a GitHub 
 
 
 
-I've got a simple Ruby on Rails application called [codefish][codefish-rails] which contains some RSpec examples. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
+I've got a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![GitHub codefish-rails][screenshot-codefish-rails]
+![GitHub codefish-rails][screenshot-codefish-repo]
 
 
 
@@ -31,7 +32,7 @@ We're gonna deploy this application to Heroku using the Codeship.
 
 Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
 
-![GitHub OAuth][screenshot-github-oauth]
+![GitHub OAuth][screenshot-oauth]
 
 We're back at the Codeship. Now let's create our first project. [click create project button]
 
@@ -59,7 +60,7 @@ Now our repository is connected and we can set up our test commands:
 
 We select "Ruby on Rails" as our framework. This prepopulates the setup commands and the test commands for us.
 
-![Codeship Technology Ruby on Rails][screenshot-codeship-technology-github]
+![Codeship Technology Ruby on Rails][screenshot-codeship-technology-selected]
 
 
 
@@ -67,7 +68,7 @@ We select "Ruby on Rails" as our framework. This prepopulates the setup commands
 
 The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `ruby -v` in the terminal, I find out that I use Ruby `2.0.0p195`.
 
-![Ruby Version][screenshot-ruby-version]
+![Ruby Version][screenshot-technology-version]
 
 So I just copy my Ruby version into the `rvm use` statement and add a hyphen before the patch version.
 
@@ -117,12 +118,12 @@ We see all the commands that were run. After a few initial preparation commands 
 
 
 We can inspect the output of a single command by clicking on it.
-[click on RSpec command]
+[click on test command]
 So we can see that two RSpec examples were run
 
 ![Codeship build log][screenshot-build-log]
 
-[click on RSpec command again to close log]
+[click on test command again to close log]
 
 ![Codeship finished build][screenshot-first-build-finished]
 
@@ -162,7 +163,7 @@ Now we need to enter the name of our Heroku application and our API key. Let's g
 
 ![Heroku apps][screenshot-heroku-apps]
 
-I name my application "codefish-rails"
+I name my application "codefish-app"
 
 ![Create Heroku app][screenshot-create-heroku-app]
 
@@ -170,7 +171,7 @@ and create it.
 
 ![Heroku app created][screenshot-heroku-app-created]
 
-Back at our deployment configuration I enter the application name "codefish-rails".
+Back at our deployment configuration I enter the application name "codefish-app".
 
 ![Heroku deployment name entered][screenshot-heroku-deployment-name]
 
@@ -210,7 +211,7 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
-When we open [codefish-rails.herokuapp.com][codefish-rails-live] now, our deployed application appears.
+When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -223,10 +224,10 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-rails]: https://github.com/codeship-tutorials/codefish-rails
+ [codefish-repo]: https://github.com/codeship-tutorials/codefish-rails
  
- [codefish-rails-live]: http://codefish-rails.herokuapp.com
- [screenshot-codefish-rails]: ../screenshots/github/rails/codefish-rails.png
+ [codefish-live]: http://codefish-app.herokuapp.com
+ [screenshot-codefish-repo]: ../screenshots/github/rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
@@ -235,7 +236,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-repo-selection-filtered]: ../screenshots/rails/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/rails/codeship-technology.png
- [screenshot-ruby-version]: ../screenshots/rails/ruby-version.png
+ [screenshot-technology-version]: ../screenshots/rails/technology-version.png
  [screenshot-test-commands]: ../screenshots/rails/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/github/rails/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/rails/codeship-image.png

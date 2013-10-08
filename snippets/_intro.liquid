@@ -1,0 +1,13 @@
+{% if format == "storyboard" %}
+
+I've got a simple {{ technology }} application called [codefish][codefish-repo] which contains some {{ tests }}. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
+
+![{{ repository }} codefish-{{ technology_slug }}][screenshot-codefish-repo]
+
+{% elsif format == "blogpost" %}
+
+We've set up a simple {{ technology }} application called [codefish][codefish-repo] which contains some {{ tests }}. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
+
+[![codefish-{{ technology_slug }} on {{ repository }}][screenshot-codefish-repo]][screenshot-codefish-repo]
+
+{% endif %}
