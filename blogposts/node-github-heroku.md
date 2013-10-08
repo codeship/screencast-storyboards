@@ -72,9 +72,9 @@ The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you
 
 Just copy your Node version into the `nvm install` and `nvm use` statements.
 
-Additionally to your node modules, you need to install `jasmine-node` globally to be able to run your Jasmine specs, so let's add `npm install -g jasmine-node` after `npm install`.
+If you want to run Jasmine specs, you need to install `jasmine-node` globally additionally to your node modules. In this case just add `npm install -g jasmine-node` after `npm install`.
 
-You don't need `npm test` for your Jasmine specs, so let's comment it by adding a hash key before the command. Instead, let's add `jasmine-node spec` to the test commands to run your Jasmine specs.
+You don't need `npm test` for your Jasmine specs, so you can comment it by adding a hash key before the command. Instead, add `jasmine-node spec` to the test commands to run your Jasmine specs.
 
 [![Comment the test command `npm test` and add `jasmine-node spec`][screenshot-test-commands]][screenshot-test-commands]
 
