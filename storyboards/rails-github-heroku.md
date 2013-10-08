@@ -163,7 +163,7 @@ Now we need to enter the name of our Heroku application and our API key. Let's g
 
 ![Heroku apps][screenshot-heroku-apps]
 
-I name my application "codefish-rails"
+I name my application "codefish-app"
 
 ![Create Heroku app][screenshot-create-heroku-app]
 
@@ -171,7 +171,7 @@ and create it.
 
 ![Heroku app created][screenshot-heroku-app-created]
 
-Back at our deployment configuration I enter the application name "codefish-rails".
+Back at our deployment configuration I enter the application name "codefish-app".
 
 ![Heroku deployment name entered][screenshot-heroku-deployment-name]
 

@@ -154,9 +154,9 @@ Now you are asked to enter the name of your Heroku application and your API key.
 
 [![You are on the Heroku page now][screenshot-heroku-apps]][screenshot-heroku-apps]
 
-I named my application "codefish-rails", but please choose whatever name you like
+I named my application "codefish-app", but please choose whatever name you like
 
-[![Create your app and name it codefish-rails][screenshot-create-heroku-app]][screenshot-create-heroku-app]
+[![Create your app and name it codefish-app][screenshot-create-heroku-app]][screenshot-create-heroku-app]
 
 and create your app.
 
@@ -164,7 +164,7 @@ and create your app.
 
 Back at your deployment configuration on the Codeship enter the application name.
 
-[![Back on the Codeship we enter the application name codefish-rails][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
+[![Back on the Codeship we enter the application name codefish-app][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
 
 To retrieve your Heroku API key, follow the link to your Heroku account and click "Show API key".
 
