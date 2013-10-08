@@ -8,6 +8,7 @@
 
 
 
+
 How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Heroku
 ======================
 
@@ -17,9 +18,9 @@ In this blog post we're gonna deploy a Ruby on Rails application from a GitHub r
 
 
 
-We've set up a simple Ruby on Rails application called [codefish][codefish-rails] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-rails on GitHub][screenshot-codefish-rails]][screenshot-codefish-rails]
+[![codefish-rails on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
 
 
 
@@ -67,7 +68,7 @@ Codefish is a Ruby on Rails application. So I choose "Ruby on Rails" as my frame
 
 The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. If you're unsure about the Ruby version of your project, type `ruby -v` in the Terminal.
 
-[![Type ruby -v and find out your Ruby version][screenshot-ruby-version]][screenshot-ruby-version]
+[![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
 Just copy your Ruby version into the `rvm use` statement and add a hyphen before the patch version.
 
@@ -151,9 +152,9 @@ Now you are asked to enter the name of your Heroku application and your API key.
 
 [![You are on the Heroku page now][screenshot-heroku-apps]][screenshot-heroku-apps]
 
-I named my application "codefish-rails", but please choose whatever name you like
+I named my application "codefish-app", but please choose whatever name you like
 
-[![Create your app and name it codefish-rails][screenshot-create-heroku-app]][screenshot-create-heroku-app]
+[![Create your app and name it codefish-app][screenshot-create-heroku-app]][screenshot-create-heroku-app]
 
 and create your app.
 
@@ -161,7 +162,7 @@ and create your app.
 
 Back at your deployment configuration on the Codeship enter the application name.
 
-[![Back on the Codeship we enter the application name codefish-rails][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
+[![Back on the Codeship we enter the application name codefish-app][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
 
 To retrieve your Heroku API key, follow the link to your Heroku account and click "Show API key".
 
@@ -199,7 +200,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your Heroku app now, your deployed application appears. You can find mine on [codefish-rails.herokuapp.com][codefish-rails-live].
+When you open the URL of your Heroku app now, your deployed application appears. You can find mine on [codefish-app.herokuapp.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -212,10 +213,10 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-rails]: https://github.com/codeship-tutorials/codefish-rails
+ [codefish-repo]: https://github.com/codeship-tutorials/codefish-rails
  
- [codefish-rails-live]: http://codefish-rails.herokuapp.com
- [screenshot-codefish-rails]: ../screenshots/github/rails/codefish-rails.png
+ [codefish-live]: http://codefish-app.herokuapp.com
+ [screenshot-codefish-repo]: ../screenshots/github/rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
@@ -224,7 +225,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-repo-selection-filtered]: ../screenshots/rails/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/rails/codeship-technology.png
- [screenshot-ruby-version]: ../screenshots/rails/ruby-version.png
+ [screenshot-technology-version]: ../screenshots/rails/technology-version.png
  [screenshot-test-commands]: ../screenshots/rails/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/github/rails/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/rails/codeship-image.png
