@@ -229,7 +229,7 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
-When we open [codefish-rails.herokuapp.com][codefish-rails-live] now, our deployed application appears.
+When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -244,7 +244,7 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-rails
  
- [codefish-rails-live]: http://codefish-rails.herokuapp.com
+ [codefish-live]: http://codefish-app.herokuapp.com
  [screenshot-codefish-repo]: ../screenshots/bitbucket/rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
