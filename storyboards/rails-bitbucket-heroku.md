@@ -203,11 +203,11 @@ I copy it and insert it into my deployment configuration at the Codeship.
 
 
 
-![Complete Heroku deployment][screenshot-complete-heroku-deployment]
+![Complete Heroku deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
 
-![Saved Heroku deployment][screenshot-saved-heroku-deployment]
+![Saved Heroku deployment][screenshot-saved-deployment]
 
 From now on the Codeship will deploy our application to Heroku everytime we push to our Bitbucket repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship." to the landing page.
 
@@ -273,8 +273,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
  [screenshot-heroku-deployment-name]: ../screenshots/rails/heroku/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
- [screenshot-complete-heroku-deployment]: ../screenshots/rails/heroku/complete-deployment.png
- [screenshot-saved-heroku-deployment]: ../screenshots/rails/heroku/saved-deployment.png
+ [screenshot-complete-deployment]: ../screenshots/rails/heroku/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/rails/heroku/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/rails/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/bitbucket/rails/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../screenshots/rails/deploy-build-started.png
@@ -286,5 +286,4 @@ If you need help with setting up your own application, please use the support li
  [screenshot-hook-added]: ../screenshots/bitbucket/rails/hook-added.png
  [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
- [screenshot-insert-deployment-token]: ../screenshots/rails/heroku/insert-token.png
 

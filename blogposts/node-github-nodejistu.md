@@ -158,8 +158,6 @@ To generate my Nodejitsu token, I run `jitsu token create codeship` on the termi
 
 I copy the token and insert it into my Codeship deployment configuration.
 
-![Insert Nodejitsu token][screenshot-insert-nodejitsu-token]
-
 
 
 [![Copy and paste the Nodejitsu API key to the Codeship][screenshot-complete-nodejitsu-deployment]][screenshot-complete-nodejitsu-deployment]
@@ -232,8 +230,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-heroku-app-created]: ../screenshots/nodejitsu/heroku-app-created.png
  [screenshot-heroku-deployment-name]: ../screenshots/node/nodejitsu/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/nodejitsu/show-api-key.png
- [screenshot-complete-heroku-deployment]: ../screenshots/node/nodejitsu/complete-deployment.png
- [screenshot-saved-heroku-deployment]: ../screenshots/node/nodejitsu/saved-deployment.png
+ [screenshot-complete-deployment]: ../screenshots/node/nodejitsu/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/node/nodejitsu/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/node/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../screenshots/node/deploy-build-started.png
@@ -245,6 +243,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
- [screenshot-insert-deployment-token]: ../screenshots/node/nodejitsu/insert-token.png
 
 

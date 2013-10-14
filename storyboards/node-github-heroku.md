@@ -187,11 +187,11 @@ I copy it and insert it into my deployment configuration at the Codeship.
 
 
 
-![Complete Heroku deployment][screenshot-complete-heroku-deployment]
+![Complete Heroku deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
 
-![Saved Heroku deployment][screenshot-saved-heroku-deployment]
+![Saved Heroku deployment][screenshot-saved-deployment]
 
 From now on the Codeship will deploy our application to Heroku everytime we push to our GitHub repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Node.js app with the Codeship." to the landing page.
 
@@ -257,8 +257,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
  [screenshot-heroku-deployment-name]: ../screenshots/node/heroku/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
- [screenshot-complete-heroku-deployment]: ../screenshots/node/heroku/complete-deployment.png
- [screenshot-saved-heroku-deployment]: ../screenshots/node/heroku/saved-deployment.png
+ [screenshot-complete-deployment]: ../screenshots/node/heroku/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/node/heroku/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/node/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../screenshots/node/deploy-build-started.png
@@ -270,5 +270,4 @@ If you need help with setting up your own application, please use the support li
  [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/heroku/create-token.png
- [screenshot-insert-deployment-token]: ../screenshots/node/heroku/insert-token.png
 

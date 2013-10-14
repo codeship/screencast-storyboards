@@ -246,8 +246,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
  [screenshot-heroku-deployment-name]: ../screenshots/node/heroku/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
- [screenshot-complete-heroku-deployment]: ../screenshots/node/heroku/complete-deployment.png
- [screenshot-saved-heroku-deployment]: ../screenshots/node/heroku/saved-deployment.png
+ [screenshot-complete-deployment]: ../screenshots/node/heroku/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/node/heroku/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/node/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../screenshots/node/deploy-build-started.png
@@ -259,5 +259,4 @@ If you need help with setting up your own application, please use the support li
  [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/heroku/create-token.png
- [screenshot-insert-deployment-token]: ../screenshots/node/heroku/insert-token.png
 
