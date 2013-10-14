@@ -174,19 +174,29 @@ Copy it and insert it into your deployment configuration at the Codeship.
 
 
 
-[![Copy and paste the Heroku API key to the Codeship][screenshot-complete-heroku-deployment]][screenshot-complete-heroku-deployment]
+[![Copy and paste the Heroku API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
-[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-heroku-deployment]][screenshot-saved-heroku-deployment]
+[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository. Let's push a change and see if it gets deployed. Change something in your application first,
+From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository.
+
+
+
+
+
+Let's push a change and see if it gets deployed. Change something in your application first,
 
 [![Add a new paragraph you can then commit and push][screenshot-added-paragraph]][screenshot-added-paragraph]
 
 then commit and push the change.
 
 [![Commit and push the change][screenshot-commit-and-push-paragraph]][screenshot-commit-and-push-paragraph]
+
+
+
+
 
 And immediately another build will start running on the Codeship. Let's go back to your project overview.
 

@@ -209,13 +209,23 @@ Now let's save our deployment configuration.
 
 ![Saved Heroku deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Heroku everytime we push to our Bitbucket repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship." to the landing page.
+From now on the Codeship will deploy our application to Heroku everytime we push to our Bitbucket repository.
+
+
+
+
+
+Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship." to the landing page.
 
 ![Added Paragraph][screenshot-added-paragraph]
 
 I commit and push the change
 
 ![Commit and push paragraph][screenshot-commit-and-push-paragraph]
+
+
+
+
 
 and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 

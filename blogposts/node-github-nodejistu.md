@@ -160,19 +160,19 @@ I copy the token and insert it into my Codeship deployment configuration.
 
 
 
-[![Copy and paste the Nodejitsu API key to the Codeship][screenshot-complete-nodejitsu-deployment]][screenshot-complete-nodejitsu-deployment]
+[![Copy and paste the Nodejitsu API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
-[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-nodejitsu-deployment]][screenshot-saved-nodejitsu-deployment]
+[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Nodejitsu everytime you push to your GitHub repository. Let's push a change and see if it gets deployed. Change something in your application first,
+From now on the Codeship will deploy your application to Nodejitsu everytime you push to your GitHub repository.
 
-[![Add a new paragraph you can then commit and push][screenshot-added-paragraph]][screenshot-added-paragraph]
 
-then commit and push the change.
 
-[![Commit and push the change][screenshot-commit-and-push-paragraph]][screenshot-commit-and-push-paragraph]
+
+
+
 
 And immediately another build will start running on the Codeship. Let's go back to your project overview.
 
