@@ -181,7 +181,17 @@ From now on the Codeship will deploy our application to Nodejitsu everytime we p
 
 
 
+We still need to tell Nodejitsu which subdomain we want to deploy to and how our application is run.
 
+In our `package.json` file we add `"subdomain": "codefish"` and a `"start"` script `"node start.js"`.
+
+![Add Nodejitsu config][screenshot-add-deployment-config]
+
+This way Nodejitsu will know where to publish our app and how to launch it.
+
+I commit and push this change
+
+![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
 
 
 
@@ -254,5 +264,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
 
 

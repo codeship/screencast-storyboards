@@ -280,4 +280,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/heroku/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
 

@@ -296,4 +296,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-hook-added]: ../screenshots/bitbucket/rails/hook-added.png
  [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/rails/commit-and-push-deployment-config.png
 
