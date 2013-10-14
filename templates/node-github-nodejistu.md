@@ -17,7 +17,7 @@
 {% include 'snippets/inspect_build' %}
 {% include 'snippets/finish_road_to_success' %}
 {% include 'snippets/configure_deployment' %}
-{% include 'snippets/nodjitsu/setup_app' %}
+{% include 'snippets/nodejitsu/setup_app' %}
 {% include 'snippets/deployment_and_end' %}
 {% include 'snippets/urls' %}
 

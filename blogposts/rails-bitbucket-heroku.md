@@ -158,7 +158,7 @@ Then navigate to the "Deployment" section.
 
 As we want to deploy to Heroku we click on the "Heroku" button.
 
-[![Click on the Heroku button][screenshot-new-heroku-deployment]][screenshot-new-heroku-deployment]
+[![Click on the Heroku button][screenshot-new-deployment]][screenshot-new-deployment]
 
 
 
@@ -254,7 +254,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-go-to-project-settings]: ../screenshots/bitbucket/rails/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/rails/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/rails/deployment-settings.png
- [screenshot-new-heroku-deployment]: ../screenshots/rails/heroku/new-deployment.png
+ [screenshot-new-deployment]: ../screenshots/rails/heroku/new-deployment.png
  [screenshot-heroku-apps]: ../screenshots/heroku/heroku-apps.png
  [screenshot-create-heroku-app]: ../screenshots/heroku/create-heroku-app.png
  [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
@@ -271,4 +271,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-select-post-hook]: ../screenshots/bitbucket/rails/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/bitbucket/rails/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/bitbucket/rails/hook-added.png
+ [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
+ [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
+ [screenshot-insert-deployment-token]: ../screenshots/rails/heroku/insert-token.png
 

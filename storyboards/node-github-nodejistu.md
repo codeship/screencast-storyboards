@@ -155,11 +155,22 @@ And then to the "Deployment" section.
 
 We want to deploy to "Nodejitsu".
 
-![New Nodejitsu deployment][screenshot-new-nodejitsu-deployment]
+![New Nodejitsu deployment][screenshot-new-deployment]
 
 
 
-Liquid error: No such template 'snippets/nodjitsu/setup_app'
+Now we need to enter our Nodejitsu username and token. I can already fill in my username "codeship-tutorials".
+
+![Nodejitsu user name][screenshot-deployment-username]
+
+To generate my Nodejitsu token, I run `jitsu token create codeship` on the terminal.
+
+![Create Nodejitsu token][screenshot-create-deployment-token]
+
+I copy the token and insert it into my Codeship deployment configuration.
+
+![Insert Nodejitsu token][screenshot-insert-nodejitsu-token]
+
 
 
 ![Complete Nodejitsu deployment][screenshot-complete-nodejitsu-deployment]
@@ -226,7 +237,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-go-to-project-settings]: ../screenshots/github/node/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/node/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
- [screenshot-new-heroku-deployment]: ../screenshots/node/nodejitsu/new-deployment.png
+ [screenshot-new-deployment]: ../screenshots/node/nodejitsu/new-deployment.png
  [screenshot-heroku-apps]: ../screenshots/nodejitsu/heroku-apps.png
  [screenshot-create-heroku-app]: ../screenshots/nodejitsu/create-heroku-app.png
  [screenshot-heroku-app-created]: ../screenshots/nodejitsu/heroku-app-created.png
@@ -243,5 +254,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-select-post-hook]: ../screenshots/github/node/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/github/node/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
+ [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
+ [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
+ [screenshot-insert-deployment-token]: ../screenshots/node/nodejitsu/insert-token.png
 
 
