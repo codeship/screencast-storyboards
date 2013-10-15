@@ -170,7 +170,7 @@ From now on the Codeship will deploy your application to Nodejitsu everytime you
 
 
 
-We still need to tell Nodejitsu which subdomain we want to deploy to and how our application is run.
+We still need to tell Nodejitsu which subdomain we want to deploy to and how to run our application.
 
 In our `package.json` file we add `"subdomain": "codefish"` and a `"start"` script `"node start.js"`.
 
