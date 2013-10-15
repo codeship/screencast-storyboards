@@ -255,7 +255,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-saved-deployment]: ../screenshots/node/nodejitsu/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/node/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/node/deploy-build-started.png
+ [screenshot-deploy-build-started]: ../screenshots/node/nodejitsu/deploy-build-started.png
  [screenshot-build-deployment]: ../screenshots/node/nodejitsu/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/node/nodejitsu/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/node/nodejitsu/deployed-application.png
