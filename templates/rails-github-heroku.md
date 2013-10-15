@@ -6,6 +6,7 @@
 {% assign deployment = "Heroku" %}
 {% assign deployment_slug = "heroku" %}
 {% assign repo_name = "codefish-rails" %}
+{% assign app_url = "codefish-app.herokuapp.com" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}

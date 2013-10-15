@@ -9,6 +9,7 @@
 
 
 
+
 Deploying Node.js from GitHub to Nodejitsu
 ======================
 
@@ -207,7 +208,7 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
-When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
+When we open [codefish.nodejitsu.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 

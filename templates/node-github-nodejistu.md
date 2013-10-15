@@ -6,6 +6,7 @@
 {% assign deployment = "Nodejitsu" %}
 {% assign deployment_slug = "nodejitsu" %}
 {% assign repo_name = "codefish-node" %}
+{% assign app_url = "codefish.nodejitsu.com" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}
