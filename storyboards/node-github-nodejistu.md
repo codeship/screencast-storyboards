@@ -10,10 +10,10 @@
 
 
 
-Deploying Node.js from GitHub to Heroku
+Deploying Node.js from GitHub to Nodejitsu
 ======================
 
-In this screencast we're gonna deploy a Node.js application from a GitHub repository to Heroku using the Codeship.
+In this screencast we're gonna deploy a Node.js application from a GitHub repository to Nodejitsu using the Codeship.
 
 
 
@@ -27,7 +27,7 @@ I've got a simple Node.js application called [codefish][codefish-repo] which con
 
 
 
-We're gonna deploy this application to Heroku using the Codeship.
+We're gonna deploy this application to Nodejitsu using the Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
@@ -144,7 +144,7 @@ We've already pushed to our repository, watched our build log and got a green bu
 
 
 
-Now let's deploy our application to Heroku. We go to our project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy our application to Nodejitsu. We go to our project settings by clicking on the settings icon in the projects dropdown.
 
 ![Codeship go to project settings][screenshot-go-to-project-settings]
 
@@ -154,61 +154,45 @@ And then to the "Deployment" section.
 
 ![Codeship deployment settings][screenshot-deployment-settings]
 
-We want to deploy to "Heroku".
+We want to deploy to "Nodejitsu".
 
-![New Heroku deployment][screenshot-new-deployment]
-
-
+![New Nodejitsu deployment][screenshot-new-deployment]
 
 
 
-Now we need to enter the name of our Heroku application and our API key. Let's go to Heroku and create an application.
+Now we need to enter our Nodejitsu username and token. I can already fill in my username "codeship-tutorials".
 
-![Heroku apps][screenshot-heroku-apps]
+![Nodejitsu user name][screenshot-deployment-username]
 
-I name my application "codefish-app"
+To generate my Nodejitsu token, I run `jitsu tokens create codeship` on the terminal.
 
-![Create Heroku app][screenshot-create-heroku-app]
+![Create Nodejitsu token][screenshot-create-deployment-token]
 
-and create it.
-
-![Heroku app created][screenshot-heroku-app-created]
-
-Back at our deployment configuration I enter the application name "codefish-app".
-
-![Heroku deployment name entered][screenshot-heroku-deployment-name]
-
-To retrieve my Heroku API key, I follow the link to my Heroku account and click "Show API key".
-
-![Show Heroku API key][screenshot-show-api-key]
-
-I copy it and insert it into my deployment configuration at the Codeship.
+I copy the token and insert it into my Codeship deployment configuration.
 
 
 
-
-
-![Complete Heroku deployment][screenshot-complete-deployment]
+![Complete Nodejitsu deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
 
-![Saved Heroku deployment][screenshot-saved-deployment]
+![Saved Nodejitsu deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Heroku everytime we push to our GitHub repository.
-
-
+From now on the Codeship will deploy our application to Nodejitsu everytime we push to our GitHub repository.
 
 
 
-Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Node.js app with the Codeship." to the landing page.
+We still need to tell Nodejitsu which subdomain we want to deploy to and how to run our application.
 
-![Added Paragraph][screenshot-added-paragraph]
+In our `package.json` file we add `"subdomain": "codefish"` and a `"start"` script `"node start.js"`.
 
-I commit and push the change
+![Add Nodejitsu config][screenshot-add-deployment-config]
 
-![Commit and push paragraph][screenshot-commit-and-push-paragraph]
+This way Nodejitsu will know where to publish our app and how to launch it.
 
+I commit and push this change
 
+![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
 
 
 
@@ -216,7 +200,7 @@ and immediately another build starts running on the Codeship. Let's go back to o
 
 ![Deploy build started][screenshot-deploy-build-started]
 
-After the commands we already know from our first build, our application also gets deployed to Heroku now.
+After the commands we already know from our first build, our application also gets deployed to Nodejitsu now.
 
 ![Build Deployment][screenshot-build-deployment]
 
@@ -224,7 +208,7 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
-When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
+When we open [codefish.nodejitsu.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -240,7 +224,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-node
  
  
- [codefish-live]: http://codefish-app.herokuapp.com
+ [codefish-live]: http://codefish.nodejitsu.com
  
  [screenshot-codefish-repo]: ../screenshots/github/node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
@@ -264,25 +248,26 @@ If you need help with setting up your own application, please use the support li
  [screenshot-go-to-project-settings]: ../screenshots/github/node/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/node/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
- [screenshot-new-deployment]: ../screenshots/node/heroku/new-deployment.png
- [screenshot-heroku-apps]: ../screenshots/heroku/heroku-apps.png
- [screenshot-create-heroku-app]: ../screenshots/heroku/create-heroku-app.png
- [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
- [screenshot-heroku-deployment-name]: ../screenshots/node/heroku/heroku-deployment-name.png
- [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
- [screenshot-complete-deployment]: ../screenshots/node/heroku/complete-deployment.png
- [screenshot-saved-deployment]: ../screenshots/node/heroku/saved-deployment.png
+ [screenshot-new-deployment]: ../screenshots/node/nodejitsu/new-deployment.png
+ [screenshot-heroku-apps]: ../screenshots/nodejitsu/heroku-apps.png
+ [screenshot-create-heroku-app]: ../screenshots/nodejitsu/create-heroku-app.png
+ [screenshot-heroku-app-created]: ../screenshots/nodejitsu/heroku-app-created.png
+ [screenshot-heroku-deployment-name]: ../screenshots/node/nodejitsu/heroku-deployment-name.png
+ [screenshot-show-api-key]: ../screenshots/nodejitsu/show-api-key.png
+ [screenshot-complete-deployment]: ../screenshots/node/nodejitsu/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/node/nodejitsu/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/node/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/node/heroku/deploy-build-started.png
- [screenshot-build-deployment]: ../screenshots/node/heroku/build-deployment.png
- [screenshot-build-deployment-complete]: ../screenshots/node/heroku/build-deployment-complete.png
- [screenshot-deployed-application]: ../screenshots/node/heroku/deployed-application.png
+ [screenshot-deploy-build-started]: ../screenshots/node/nodejitsu/deploy-build-started.png
+ [screenshot-build-deployment]: ../screenshots/node/nodejitsu/build-deployment.png
+ [screenshot-build-deployment-complete]: ../screenshots/node/nodejitsu/build-deployment-complete.png
+ [screenshot-deployed-application]: ../screenshots/node/nodejitsu/deployed-application.png
  [screenshot-select-post-hook]: ../screenshots/github/node/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/github/node/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
- [screenshot-deployment-username]: ../screenshots/node/heroku/username.png
- [screenshot-create-deployment-token]: ../screenshots/node/heroku/create-token.png
- [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
+ [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
+ [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
+
 

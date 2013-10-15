@@ -9,6 +9,7 @@
 
 
 
+
 How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Heroku
 ======================
 
@@ -142,7 +143,7 @@ Then navigate to the "Deployment" section.
 
 As we want to deploy to Heroku we click on the "Heroku" button.
 
-[![Click on the Heroku button][screenshot-new-heroku-deployment]][screenshot-new-heroku-deployment]
+[![Click on the Heroku button][screenshot-new-deployment]][screenshot-new-deployment]
 
 
 
@@ -174,19 +175,29 @@ Copy it and insert it into your deployment configuration at the Codeship.
 
 
 
-[![Copy and paste the Heroku API key to the Codeship][screenshot-complete-heroku-deployment]][screenshot-complete-heroku-deployment]
+[![Copy and paste the Heroku API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
-[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-heroku-deployment]][screenshot-saved-heroku-deployment]
+[![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository. Let's push a change and see if it gets deployed. Change something in your application first,
+From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository.
+
+
+
+
+
+Let's push a change and see if it gets deployed. Change something in your application first,
 
 [![Add a new paragraph you can then commit and push][screenshot-added-paragraph]][screenshot-added-paragraph]
 
 then commit and push the change.
 
 [![Commit and push the change][screenshot-commit-and-push-paragraph]][screenshot-commit-and-push-paragraph]
+
+
+
+
 
 And immediately another build will start running on the Codeship. Let's go back to your project overview.
 
@@ -215,7 +226,9 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-rails
  
+ 
  [codefish-live]: http://codefish-app.herokuapp.com
+ 
  [screenshot-codefish-repo]: ../screenshots/github/rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
@@ -238,21 +251,25 @@ If you need help with setting up your own application, please use the support li
  [screenshot-go-to-project-settings]: ../screenshots/github/rails/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/rails/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/rails/deployment-settings.png
- [screenshot-new-heroku-deployment]: ../screenshots/rails/heroku/new-deployment.png
+ [screenshot-new-deployment]: ../screenshots/rails/heroku/new-deployment.png
  [screenshot-heroku-apps]: ../screenshots/heroku/heroku-apps.png
  [screenshot-create-heroku-app]: ../screenshots/heroku/create-heroku-app.png
  [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
  [screenshot-heroku-deployment-name]: ../screenshots/rails/heroku/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
- [screenshot-complete-heroku-deployment]: ../screenshots/rails/heroku/complete-deployment.png
- [screenshot-saved-heroku-deployment]: ../screenshots/rails/heroku/saved-deployment.png
+ [screenshot-complete-deployment]: ../screenshots/rails/heroku/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/rails/heroku/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/rails/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/rails/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/rails/deploy-build-started.png
+ [screenshot-deploy-build-started]: ../screenshots/rails/heroku/deploy-build-started.png
  [screenshot-build-deployment]: ../screenshots/rails/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/rails/heroku/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/rails/heroku/deployed-application.png
  [screenshot-select-post-hook]: ../screenshots/github/rails/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/github/rails/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/github/rails/hook-added.png
+ [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
+ [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/rails/commit-and-push-deployment-config.png
 
