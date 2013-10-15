@@ -163,7 +163,7 @@ Now we need to enter our Nodejitsu username and token. I can already fill in my 
 
 ![Nodejitsu user name][screenshot-deployment-username]
 
-To generate my Nodejitsu token, I run `jitsu token create codeship` on the terminal.
+To generate my Nodejitsu token, I run `jitsu tokens create codeship` on the terminal.
 
 ![Create Nodejitsu token][screenshot-create-deployment-token]
 
