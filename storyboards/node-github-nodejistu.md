@@ -199,7 +199,7 @@ and immediately another build starts running on the Codeship. Let's go back to o
 
 ![Deploy build started][screenshot-deploy-build-started]
 
-After the commands we already know from our first build, our application also gets deployed to Heroku now.
+After the commands we already know from our first build, our application also gets deployed to Nodejitsu now.
 
 ![Build Deployment][screenshot-build-deployment]
 
