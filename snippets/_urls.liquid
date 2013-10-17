@@ -5,7 +5,11 @@
  {% elsif repository == "Bitbucket" %}
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-{{ technology_slug }}
  {% endif %}
+ {% if deployment == "Heroku" %}
  [codefish-live]: http://codefish-app.herokuapp.com
+ {% elsif deployment == "Nodejitsu" %}
+ [codefish-live]: http://codefish.nodejitsu.com
+ {% endif %}
  [screenshot-codefish-repo]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/{{ repository_slug }}/oauth.png
@@ -28,20 +32,24 @@
  [screenshot-go-to-project-settings]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/{{ technology_slug }}/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/{{ technology_slug }}/deployment-settings.png
- [screenshot-new-heroku-deployment]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/new-deployment.png
+ [screenshot-new-deployment]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/new-deployment.png
  [screenshot-heroku-apps]: ../screenshots/{{ deployment_slug }}/heroku-apps.png
  [screenshot-create-heroku-app]: ../screenshots/{{ deployment_slug }}/create-heroku-app.png
  [screenshot-heroku-app-created]: ../screenshots/{{ deployment_slug }}/heroku-app-created.png
  [screenshot-heroku-deployment-name]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/{{ deployment_slug }}/show-api-key.png
- [screenshot-complete-heroku-deployment]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/complete-deployment.png
- [screenshot-saved-heroku-deployment]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/saved-deployment.png
+ [screenshot-complete-deployment]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/{{ technology_slug }}/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/{{ technology_slug }}/deploy-build-started.png
+ [screenshot-deploy-build-started]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/deploy-build-started.png
  [screenshot-build-deployment]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/deployed-application.png
  [screenshot-select-post-hook]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/hook-added.png
+ [screenshot-deployment-username]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/username.png
+ [screenshot-create-deployment-token]: ../screenshots/{{ technology_slug }}/{{ deployment_slug }}/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/{{ deployment_slug }}/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/{{ repository_slug }}/{{ technology_slug }}/commit-and-push-deployment-config.png

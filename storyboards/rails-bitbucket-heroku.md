@@ -9,6 +9,7 @@
 
 
 
+
 Deploying Ruby on Rails from Bitbucket to Heroku
 ======================
 
@@ -171,7 +172,7 @@ And then to the "Deployment" section.
 
 We want to deploy to "Heroku".
 
-![New Heroku deployment][screenshot-new-heroku-deployment]
+![New Heroku deployment][screenshot-new-deployment]
 
 
 
@@ -203,19 +204,29 @@ I copy it and insert it into my deployment configuration at the Codeship.
 
 
 
-![Complete Heroku deployment][screenshot-complete-heroku-deployment]
+![Complete Heroku deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
 
-![Saved Heroku deployment][screenshot-saved-heroku-deployment]
+![Saved Heroku deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Heroku everytime we push to our Bitbucket repository. Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship." to the landing page.
+From now on the Codeship will deploy our application to Heroku everytime we push to our Bitbucket repository.
+
+
+
+
+
+Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship." to the landing page.
 
 ![Added Paragraph][screenshot-added-paragraph]
 
 I commit and push the change
 
 ![Commit and push paragraph][screenshot-commit-and-push-paragraph]
+
+
+
+
 
 and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 
@@ -244,7 +255,9 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-rails
  
+ 
  [codefish-live]: http://codefish-app.herokuapp.com
+ 
  [screenshot-codefish-repo]: ../screenshots/bitbucket/rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
@@ -267,21 +280,25 @@ If you need help with setting up your own application, please use the support li
  [screenshot-go-to-project-settings]: ../screenshots/bitbucket/rails/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/rails/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/rails/deployment-settings.png
- [screenshot-new-heroku-deployment]: ../screenshots/rails/heroku/new-deployment.png
+ [screenshot-new-deployment]: ../screenshots/rails/heroku/new-deployment.png
  [screenshot-heroku-apps]: ../screenshots/heroku/heroku-apps.png
  [screenshot-create-heroku-app]: ../screenshots/heroku/create-heroku-app.png
  [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
  [screenshot-heroku-deployment-name]: ../screenshots/rails/heroku/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
- [screenshot-complete-heroku-deployment]: ../screenshots/rails/heroku/complete-deployment.png
- [screenshot-saved-heroku-deployment]: ../screenshots/rails/heroku/saved-deployment.png
+ [screenshot-complete-deployment]: ../screenshots/rails/heroku/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/rails/heroku/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/rails/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/bitbucket/rails/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/rails/deploy-build-started.png
+ [screenshot-deploy-build-started]: ../screenshots/rails/heroku/deploy-build-started.png
  [screenshot-build-deployment]: ../screenshots/rails/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/rails/heroku/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/rails/heroku/deployed-application.png
  [screenshot-select-post-hook]: ../screenshots/bitbucket/rails/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/bitbucket/rails/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/bitbucket/rails/hook-added.png
+ [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
+ [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/rails/commit-and-push-deployment-config.png
 

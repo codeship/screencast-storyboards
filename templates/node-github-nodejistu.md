@@ -3,10 +3,10 @@
 {% assign tests = "Jasmine specs" %}
 {% assign repository = "GitHub" %}
 {% assign repository_slug = "github" %}
-{% assign deployment = "Heroku" %}
-{% assign deployment_slug = "heroku" %}
+{% assign deployment = "Nodejitsu" %}
+{% assign deployment_slug = "nodejitsu" %}
 {% assign repo_name = "codefish-node" %}
-{% assign app_url = "codefish-app.herokuapp.com" %}
+{% assign app_url = "codefish.nodejitsu.com" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}
@@ -18,8 +18,9 @@
 {% include 'snippets/inspect_build' %}
 {% include 'snippets/finish_road_to_success' %}
 {% include 'snippets/configure_deployment' %}
-{% include 'snippets/heroku/setup_app' %}
+{% include 'snippets/nodejitsu/setup_app' %}
 {% include 'snippets/save_deployment' %}
-{% include 'snippets/push_paragraph' %}
+{% include 'snippets/nodejitsu/configure_app' %}
 {% include 'snippets/deployment_and_end' %}
 {% include 'snippets/urls' %}
+
