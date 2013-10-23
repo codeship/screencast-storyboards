@@ -219,7 +219,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your Nodejitsu app now, your deployed application appears. You can find mine on [codefish-app.herokuapp.com][codefish-live].
+When you open the URL of your Nodejitsu app now, your deployed application appears. You can find mine on [codefish.nodejitsu.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
