@@ -91,6 +91,22 @@ Now let's finish your setup and go to the dashboard.
 
 
 
+To start your first build, you need to add a push hook to your Bitbucket repository. Copy the hook url and follow the link to the service hook settings of your repository. Add a "POST" hook there,
+
+[![Bitbucket select POST hook][screenshot-select-post-hook]][screenshot-select-post-hook]
+
+paste the hook url
+
+[![Bitbucket paste hook URL][screenshot-paste-hook-url]][screenshot-paste-hook-url]
+
+and save the hook.
+
+[![Bitbucket hook URL][screenshot-hook-added]][screenshot-hook-added]
+
+
+
+
+
 You can trigger a build for your application by pushing to your repository. Let's add the Codeship status image to the README file. I use markdown syntax to insert the image.
 
 [![Copy the code for the Codeship status badge to your README file][screenshot-codeship-image]][screenshot-codeship-image]
