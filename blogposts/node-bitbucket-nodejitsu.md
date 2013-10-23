@@ -165,15 +165,17 @@ As we want to deploy to Nodejitsu we click on the "Nodejitsu" button.
 
 
 
-Now we need to enter our Nodejitsu username and token. I can already fill in my username "codeship-tutorials".
 
-![Nodejitsu user name][screenshot-deployment-username]
 
-To generate my Nodejitsu token, I run `jitsu tokens create codeship` on the terminal.
+Now you are asked to enter your Nodejitsu username and token.
+
+To generate your Nodejitsu token, run `jitsu tokens create codeship` on the terminal.
 
 ![Create Nodejitsu token][screenshot-create-deployment-token]
 
-I copy the token and insert it into my Codeship deployment configuration.
+Copy the token and insert it into your Codeship deployment configuration.
+
+
 
 
 
@@ -187,17 +189,21 @@ From now on the Codeship will deploy your application to Nodejitsu everytime you
 
 
 
-We still need to tell Nodejitsu which subdomain we want to deploy to and how to run our application.
 
-In our `package.json` file we add `"subdomain": "codefish"` and a `"start"` script `"node start.js"`.
+
+You still need to tell Nodejitsu which subdomain you want to deploy to and how to run our application.
+
+In my case, I added `"subdomain": "codefish"` and a `"start"` script `"node start.js"`. Please adapt these parameters to whatever fits your app.
 
 ![Add Nodejitsu config][screenshot-add-deployment-config]
 
 This way Nodejitsu will know where to publish our app and how to launch it.
 
-I commit and push this change
+Now you can commit and push this change
 
 ![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 

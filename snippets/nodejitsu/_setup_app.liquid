@@ -1,3 +1,5 @@
+{% if format == "storyboard" %}
+
 Now we need to enter our Nodejitsu username and token. I can already fill in my username "codeship-tutorials".
 
 ![Nodejitsu user name][screenshot-deployment-username]
@@ -7,3 +9,15 @@ To generate my Nodejitsu token, I run `jitsu tokens create codeship` on the term
 ![Create Nodejitsu token][screenshot-create-deployment-token]
 
 I copy the token and insert it into my Codeship deployment configuration.
+
+{% elsif format == "blogpost" %}
+
+Now you are asked to enter your Nodejitsu username and token.
+
+To generate your Nodejitsu token, run `jitsu tokens create codeship` on the terminal.
+
+![Create Nodejitsu token][screenshot-create-deployment-token]
+
+Copy the token and insert it into your Codeship deployment configuration.
+
+{% endif %}

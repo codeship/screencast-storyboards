@@ -160,6 +160,8 @@ We want to deploy to "Nodejitsu".
 
 
 
+
+
 Now we need to enter our Nodejitsu username and token. I can already fill in my username "codeship-tutorials".
 
 ![Nodejitsu user name][screenshot-deployment-username]
@@ -172,6 +174,8 @@ I copy the token and insert it into my Codeship deployment configuration.
 
 
 
+
+
 ![Complete Nodejitsu deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
@@ -179,6 +183,8 @@ Now let's save our deployment configuration.
 ![Saved Nodejitsu deployment][screenshot-saved-deployment]
 
 From now on the Codeship will deploy our application to Nodejitsu everytime we push to our GitHub repository.
+
+
 
 
 
@@ -193,6 +199,8 @@ This way Nodejitsu will know where to publish our app and how to launch it.
 I commit and push this change
 
 ![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
