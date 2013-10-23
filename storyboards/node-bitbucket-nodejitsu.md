@@ -10,10 +10,10 @@
 
 
 
-Deploying Node.js from GitHub to Nodejitsu
+Deploying Node.js from Bitbucket to Nodejitsu
 ======================
 
-In this screencast we're gonna deploy a Node.js application from a GitHub repository to Nodejitsu using the Codeship.
+In this screencast we're gonna deploy a Node.js application from a Bitbucket repository to Nodejitsu using the Codeship.
 
 
 
@@ -21,7 +21,7 @@ In this screencast we're gonna deploy a Node.js application from a GitHub reposi
 
 I've got a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![GitHub codefish-node][screenshot-codefish-repo]
+![Bitbucket codefish-node][screenshot-codefish-repo]
 
 
 
@@ -31,9 +31,9 @@ We're gonna deploy this application to Nodejitsu using the Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to the Codeship with Bitbucket. The Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
 
-![GitHub OAuth][screenshot-oauth]
+![Bitbucket OAuth][screenshot-oauth]
 
 We're back at the Codeship. Now let's create our first project. [click create project button]
 
@@ -43,17 +43,17 @@ We're back at the Codeship. Now let's create our first project. [click create pr
 
 
 
-The first step of our project setup is to select GitHub as our repository provider.
+The first step of our project setup is to select Bitbucket as our repository provider.
 
-![Repo provider selection GitHub][screenshot-repo-provider-selection]
+![Repo provider selection Bitbucket][screenshot-repo-provider-selection]
 
-In the list of my GitHub repositories
+In the list of my Bitbucket repositories
 
-![Repo selection GitHub][screenshot-repo-selection]
+![Repo selection Bitbucket][screenshot-repo-selection]
 
 I search for my repo "codefish-node" and select it.
 
-![Repo selection GitHub filtered][screenshot-repo-selection-filtered]
+![Repo selection Bitbucket filtered][screenshot-repo-selection-filtered]
 
 Now our repository is connected and we can set up our test commands:
 
@@ -91,6 +91,24 @@ Now let's finish our setup and go to the dashboard.
 
 
 
+To start our first build, we need to add a push hook to our Bitbucket repository. Let's copy the hook url and follow the link to the service hook settings of our repository. We add a "POST" hook,
+
+![Bitbucket select POST hook][screenshot-select-post-hook]
+
+paste the hook url
+
+![Bitbucket paste hook URL][screenshot-paste-hook-url]
+
+and save the hook.
+
+![Bitbucket hook URL][screenshot-hook-added]
+
+[close Bitbucket tab]
+
+
+
+
+
 We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
 
@@ -98,7 +116,7 @@ We can trigger a build for our application by pushing to our repository. Let's a
 
 Now let's commit and push this change.
 
-![GitHub Push][screenshot-codeship-push]
+![Bitbucket Push][screenshot-codeship-push]
 
 This triggered a new build on the Codeship.
 
@@ -182,7 +200,7 @@ Now let's save our deployment configuration.
 
 ![Saved Nodejitsu deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Nodejitsu everytime we push to our GitHub repository.
+From now on the Codeship will deploy our application to Nodejitsu everytime we push to our Bitbucket repository.
 
 
 
@@ -229,31 +247,31 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-repo]: https://github.com/codeship-tutorials/codefish-node
+ [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-node
  
  
  [codefish-live]: http://codefish.nodejitsu.com
  
- [screenshot-codefish-repo]: ../screenshots/github/node/repository.png
+ [screenshot-codefish-repo]: ../screenshots/bitbucket/node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
- [screenshot-oauth]: ../screenshots/github/oauth.png
+ [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
- [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
+ [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
  [screenshot-repo-selection-filtered]: ../screenshots/node/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/node/technology-version.png
  [screenshot-test-commands]: ../screenshots/node/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/node/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/bitbucket/node/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/node/push.png
+ [screenshot-codeship-push]: ../screenshots/bitbucket/node/push.png
  [screenshot-first-build-running]: ../screenshots/node/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/node/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/node/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/node/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/node/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/node/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/bitbucket/node/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/bitbucket/node/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/bitbucket/node/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/node/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/bitbucket/node/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/node/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/node/nodejitsu/new-deployment.png
@@ -265,17 +283,17 @@ If you need help with setting up your own application, please use the support li
  [screenshot-complete-deployment]: ../screenshots/node/nodejitsu/complete-deployment.png
  [screenshot-saved-deployment]: ../screenshots/node/nodejitsu/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: ../screenshots/github/node/commit-and-push-paragraph.png
+ [screenshot-commit-and-push-paragraph]: ../screenshots/bitbucket/node/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../screenshots/node/nodejitsu/deploy-build-started.png
  [screenshot-build-deployment]: ../screenshots/node/nodejitsu/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/node/nodejitsu/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/node/nodejitsu/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/github/node/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/github/node/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/bitbucket/node/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/bitbucket/node/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/bitbucket/node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/node/commit-and-push-deployment-config.png
 
 

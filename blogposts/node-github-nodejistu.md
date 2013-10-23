@@ -75,7 +75,7 @@ Just copy your Node version into the `nvm install` and `nvm use` statements.
 
 If you want to run Jasmine specs, you need to install `jasmine-node` globally additionally to your node modules. In this case just add `npm install -g jasmine-node` after `npm install`.
 
-You don't need `npm test` for your Jasmine specs, so you can comment it by adding a hash key before the command. Instead, add `jasmine-node spec` to the test commands to run your Jasmine specs.
+You don't need `npm test` for your Jasmine specs, so you can comment it out by adding a hash key before the command. Instead, add `jasmine-node spec` to the test commands to run your Jasmine specs.
 
 [![Comment the test command `npm test` and add `jasmine-node spec`][screenshot-test-commands]][screenshot-test-commands]
 
@@ -149,15 +149,17 @@ As we want to deploy to Nodejitsu we click on the "Nodejitsu" button.
 
 
 
-Now we need to enter our Nodejitsu username and token. I can already fill in my username "codeship-tutorials".
 
-![Nodejitsu user name][screenshot-deployment-username]
 
-To generate my Nodejitsu token, I run `jitsu tokens create codeship` on the terminal.
+Now you are asked to enter your Nodejitsu username and token.
+
+To generate your Nodejitsu token, run `jitsu tokens create codeship` on the terminal.
 
 ![Create Nodejitsu token][screenshot-create-deployment-token]
 
-I copy the token and insert it into my Codeship deployment configuration.
+Copy the token and insert it into your Codeship deployment configuration.
+
+
 
 
 
@@ -171,17 +173,21 @@ From now on the Codeship will deploy your application to Nodejitsu everytime you
 
 
 
-We still need to tell Nodejitsu which subdomain we want to deploy to and how to run our application.
 
-In our `package.json` file we add `"subdomain": "codefish"` and a `"start"` script `"node start.js"`.
+
+You still need to tell Nodejitsu which subdomain you want to deploy to and how to run your application.
+
+In my case, I added `"subdomain": "codefish"` and a `"start"` script `"node start.js"`. Please adapt these parameters to whatever fits your app.
 
 ![Add Nodejitsu config][screenshot-add-deployment-config]
 
 This way Nodejitsu will know where to publish our app and how to launch it.
 
-I commit and push this change
+Now you can commit and push this change
 
 ![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
@@ -197,7 +203,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your Nodejitsu app now, your deployed application appears. You can find mine on [codefish-app.herokuapp.com][codefish-live].
+When you open the URL of your Nodejitsu app now, your deployed application appears. You can find mine on [codefish.nodejitsu.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 

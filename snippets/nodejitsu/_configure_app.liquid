@@ -1,3 +1,5 @@
+{% if format == "storyboard" %}
+
 We still need to tell Nodejitsu which subdomain we want to deploy to and how to run our application.
 
 In our `package.json` file we add `"subdomain": "codefish"` and a `"start"` script `"node start.js"`.
@@ -9,3 +11,19 @@ This way Nodejitsu will know where to publish our app and how to launch it.
 I commit and push this change
 
 ![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
+
+{% elsif format == "blogpost" %}
+
+You still need to tell Nodejitsu which subdomain you want to deploy to and how to run your application.
+
+In my case, I added `"subdomain": "codefish"` and a `"start"` script `"node start.js"`. Please adapt these parameters to whatever fits your app.
+
+![Add Nodejitsu config][screenshot-add-deployment-config]
+
+This way Nodejitsu will know where to publish our app and how to launch it.
+
+Now you can commit and push this change
+
+![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
+
+{% endif %}
