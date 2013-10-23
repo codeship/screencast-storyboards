@@ -75,7 +75,7 @@ Just copy your Node version into the `nvm install` and `nvm use` statements.
 
 If you want to run Jasmine specs, you need to install `jasmine-node` globally additionally to your node modules. In this case just add `npm install -g jasmine-node` after `npm install`.
 
-You don't need `npm test` for your Jasmine specs, so you can comment it by adding a hash key before the command. Instead, add `jasmine-node spec` to the test commands to run your Jasmine specs.
+You don't need `npm test` for your Jasmine specs, so you can comment it out by adding a hash key before the command. Instead, add `jasmine-node spec` to the test commands to run your Jasmine specs.
 
 [![Comment the test command `npm test` and add `jasmine-node spec`][screenshot-test-commands]][screenshot-test-commands]
 

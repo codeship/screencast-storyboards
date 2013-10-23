@@ -75,7 +75,7 @@ So I just copy my Node version into the `nvm install` and `nvm use` statements.
 
 Additionally to my node modules, I need to install `jasmine-node` globally to be able to run my Jasmine specs. [add `npm install -g jasmine-node` after `npm install`]
 
-I don't need `npm test` for my Jasmine specs, so I comment it. Instead, I want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
+I don't need `npm test` for my Jasmine specs, so I comment it out. Instead, I want to run `jasmine-node spec`. [add `jasmine-node spec` after commented `npm test`]
 
 ![Node.js test commands][screenshot-test-commands]
 
