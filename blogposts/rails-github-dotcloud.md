@@ -10,10 +10,10 @@
 
 
 
-How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Heroku
+How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Dotcloud
 ======================
 
-In this blog post we're gonna deploy a Ruby on Rails application from a GitHub repository to Heroku using [the Codeship][codeship].
+In this blog post we're gonna deploy a Ruby on Rails application from a GitHub repository to Dotcloud using [the Codeship][codeship].
 
 
 
@@ -27,7 +27,7 @@ We've set up a simple Ruby on Rails application called [codefish][codefish-repo]
 
 
 
-Together, we're gonna deploy this application to Heroku using the Codeship.
+Together, we're gonna deploy this application to Dotcloud using the Codeship.
 
 [![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
@@ -131,7 +131,7 @@ You've already pushed to your repository, watched your build log and got a green
 
 
 
-Now let's deploy your application to Heroku. Go to your project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy your application to Dotcloud. Go to your project settings by clicking on the settings icon in the projects dropdown.
 
 [![Go to your project settings by clicking on the settings icon in the projects dropdown][screenshot-go-to-project-settings]][screenshot-go-to-project-settings]
 
@@ -141,47 +141,21 @@ Then navigate to the "Deployment" section.
 
 [![You are on the Deployment Setup screen now][screenshot-deployment-settings]][screenshot-deployment-settings]
 
-As we want to deploy to Heroku we click on the "Heroku" button.
+As we want to deploy to Dotcloud we click on the "Dotcloud" button.
 
-[![Click on the Heroku button][screenshot-new-deployment]][screenshot-new-deployment]
-
-
-
-
-
-Now you are asked to enter the name of your Heroku application and your API key. If you haven't already, now is the time to go to Heroku and create an application.
-
-[![You are on the Heroku page now][screenshot-heroku-apps]][screenshot-heroku-apps]
-
-I named my application "codefish-app", but please choose whatever name you like
-
-[![Create your app and name it codefish-app][screenshot-create-heroku-app]][screenshot-create-heroku-app]
-
-and create your app.
-
-[![You successfully created your Heroku App][screenshot-heroku-app-created]][screenshot-heroku-app-created]
-
-Back at your deployment configuration on the Codeship enter the application name.
-
-[![Back on the Codeship we enter the application name codefish-app][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
-
-To retrieve your Heroku API key, follow the link to your Heroku account and click "Show API key".
-
-[![Click on the link to get your Heroku API key][screenshot-show-api-key]][screenshot-show-api-key]
-
-Copy it and insert it into your deployment configuration at the Codeship.
+[![Click on the Dotcloud button][screenshot-new-deployment]][screenshot-new-deployment]
 
 
 
 
 
-[![Copy and paste the Heroku API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+[![Copy and paste the Dotcloud API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Heroku everytime you push to your GitHub repository.
+From now on the Codeship will deploy your application to Dotcloud everytime you push to your GitHub repository.
 
 
 
@@ -203,7 +177,7 @@ And immediately another build will start running on the Codeship. Let's go back 
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 
-After the commands we already know from your first build, your application also gets deployed to Heroku now.
+After the commands we already know from your first build, your application also gets deployed to Dotcloud now.
 
 [![After some initial commands were run your application gets deployed][screenshot-build-deployment]][screenshot-build-deployment]
 
@@ -211,7 +185,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your Heroku app now, your deployed application appears. You can find mine on [codefish-app.herokuapp.com][codefish-live].
+When you open the URL of your Dotcloud app now, your deployed application appears. You can find mine on [codefish-app.herokuapp.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -226,8 +200,6 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-rails
  
- 
- [codefish-live]: http://codefish-app.herokuapp.com
  
  [screenshot-codefish-repo]: ../screenshots/github/rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
@@ -251,25 +223,25 @@ If you need help with setting up your own application, please use the support li
  [screenshot-go-to-project-settings]: ../screenshots/github/rails/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/rails/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/rails/deployment-settings.png
- [screenshot-new-deployment]: ../screenshots/rails/heroku/new-deployment.png
- [screenshot-heroku-apps]: ../screenshots/heroku/heroku-apps.png
- [screenshot-create-heroku-app]: ../screenshots/heroku/create-heroku-app.png
- [screenshot-heroku-app-created]: ../screenshots/heroku/heroku-app-created.png
- [screenshot-heroku-deployment-name]: ../screenshots/rails/heroku/heroku-deployment-name.png
- [screenshot-show-api-key]: ../screenshots/heroku/show-api-key.png
- [screenshot-complete-deployment]: ../screenshots/rails/heroku/complete-deployment.png
- [screenshot-saved-deployment]: ../screenshots/rails/heroku/saved-deployment.png
+ [screenshot-new-deployment]: ../screenshots/rails/dotcloud/new-deployment.png
+ [screenshot-heroku-apps]: ../screenshots/dotcloud/heroku-apps.png
+ [screenshot-create-heroku-app]: ../screenshots/dotcloud/create-heroku-app.png
+ [screenshot-heroku-app-created]: ../screenshots/dotcloud/heroku-app-created.png
+ [screenshot-heroku-deployment-name]: ../screenshots/rails/dotcloud/heroku-deployment-name.png
+ [screenshot-show-api-key]: ../screenshots/dotcloud/show-api-key.png
+ [screenshot-complete-deployment]: ../screenshots/rails/dotcloud/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/rails/dotcloud/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/rails/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/rails/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/rails/heroku/deploy-build-started.png
- [screenshot-build-deployment]: ../screenshots/rails/heroku/build-deployment.png
- [screenshot-build-deployment-complete]: ../screenshots/rails/heroku/build-deployment-complete.png
- [screenshot-deployed-application]: ../screenshots/rails/heroku/deployed-application.png
+ [screenshot-deploy-build-started]: ../screenshots/rails/dotcloud/deploy-build-started.png
+ [screenshot-build-deployment]: ../screenshots/rails/dotcloud/build-deployment.png
+ [screenshot-build-deployment-complete]: ../screenshots/rails/dotcloud/build-deployment-complete.png
+ [screenshot-deployed-application]: ../screenshots/rails/dotcloud/deployed-application.png
  [screenshot-select-post-hook]: ../screenshots/github/rails/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/github/rails/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/github/rails/hook-added.png
- [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
- [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
- [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
+ [screenshot-deployment-username]: ../screenshots/rails/dotcloud/username.png
+ [screenshot-create-deployment-token]: ../screenshots/rails/dotcloud/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/dotcloud/add-config.png
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/rails/commit-and-push-deployment-config.png
 
