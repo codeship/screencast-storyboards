@@ -10,18 +10,18 @@
 
 
 
-How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Dotcloud
+How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to Dotcloud
 ======================
 
-In this blog post we're gonna deploy a Ruby on Rails application from a GitHub repository to Dotcloud using [the Codeship][codeship].
+In this blog post we're gonna deploy a Django application from a GitHub repository to Dotcloud using [the Codeship][codeship].
 
 
 
 
 
-We've set up a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Django application called [codefish][codefish-repo] which contains some tests. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-rails on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
+[![codefish-django on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
 
 
 
@@ -59,9 +59,9 @@ Now your repository is connected and you can set up your test commands:
 
 [![Set up your test commands][screenshot-codeship-technology]][screenshot-codeship-technology]
 
-Codefish is a Ruby on Rails application. Therefore let's choose "Ruby on Rails" as your framework. This prepopulates the setup commands and the test commands for you.
+Codefish is a Django application. Therefore let's choose "Django" as your framework. This prepopulates the setup commands and the test commands for you.
 
-[![Select Ruby on Rails as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
+[![Select Django as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
 
 
 
@@ -115,7 +115,7 @@ You see all the commands that were run. After a few initial preparation commands
 
 
 
-You can inspect the output of a single command by clicking on it. For the `codefish` application, we can see that two RSpec examples were run.
+You can inspect the output of a single command by clicking on it. For the `codefish` application, we can see that two tests were run.
 
 [![Look at the log of a single command by clicking on it][screenshot-build-log]][screenshot-build-log]
 
@@ -147,6 +147,14 @@ As we want to deploy to Dotcloud we click on the "Dotcloud" button.
 
 
 
+To retrieve our API key, let's follow the link to Dotcloud.
+
+![Dotcloud API key][screenshot-dotcloud-api-key]
+
+We copy the key and insert it into our deployment configuration at the Codeship.
+
+In the 
+
 
 
 [![Copy and paste the Dotcloud API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
@@ -159,6 +167,7 @@ From now on the Codeship will deploy your application to Dotcloud everytime you 
 
 
 
+Liquid error: No such template 'snippets/dotcloud/configure_app'
 
 
 Let's push a change and see if it gets deployed. Change something in your application first,
@@ -198,50 +207,50 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-repo]: https://github.com/codeship-tutorials/codefish-rails
+ [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
  
  
- [screenshot-codefish-repo]: ../screenshots/github/rails/repository.png
+ [screenshot-codefish-repo]: ../screenshots/github/django/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/rails/repo-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/django/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
- [screenshot-codeship-technology-selected]: ../screenshots/rails/codeship-technology.png
- [screenshot-technology-version]: ../screenshots/rails/technology-version.png
- [screenshot-test-commands]: ../screenshots/rails/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/rails/codeship-dashboard.png
- [screenshot-codeship-image]: ../screenshots/rails/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/rails/push.png
- [screenshot-first-build-running]: ../screenshots/rails/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/rails/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/rails/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/rails/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/rails/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/rails/go-to-project-settings.png
- [screenshot-project-settings]: ../screenshots/rails/project-settings.png
- [screenshot-deployment-settings]: ../screenshots/rails/deployment-settings.png
- [screenshot-new-deployment]: ../screenshots/rails/dotcloud/new-deployment.png
+ [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
+ [screenshot-technology-version]: ../screenshots/django/technology-version.png
+ [screenshot-test-commands]: ../screenshots/django/test-commands.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/django/codeship-dashboard.png
+ [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
+ [screenshot-codeship-push]: ../screenshots/github/django/push.png
+ [screenshot-first-build-running]: ../screenshots/django/first-build-running.png
+ [screenshot-first-build-running-details]: ../screenshots/github/django/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/github/django/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/github/django/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/github/django/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/github/django/go-to-project-settings.png
+ [screenshot-project-settings]: ../screenshots/django/project-settings.png
+ [screenshot-deployment-settings]: ../screenshots/django/deployment-settings.png
+ [screenshot-new-deployment]: ../screenshots/django/dotcloud/new-deployment.png
  [screenshot-heroku-apps]: ../screenshots/dotcloud/heroku-apps.png
  [screenshot-create-heroku-app]: ../screenshots/dotcloud/create-heroku-app.png
  [screenshot-heroku-app-created]: ../screenshots/dotcloud/heroku-app-created.png
- [screenshot-heroku-deployment-name]: ../screenshots/rails/dotcloud/heroku-deployment-name.png
+ [screenshot-heroku-deployment-name]: ../screenshots/django/dotcloud/heroku-deployment-name.png
  [screenshot-show-api-key]: ../screenshots/dotcloud/show-api-key.png
- [screenshot-complete-deployment]: ../screenshots/rails/dotcloud/complete-deployment.png
- [screenshot-saved-deployment]: ../screenshots/rails/dotcloud/saved-deployment.png
- [screenshot-added-paragraph]: ../screenshots/rails/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: ../screenshots/github/rails/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/rails/dotcloud/deploy-build-started.png
- [screenshot-build-deployment]: ../screenshots/rails/dotcloud/build-deployment.png
- [screenshot-build-deployment-complete]: ../screenshots/rails/dotcloud/build-deployment-complete.png
- [screenshot-deployed-application]: ../screenshots/rails/dotcloud/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/github/rails/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/github/rails/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/github/rails/hook-added.png
- [screenshot-deployment-username]: ../screenshots/rails/dotcloud/username.png
- [screenshot-create-deployment-token]: ../screenshots/rails/dotcloud/create-token.png
+ [screenshot-complete-deployment]: ../screenshots/django/dotcloud/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/django/dotcloud/saved-deployment.png
+ [screenshot-added-paragraph]: ../screenshots/django/added-paragraph.png
+ [screenshot-commit-and-push-paragraph]: ../screenshots/github/django/commit-and-push-paragraph.png
+ [screenshot-deploy-build-started]: ../screenshots/django/dotcloud/deploy-build-started.png
+ [screenshot-build-deployment]: ../screenshots/django/dotcloud/build-deployment.png
+ [screenshot-build-deployment-complete]: ../screenshots/django/dotcloud/build-deployment-complete.png
+ [screenshot-deployed-application]: ../screenshots/django/dotcloud/deployed-application.png
+ [screenshot-select-post-hook]: ../screenshots/github/django/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/github/django/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/github/django/hook-added.png
+ [screenshot-deployment-username]: ../screenshots/django/dotcloud/username.png
+ [screenshot-create-deployment-token]: ../screenshots/django/dotcloud/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/dotcloud/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/rails/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/django/commit-and-push-deployment-config.png
 

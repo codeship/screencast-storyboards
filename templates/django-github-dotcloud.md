@@ -1,11 +1,11 @@
-{% assign technology = "Ruby on Rails" %}
-{% assign technology_slug = "rails" %}
-{% assign tests = "RSpec examples" %}
+{% assign technology = "Django" %}
+{% assign technology_slug = "django" %}
+{% assign tests = "tests" %}
 {% assign repository = "GitHub" %}
 {% assign repository_slug = "github" %}
 {% assign deployment = "Dotcloud" %}
 {% assign deployment_slug = "dotcloud" %}
-{% assign repo_name = "codefish-rails" %}
+{% assign repo_name = "codefish-django" %}
 {% assign app_url = "codefish-app.herokuapp.com" %}
 
 {% include 'snippets/header' %}
@@ -18,7 +18,9 @@
 {% include 'snippets/inspect_build' %}
 {% include 'snippets/finish_road_to_success' %}
 {% include 'snippets/configure_deployment' %}
+{% include 'snippets/dotcloud/setup_app' %}
 {% include 'snippets/save_deployment' %}
+{% include 'snippets/dotcloud/configure_app' %}
 {% include 'snippets/push_paragraph' %}
 {% include 'snippets/deployment_and_end' %}
 {% include 'snippets/urls' %}
