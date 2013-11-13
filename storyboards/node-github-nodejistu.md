@@ -277,5 +277,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: ../screenshots/nodejitsu/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
 
 

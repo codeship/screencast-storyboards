@@ -157,9 +157,11 @@ To retrieve our API key, let's follow the link to Dotcloud.
 
 ![Dotcloud API key][screenshot-dotcloud-api-key]
 
-We copy the key and insert it into our deployment configuration at the Codeship.
+We copy the key [copy and close tab] and insert it into our deployment configuration at the Codeship.
 
-In the 
+![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
+
+We want to name our application "codefish". The application will be automatically created the first time we deploy to Dotcloud.
 
 
 
@@ -259,4 +261,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-create-deployment-token]: ../screenshots/django/dotcloud/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/dotcloud/add-config.png
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/django/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: ../screenshots/dotcloud/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/dotcloud/deployment-api-key.png
 
