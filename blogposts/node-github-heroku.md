@@ -276,4 +276,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/heroku/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/node/heroku/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/node/heroku/wsgi-py.png
 

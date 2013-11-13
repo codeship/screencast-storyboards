@@ -266,5 +266,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/nodejitsu/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/node/nodejitsu/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/node/nodejitsu/wsgi-py.png
 
 

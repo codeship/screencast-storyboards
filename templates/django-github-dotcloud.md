@@ -22,6 +22,5 @@
 {% include 'snippets/dotcloud/setup_app' %}
 {% include 'snippets/save_deployment' %}
 {% include 'snippets/dotcloud/configure_app' %}
-{% include 'snippets/push_paragraph' %}
 {% include 'snippets/deployment_and_end' %}
 {% include 'snippets/urls' %}

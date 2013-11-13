@@ -175,18 +175,17 @@ From now on the Codeship will deploy our application to Dotcloud everytime we pu
 
 
 
-Liquid error: No such template 'snippets/dotcloud/configure_app'
+Let's get our application ready for Dotcloud. Let's create a file `dotcloud.yml` in the root directory of our application. In this configuration file we tell Dotcloud that our web application is of type "python".
 
+![dotcloud.yml][screenshot-dotcloud-yml]
 
-Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Django app with the Codeship." to the landing page.
+Dotcloud also needs a `wsgi.py` file in the root directory of our application. I just copied the content from [the Dotcloud Django documentation page][http://docs.dotcloud.com/tutorials/python/django/#wsgi-py] and changed the app name to "codefish".
 
-![Added Paragraph][screenshot-added-paragraph]
+![Dotcloud wsgi.py][screenshot-dotcloud-wsgi-py]
 
-I commit and push the change
+I commit and push this change
 
-![Commit and push paragraph][screenshot-commit-and-push-paragraph]
-
-
+![Commit and push Dotcloud config][screenshot-commit-and-push-deployment-config]
 
 
 
@@ -263,4 +262,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/django/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/dotcloud/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/dotcloud/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/django/dotcloud/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/django/dotcloud/wsgi-py.png
 
