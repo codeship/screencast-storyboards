@@ -305,4 +305,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/rails/heroku/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/rails/heroku/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/rails/heroku/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/rails/heroku/documentation-page.png
 

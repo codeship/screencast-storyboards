@@ -179,7 +179,11 @@ Let's get our application ready for Dotcloud. Let's create a file `dotcloud.yml`
 
 ![dotcloud.yml][screenshot-dotcloud-yml]
 
-Dotcloud also needs a `wsgi.py` file in the root directory of our application. I just copied the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py) and changed the app name to "codefish".
+Dotcloud also needs a `wsgi.py` file in the root directory of our application. I just copy the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py)
+
+![Dotcloud Django documentation page][screenshot-deployment-documentation-page]
+
+and change the app name to "codefish".
 
 ![Dotcloud wsgi.py][screenshot-dotcloud-wsgi-py]
 
@@ -266,4 +270,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/dotcloud/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/django/dotcloud/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/django/dotcloud/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/django/dotcloud/documentation-page.png
 

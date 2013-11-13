@@ -278,4 +278,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/heroku/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/heroku/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/node/heroku/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/node/heroku/documentation-page.png
 

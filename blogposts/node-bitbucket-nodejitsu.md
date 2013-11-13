@@ -284,5 +284,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/nodejitsu/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/node/nodejitsu/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/node/nodejitsu/documentation-page.png
 
 
