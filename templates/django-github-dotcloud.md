@@ -1,4 +1,5 @@
 {% assign technology = "Django" %}
+{% assign test_technology_selection = "Python" %}
 {% assign technology_slug = "django" %}
 {% assign tests = "tests" %}
 {% assign repository = "GitHub" %}
@@ -12,7 +13,7 @@
 {% include 'snippets/intro' %}
 {% include 'snippets/sign_up' %}
 {% include 'snippets/project_setup' %}
-{% include 'snippets/rails/technology_setup' %}
+{% include 'snippets/django/technology_setup' %}
 {% include 'snippets/go_to_dashboard' %}
 {% include 'snippets/run_build' %}
 {% include 'snippets/inspect_build' %}

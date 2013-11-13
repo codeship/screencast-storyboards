@@ -10,6 +10,7 @@
 
 
 
+
 How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to Dotcloud
 ======================
 
@@ -65,19 +66,13 @@ Codefish is a Django application. Therefore let's choose "Django" as your framew
 
 
 
+We can leave the setup commands as they are. We want to install our dependencies from the `requirements.txt`. Our application doesn't need a database, so we can leave the database setup commands commented out.
 
+[scroll to test commands]
 
-The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. To find out the Ruby version of your project, type `ruby -v` in the Terminal.
+We don't have to change the test commands either as our tests can be run with `python manage.py test`.
 
-[![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
-
-Just copy your Ruby version into the `rvm use` statement and add a hyphen before the patch version.
-
-By deleting the hash key you can uncomment the test command `bundle exec rspec` to run your RSpec examples on every build.
-
-[![Uncomment the test command `bundle exec rspec`][screenshot-test-commands]][screenshot-test-commands]
-
-
+![Django test commands][screenshot-test-commands]
 
 
 

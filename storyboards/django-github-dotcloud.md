@@ -10,6 +10,7 @@
 
 
 
+
 Deploying Django from GitHub to Dotcloud
 ======================
 
@@ -59,25 +60,19 @@ Now our repository is connected and we can set up our test commands:
 
 ![Codeship welcome screen][screenshot-codeship-technology]
 
-We select "Django" as our framework. This prepopulates the setup commands and the test commands for us.
+We select "Python" as our technology. This prepopulates the setup commands and the test commands for us.
 
 ![Codeship Technology Django][screenshot-codeship-technology-selected]
 
 
 
+We can leave the setup commands as they are. We want to install our dependencies from the `requirements.txt`. Our application doesn't need a database, so we can leave the database setup commands commented out.
 
+[scroll to test commands]
 
-The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `ruby -v` in the terminal, I find out that I use Ruby `2.0.0p195`.
+We don't have to change the test commands either as our tests can be run with `python manage.py test`.
 
-![Ruby Version][screenshot-technology-version]
-
-So I just copy my Ruby version into the `rvm use` statement and add a hyphen before the patch version.
-
-Let's uncomment the test command `bundle exec rspec` to run our RSpec examples on every build.
-
-![Rails test commands][screenshot-test-commands]
-
-
+![Django test commands][screenshot-test-commands]
 
 
 
