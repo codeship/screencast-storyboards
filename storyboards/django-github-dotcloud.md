@@ -115,7 +115,7 @@ We see all the commands that were run. After a few initial preparation commands 
 
 We can inspect the output of a single command by clicking on it.
 [click on test command]
-So we can see that two tests were run
+So we can see that two tests were run.
 
 ![Codeship build log][screenshot-build-log]
 
