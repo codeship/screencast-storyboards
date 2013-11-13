@@ -7,7 +7,7 @@
 {% assign deployment = "Dotcloud" %}
 {% assign deployment_slug = "dotcloud" %}
 {% assign repo_name = "codefish-django" %}
-{% assign app_url = "codefish-app.herokuapp.com" %}
+{% assign app_url = "codefish-clemens.dotcloud.com" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}

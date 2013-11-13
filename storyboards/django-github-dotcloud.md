@@ -179,7 +179,7 @@ Let's get our application ready for Dotcloud. Let's create a file `dotcloud.yml`
 
 ![dotcloud.yml][screenshot-dotcloud-yml]
 
-Dotcloud also needs a `wsgi.py` file in the root directory of our application. I just copied the content from [the Dotcloud Django documentation page][http://docs.dotcloud.com/tutorials/python/django/#wsgi-py] and changed the app name to "codefish".
+Dotcloud also needs a `wsgi.py` file in the root directory of our application. I just copied the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py) and changed the app name to "codefish".
 
 ![Dotcloud wsgi.py][screenshot-dotcloud-wsgi-py]
 
@@ -201,7 +201,7 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
-When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
+When we open [codefish-clemens.dotcloud.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -216,6 +216,8 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
  
+ 
+ [codefish-live]: http://codefish-clemens.dotcloud.com
  
  [screenshot-codefish-repo]: ../screenshots/github/django/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
