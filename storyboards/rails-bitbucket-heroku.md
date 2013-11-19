@@ -10,6 +10,7 @@
 
 
 
+
 Deploying Ruby on Rails from Bitbucket to Heroku
 ======================
 
@@ -59,7 +60,7 @@ Now our repository is connected and we can set up our test commands:
 
 ![Codeship welcome screen][screenshot-codeship-technology]
 
-We select "" as our technology. This prepopulates the setup commands and the test commands for us.
+We select "Ruby on Rails" as our technology. This prepopulates the setup commands and the test commands for us.
 
 ![Codeship Technology Ruby on Rails][screenshot-codeship-technology-selected]
 

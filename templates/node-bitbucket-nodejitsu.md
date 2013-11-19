@@ -1,4 +1,5 @@
 {% assign technology = "Node.js" %}
+{% assign test_technology_selection = "Node.js" %}
 {% assign technology_slug = "node" %}
 {% assign tests = "Jasmine specs" %}
 {% assign repository = "Bitbucket" %}

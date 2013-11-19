@@ -60,7 +60,7 @@ Now your repository is connected and you can set up your test commands:
 
 [![Set up your test commands][screenshot-codeship-technology]][screenshot-codeship-technology]
 
-Codefish is a Django application. Therefore let's choose "Django" as your framework. This prepopulates the setup commands and the test commands for you.
+Codefish is a Django application. Therefore let's choose "Python" as your technology. This prepopulates the setup commands and the test commands for you.
 
 [![Select Django as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
 
