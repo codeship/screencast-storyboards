@@ -11,10 +11,10 @@
 
 
 
-How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to Dotcloud
+How to set up Continuous Integration and Continuous Deployment for a Django Application from Bitbucket to Dotcloud
 ======================
 
-In this blog post we're gonna deploy a Django application from a GitHub repository to Dotcloud using [the Codeship][codeship].
+In this blog post we're gonna deploy a Django application from a Bitbucket repository to Dotcloud using [the Codeship][codeship].
 
 
 
@@ -22,7 +22,7 @@ In this blog post we're gonna deploy a Django application from a GitHub reposito
 
 We've set up a simple Django application called [codefish][codefish-repo] which contains some tests. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-django on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
+[![codefish-django on Bitbucket][screenshot-codefish-repo]][screenshot-codefish-repo]
 
 
 
@@ -32,9 +32,9 @@ Together, we're gonna deploy this application to Dotcloud using the Codeship.
 
 [![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
-First, sign in to the Codeship with GitHub. The Codeship needs access to your GitHub repositories to be able to set them up. Let's allow access.
+First, sign in to the Codeship with Bitbucket. The Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
 
-[![GitHub Access][screenshot-oauth]][screenshot-oauth]
+[![Bitbucket Access][screenshot-oauth]][screenshot-oauth]
 
 We're back at the Codeship. Now let's create your first project.
 
@@ -44,11 +44,11 @@ We're back at the Codeship. Now let's create your first project.
 
 
 
-The first step of your project setup is to select GitHub as your repository provider.
+The first step of your project setup is to select Bitbucket as your repository provider.
 
 [![Select your repository provider][screenshot-repo-provider-selection]][screenshot-repo-provider-selection]
 
-In the list of your GitHub repositories
+In the list of your Bitbucket repositories
 
 [![Search for your repository in the list][screenshot-repo-selection]][screenshot-repo-selection]
 
@@ -160,7 +160,7 @@ Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Dotcloud everytime you push to your GitHub repository.
+From now on the Codeship will deploy your application to Dotcloud everytime you push to your Bitbucket repository.
 
 
 
@@ -207,31 +207,31 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
+ [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-django
  
  
  [codefish-live]: http://codefish-clemens.dotcloud.com
  
- [screenshot-codefish-repo]: ../screenshots/github/django/repository.png
+ [screenshot-codefish-repo]: ../screenshots/bitbucket/django/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
- [screenshot-oauth]: ../screenshots/github/oauth.png
+ [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
- [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
+ [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
  [screenshot-repo-selection-filtered]: ../screenshots/django/repo-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/django/technology-version.png
  [screenshot-test-commands]: ../screenshots/django/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/django/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/bitbucket/django/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/django/push.png
+ [screenshot-codeship-push]: ../screenshots/bitbucket/django/push.png
  [screenshot-first-build-running]: ../screenshots/django/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/django/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/django/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/django/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/django/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/django/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/bitbucket/django/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/bitbucket/django/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/bitbucket/django/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/django/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/bitbucket/django/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/django/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/django/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/django/dotcloud/new-deployment.png
@@ -243,18 +243,18 @@ If you need help with setting up your own application, please use the support li
  [screenshot-complete-deployment]: ../screenshots/django/dotcloud/complete-deployment.png
  [screenshot-saved-deployment]: ../screenshots/django/dotcloud/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/django/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: ../screenshots/github/django/commit-and-push-paragraph.png
+ [screenshot-commit-and-push-paragraph]: ../screenshots/bitbucket/django/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../screenshots/django/dotcloud/deploy-build-started.png
  [screenshot-build-deployment]: ../screenshots/django/dotcloud/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/django/dotcloud/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/django/dotcloud/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/github/django/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/github/django/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/github/django/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/bitbucket/django/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/bitbucket/django/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/bitbucket/django/hook-added.png
  [screenshot-deployment-username]: ../screenshots/django/dotcloud/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/dotcloud/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/dotcloud/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/django/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/django/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/dotcloud/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/dotcloud/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/django/dotcloud/dotcloud-yml.png
