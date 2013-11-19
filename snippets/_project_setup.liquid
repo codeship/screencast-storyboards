@@ -16,7 +16,7 @@ Now our repository is connected and we can set up our test commands:
 
 ![Codeship welcome screen][screenshot-codeship-technology]
 
-We select "{{ technology }}" as our framework. This prepopulates the setup commands and the test commands for us.
+We select "{{ test_technology_selection || technology }}" as our technology. This prepopulates the setup commands and the test commands for us.
 
 ![Codeship Technology {{ technology }}][screenshot-codeship-technology-selected]
 
@@ -38,7 +38,7 @@ Now your repository is connected and you can set up your test commands:
 
 [![Set up your test commands][screenshot-codeship-technology]][screenshot-codeship-technology]
 
-Codefish is a {{ technology }} application. So I choose "{{ technology }}" as my framework. This prepopulates the setup commands and the test commands for you.
+Codefish is a {{ technology }} application. Therefore let's choose "{{ technology }}" as your framework. This prepopulates the setup commands and the test commands for you.
 
 [![Select {{ technology }} as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
 

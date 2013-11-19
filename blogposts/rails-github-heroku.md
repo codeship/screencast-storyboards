@@ -19,7 +19,7 @@ In this blog post we're gonna deploy a Ruby on Rails application from a GitHub r
 
 
 
-We've set up a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
 [![codefish-rails on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
 
@@ -59,7 +59,7 @@ Now your repository is connected and you can set up your test commands:
 
 [![Set up your test commands][screenshot-codeship-technology]][screenshot-codeship-technology]
 
-Codefish is a Ruby on Rails application. So I choose "Ruby on Rails" as my framework. This prepopulates the setup commands and the test commands for you.
+Codefish is a Ruby on Rails application. Therefore let's choose "Ruby on Rails" as your framework. This prepopulates the setup commands and the test commands for you.
 
 [![Select Ruby on Rails as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
 
@@ -67,7 +67,7 @@ Codefish is a Ruby on Rails application. So I choose "Ruby on Rails" as my frame
 
 
 
-The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. If you're unsure about the Ruby version of your project, type `ruby -v` in the Terminal.
+The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. To find out the Ruby version of your project, type `ruby -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
@@ -272,4 +272,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/rails/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: ../screenshots/rails/heroku/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/rails/heroku/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/rails/heroku/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/rails/heroku/documentation-page.png
 

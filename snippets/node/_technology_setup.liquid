@@ -14,13 +14,13 @@ I don't need `npm test` for my {{ tests }}, so I comment it out. Instead, I want
 
 {% elsif format == "blogpost" %}
 
-The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. If you're unsure about the Node version of your project, type `node -v` in the Terminal.
+The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
 Just copy your Node version into the `nvm install` and `nvm use` statements.
 
-If you want to run {{ tests }}, you need to install `jasmine-node` globally additionally to your node modules. In this case just add `npm install -g jasmine-node` after `npm install`.
+If you want to run {{ tests }}, please install `jasmine-node` globally additionally to your node modules. In this case just add `npm install -g jasmine-node` after `npm install`.
 
 You don't need `npm test` for your {{ tests }}, so you can comment it out by adding a hash key before the command. Instead, add `jasmine-node spec` to the test commands to run your {{ tests }}.
 

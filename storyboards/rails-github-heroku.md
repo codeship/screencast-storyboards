@@ -59,7 +59,7 @@ Now our repository is connected and we can set up our test commands:
 
 ![Codeship welcome screen][screenshot-codeship-technology]
 
-We select "Ruby on Rails" as our framework. This prepopulates the setup commands and the test commands for us.
+We select "" as our technology. This prepopulates the setup commands and the test commands for us.
 
 ![Codeship Technology Ruby on Rails][screenshot-codeship-technology-selected]
 
@@ -120,7 +120,7 @@ We see all the commands that were run. After a few initial preparation commands 
 
 We can inspect the output of a single command by clicking on it.
 [click on test command]
-So we can see that two RSpec examples were run
+So we can see that two RSpec examples were run.
 
 ![Codeship build log][screenshot-build-log]
 
@@ -283,4 +283,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/rails/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: ../screenshots/rails/heroku/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/rails/heroku/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/rails/heroku/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/rails/heroku/documentation-page.png
 

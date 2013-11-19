@@ -19,7 +19,7 @@ In this blog post we're gonna deploy a Node.js application from a GitHub reposit
 
 
 
-We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you don't have an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
 [![codefish-node on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
 
@@ -59,7 +59,7 @@ Now your repository is connected and you can set up your test commands:
 
 [![Set up your test commands][screenshot-codeship-technology]][screenshot-codeship-technology]
 
-Codefish is a Node.js application. So I choose "Node.js" as my framework. This prepopulates the setup commands and the test commands for you.
+Codefish is a Node.js application. Therefore let's choose "Node.js" as your framework. This prepopulates the setup commands and the test commands for you.
 
 [![Select Node.js as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
 
@@ -67,13 +67,13 @@ Codefish is a Node.js application. So I choose "Node.js" as my framework. This p
 
 
 
-The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. If you're unsure about the Node version of your project, type `node -v` in the Terminal.
+The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
 Just copy your Node version into the `nvm install` and `nvm use` statements.
 
-If you want to run Jasmine specs, you need to install `jasmine-node` globally additionally to your node modules. In this case just add `npm install -g jasmine-node` after `npm install`.
+If you want to run Jasmine specs, please install `jasmine-node` globally additionally to your node modules. In this case just add `npm install -g jasmine-node` after `npm install`.
 
 You don't need `npm test` for your Jasmine specs, so you can comment it out by adding a hash key before the command. Instead, add `jasmine-node spec` to the test commands to run your Jasmine specs.
 
@@ -181,7 +181,7 @@ In my case, I added `"subdomain": "codefish"` and a `"start"` script `"node star
 
 ![Add Nodejitsu config][screenshot-add-deployment-config]
 
-This way Nodejitsu will know where to publish our app and how to launch it.
+This way Nodejitsu will know where to publish your app and how to launch it.
 
 Now you can commit and push this change
 
@@ -264,5 +264,10 @@ If you need help with setting up your own application, please use the support li
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
  [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: ../screenshots/nodejitsu/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/node/nodejitsu/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/node/nodejitsu/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/node/nodejitsu/documentation-page.png
 
 
