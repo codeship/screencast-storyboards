@@ -1,3 +1,5 @@
+{% if format == "storyboard" %}
+
 Let's get our application ready for Dotcloud. We create a file `dotcloud.yml` in the root directory of our application. In this configuration file we tell Dotcloud that our web application is of type "python".
 
 ![dotcloud.yml][screenshot-dotcloud-yml]
@@ -13,3 +15,24 @@ and change the app name to "codefish".
 I commit and push this change
 
 ![Commit and push Dotcloud config][screenshot-commit-and-push-deployment-config]
+
+{% elsif format == "blogpost" %}
+
+Let's get your application ready for Dotcloud. Dotcloud expects a file `dotcloud.yml` in the root directory of your application. In this configuration file you need to tell Dotcloud that your web application is of type "python".
+
+    www:
+      type: python
+
+Dotcloud also needs a `wsgi.py` file in the root directory of your application. Just copy the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py)
+
+![Dotcloud Django documentation page][screenshot-deployment-documentation-page]
+
+and replace the app name `hellodjango` with your own Django application's name.
+
+![Dotcloud wsgi.py][screenshot-dotcloud-wsgi-py]
+
+Now you can commit and push this change
+
+![Commit and push Dotcloud config][screenshot-commit-and-push-deployment-config]
+
+{% endif %}

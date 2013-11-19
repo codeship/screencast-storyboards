@@ -144,15 +144,19 @@ As we want to deploy to Dotcloud we click on the "Dotcloud" button.
 
 
 
-To retrieve our API key, let's follow the link to Dotcloud.
+
+
+To retrieve your API key, just follow the link to Dotcloud.
 
 ![Dotcloud API key][screenshot-dotcloud-api-key]
 
-We copy the key [copy and close tab] and insert it into our deployment configuration at the Codeship.
+Copy the key and insert it into your deployment configuration at the Codeship.
 
 ![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
 
-We want to name our application "codefish". The application will be automatically created the first time we deploy to Dotcloud.
+You can name your application whatever you like. The application will be automatically created the first time you deploy to Dotcloud.
+
+
 
 
 
@@ -166,21 +170,26 @@ From now on the Codeship will deploy your application to Dotcloud everytime you 
 
 
 
-Let's get our application ready for Dotcloud. We create a file `dotcloud.yml` in the root directory of our application. In this configuration file we tell Dotcloud that our web application is of type "python".
 
-![dotcloud.yml][screenshot-dotcloud-yml]
 
-Dotcloud also needs a `wsgi.py` file in the root directory of our application. I just copy the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py)
+Let's get your application ready for Dotcloud. Dotcloud expects a file `dotcloud.yml` in the root directory of your application. In this configuration file you need to tell Dotcloud that your web application is of type "python".
+
+    www:
+      type: python
+
+Dotcloud also needs a `wsgi.py` file in the root directory of your application. Just copy the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py)
 
 ![Dotcloud Django documentation page][screenshot-deployment-documentation-page]
 
-and change the app name to "codefish".
+and replace the app name `hellodjango` with your own Django application's name.
 
 ![Dotcloud wsgi.py][screenshot-dotcloud-wsgi-py]
 
-I commit and push this change
+Now you can commit and push this change
 
 ![Commit and push Dotcloud config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 

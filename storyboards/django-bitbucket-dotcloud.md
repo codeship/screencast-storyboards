@@ -175,6 +175,8 @@ We want to deploy to "Dotcloud".
 
 
 
+
+
 To retrieve our API key, let's follow the link to Dotcloud.
 
 ![Dotcloud API key][screenshot-dotcloud-api-key]
@@ -187,6 +189,8 @@ We want to name our application "codefish". The application will be automaticall
 
 
 
+
+
 ![Complete Dotcloud deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
@@ -194,6 +198,8 @@ Now let's save our deployment configuration.
 ![Saved Dotcloud deployment][screenshot-saved-deployment]
 
 From now on the Codeship will deploy our application to Dotcloud everytime we push to our Bitbucket repository.
+
+
 
 
 
@@ -212,6 +218,8 @@ and change the app name to "codefish".
 I commit and push this change
 
 ![Commit and push Dotcloud config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
