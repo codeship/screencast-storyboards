@@ -251,6 +251,8 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-django
  
  
+ [codefish-live]: http://codefish-clemens.dotcloud.com
+ 
  [screenshot-codefish-repo]: ../screenshots/bitbucket/django/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
