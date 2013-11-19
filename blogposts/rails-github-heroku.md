@@ -10,6 +10,7 @@
 
 
 
+
 How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from GitHub to Heroku
 ======================
 
@@ -59,7 +60,7 @@ Now your repository is connected and you can set up your test commands:
 
 [![Set up your test commands][screenshot-codeship-technology]][screenshot-codeship-technology]
 
-Codefish is a Ruby on Rails application. Therefore let's choose "Ruby on Rails" as your framework. This prepopulates the setup commands and the test commands for you.
+Codefish is a Ruby on Rails application. Therefore let's choose "Ruby on Rails" as your technology. This prepopulates the setup commands and the test commands for you.
 
 [![Select Ruby on Rails as your technology][screenshot-codeship-technology-selected]][screenshot-codeship-technology-selected]
 

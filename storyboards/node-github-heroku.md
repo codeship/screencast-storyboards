@@ -10,6 +10,7 @@
 
 
 
+
 Deploying Node.js from GitHub to Heroku
 ======================
 
@@ -59,7 +60,7 @@ Now our repository is connected and we can set up our test commands:
 
 ![Codeship welcome screen][screenshot-codeship-technology]
 
-We select "" as our technology. This prepopulates the setup commands and the test commands for us.
+We select "Node.js" as our technology. This prepopulates the setup commands and the test commands for us.
 
 ![Codeship Technology Node.js][screenshot-codeship-technology-selected]
 

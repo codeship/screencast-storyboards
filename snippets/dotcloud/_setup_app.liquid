@@ -1,3 +1,5 @@
+{% if format == "storyboard" %}
+
 To retrieve our API key, let's follow the link to Dotcloud.
 
 ![Dotcloud API key][screenshot-dotcloud-api-key]
@@ -7,3 +9,17 @@ We copy the key [copy and close tab] and insert it into our deployment configura
 ![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
 
 We want to name our application "codefish". The application will be automatically created the first time we deploy to Dotcloud.
+
+{% elsif format == "blogpost" %}
+
+To retrieve your API key, just follow the link to Dotcloud.
+
+![Dotcloud API key][screenshot-dotcloud-api-key]
+
+Copy the key and insert it into your deployment configuration at the Codeship.
+
+![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
+
+You can name your application whatever you like. The application will be automatically created the first time you deploy to Dotcloud.
+
+{% endif %}

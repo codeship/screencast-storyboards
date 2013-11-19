@@ -1,4 +1,5 @@
 {% assign technology = "Ruby on Rails" %}
+{% assign test_technology_selection = "Ruby on Rails" %}
 {% assign technology_slug = "rails" %}
 {% assign tests = "RSpec examples" %}
 {% assign repository = "GitHub" %}
