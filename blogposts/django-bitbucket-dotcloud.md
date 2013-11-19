@@ -66,13 +66,15 @@ Codefish is a Django application. Therefore let's choose "Django" as your framew
 
 
 
-We can leave the setup commands as they are. We want to install our dependencies from the `requirements.txt`. Our application doesn't need a database, so we can leave the database setup commands commented out.
 
-[scroll to test commands]
 
-We don't have to change the test commands either as our tests can be run with `python manage.py test`.
+For my application I don't use a database, so I leave the setup commands as they are. If you want to run the `syncdb` or the `migrate` command for your application, just uncomment the commands by removing the `#` in front of them.
+
+If you want to run your tests with `python manage.py test`, you don't need to change the test commands. Otherwise just enter your own test commands.
 
 ![Django test commands][screenshot-test-commands]
+
+
 
 
 

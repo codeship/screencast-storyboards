@@ -66,6 +66,8 @@ We select "Python" as our technology. This prepopulates the setup commands and t
 
 
 
+
+
 We can leave the setup commands as they are. We want to install our dependencies from the `requirements.txt`. Our application doesn't need a database, so we can leave the database setup commands commented out.
 
 [scroll to test commands]
@@ -73,6 +75,8 @@ We can leave the setup commands as they are. We want to install our dependencies
 We don't have to change the test commands either as our tests can be run with `python manage.py test`.
 
 ![Django test commands][screenshot-test-commands]
+
+
 
 
 
