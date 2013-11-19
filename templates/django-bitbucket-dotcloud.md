@@ -4,7 +4,7 @@
 {% assign tests = "tests" %}
 {% assign repository = "Bitbucket" %}
 {% assign repository_slug = "bitbucket" %}
-{% assign deployment = "Dotcloud" %}
+{% assign deployment = "dotCloud" %}
 {% assign deployment_slug = "dotcloud" %}
 {% assign repo_name = "codefish-django" %}
 {% assign app_url = "codefish-clemens.dotcloud.com" %}

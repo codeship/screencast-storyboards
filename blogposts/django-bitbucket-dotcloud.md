@@ -11,10 +11,10 @@
 
 
 
-How to set up Continuous Integration and Continuous Deployment for a Django Application from Bitbucket to Dotcloud
+How to set up Continuous Integration and Continuous Deployment for a Django Application from Bitbucket to dotCloud
 ======================
 
-In this blog post we're gonna deploy a Django application from a Bitbucket repository to Dotcloud using [the Codeship][codeship].
+In this blog post we're gonna deploy a Django application from a Bitbucket repository to dotCloud using [the Codeship][codeship].
 
 
 
@@ -28,7 +28,7 @@ We've set up a simple Django application called [codefish][codefish-repo] which 
 
 
 
-Together, we're gonna deploy this application to Dotcloud using the Codeship.
+Together, we're gonna deploy this application to dotCloud using the Codeship.
 
 [![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
@@ -144,7 +144,7 @@ You've already pushed to your repository, watched your build log and got a green
 
 
 
-Now let's deploy your application to Dotcloud. Go to your project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy your application to dotCloud. Go to your project settings by clicking on the settings icon in the projects dropdown.
 
 [![Go to your project settings by clicking on the settings icon in the projects dropdown][screenshot-go-to-project-settings]][screenshot-go-to-project-settings]
 
@@ -154,9 +154,9 @@ Then navigate to the "Deployment" section.
 
 [![You are on the Deployment Setup screen now][screenshot-deployment-settings]][screenshot-deployment-settings]
 
-As we want to deploy to Dotcloud we click on the "Dotcloud" button.
+As we want to deploy to dotCloud we click on the "dotCloud" button.
 
-[![Click on the Dotcloud button][screenshot-new-deployment]][screenshot-new-deployment]
+[![Click on the dotCloud button][screenshot-new-deployment]][screenshot-new-deployment]
 
 
 
@@ -176,13 +176,13 @@ You can name your application whatever you like. The application will be automat
 
 
 
-[![Copy and paste the Dotcloud API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+[![Copy and paste the dotCloud API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Dotcloud everytime you push to your Bitbucket repository.
+From now on the Codeship will deploy your application to dotCloud everytime you push to your Bitbucket repository.
 
 
 
@@ -213,7 +213,7 @@ And immediately another build will start running on the Codeship. Let's go back 
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 
-After the commands we already know from your first build, your application also gets deployed to Dotcloud now.
+After the commands we already know from your first build, your application also gets deployed to dotCloud now.
 
 [![After some initial commands were run your application gets deployed][screenshot-build-deployment]][screenshot-build-deployment]
 
@@ -221,7 +221,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your Dotcloud app now, your deployed application appears. You can find mine on [codefish-clemens.dotcloud.com][codefish-live].
+When you open the URL of your dotCloud app now, your deployed application appears. You can find mine on [codefish-clemens.dotcloud.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -236,8 +236,6 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-django
  
- 
- [codefish-live]: http://codefish-clemens.dotcloud.com
  
  [screenshot-codefish-repo]: ../screenshots/bitbucket/django/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png

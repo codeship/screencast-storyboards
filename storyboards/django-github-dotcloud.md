@@ -11,10 +11,10 @@
 
 
 
-Deploying Django from GitHub to Dotcloud
+Deploying Django from GitHub to dotCloud
 ======================
 
-In this screencast we're gonna deploy a Django application from a GitHub repository to Dotcloud using the Codeship.
+In this screencast we're gonna deploy a Django application from a GitHub repository to dotCloud using the Codeship.
 
 
 
@@ -28,7 +28,7 @@ I've got a simple Django application called [codefish][codefish-repo] which cont
 
 
 
-We're gonna deploy this application to Dotcloud using the Codeship.
+We're gonna deploy this application to dotCloud using the Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
@@ -141,7 +141,7 @@ We've already pushed to our repository, watched our build log and got a green bu
 
 
 
-Now let's deploy our application to Dotcloud. We go to our project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy our application to dotCloud. We go to our project settings by clicking on the settings icon in the projects dropdown.
 
 ![Codeship go to project settings][screenshot-go-to-project-settings]
 
@@ -151,9 +151,9 @@ And then to the "Deployment" section.
 
 ![Codeship deployment settings][screenshot-deployment-settings]
 
-We want to deploy to "Dotcloud".
+We want to deploy to "dotCloud".
 
-![New Dotcloud deployment][screenshot-new-deployment]
+![New dotCloud deployment][screenshot-new-deployment]
 
 
 
@@ -173,13 +173,13 @@ We want to name our application "codefish". The application will be automaticall
 
 
 
-![Complete Dotcloud deployment][screenshot-complete-deployment]
+![Complete dotCloud deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
 
-![Saved Dotcloud deployment][screenshot-saved-deployment]
+![Saved dotCloud deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Dotcloud everytime we push to our GitHub repository.
+From now on the Codeship will deploy our application to dotCloud everytime we push to our GitHub repository.
 
 
 
@@ -209,7 +209,7 @@ and immediately another build starts running on the Codeship. Let's go back to o
 
 ![Deploy build started][screenshot-deploy-build-started]
 
-After the commands we already know from our first build, our application also gets deployed to Dotcloud now.
+After the commands we already know from our first build, our application also gets deployed to dotCloud now.
 
 ![Build Deployment][screenshot-build-deployment]
 
@@ -232,8 +232,6 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
  
- 
- [codefish-live]: http://codefish-clemens.dotcloud.com
  
  [screenshot-codefish-repo]: ../screenshots/github/django/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
