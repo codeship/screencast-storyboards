@@ -22,7 +22,7 @@ In this screencast we're gonna deploy a Django application from a Bitbucket repo
 
 I've got a simple Django application called [codefish][codefish-repo] which contains some tests. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![Bitbucket codefish-django][screenshot-codefish-repo]
+![Bitbucket codefish-django][screenshot-codefish-django]
 
 
 
@@ -253,7 +253,7 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-live]: http://codefish-clemens.dotcloud.com
  
- [screenshot-codefish-repo]: ../screenshots/bitbucket/django/repository.png
+ [screenshot-codefish-django]: ../screenshots/bitbucket/codefish-django.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png

@@ -22,7 +22,7 @@ In this blog post we're gonna deploy a Ruby on Rails application from a GitHub r
 
 We've set up a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-rails on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
+[![codefish-rails on GitHub][screenshot-codefish-rails]][screenshot-codefish-rails]
 
 
 
@@ -230,7 +230,7 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-live]: http://codefish-app.herokuapp.com
  
- [screenshot-codefish-repo]: ../screenshots/github/rails/repository.png
+ [screenshot-codefish-rails]: ../screenshots/github/codefish-rails.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png

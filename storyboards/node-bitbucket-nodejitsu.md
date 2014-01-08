@@ -22,7 +22,7 @@ In this screencast we're gonna deploy a Node.js application from a Bitbucket rep
 
 I've got a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![Bitbucket codefish-node][screenshot-codefish-repo]
+![Bitbucket codefish-node][screenshot-codefish-node]
 
 
 
@@ -253,7 +253,7 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-live]: http://codefish.nodejitsu.com
  
- [screenshot-codefish-repo]: ../screenshots/bitbucket/node/repository.png
+ [screenshot-codefish-node]: ../screenshots/bitbucket/codefish-node.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
