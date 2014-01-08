@@ -22,7 +22,7 @@ In this blog post we're gonna deploy a Django application from a GitHub reposito
 
 We've set up a simple Django application called [codefish][codefish-repo] which contains some tests. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-django-appengine on GitHub][screenshot-codefish-django-appengine]][screenshot-codefish-django-appengine]
+[![codefish-django-appengine on GitHub][screenshot-repository]][screenshot-repository]
 
 
 
@@ -221,7 +221,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
  
  
- [screenshot-codefish-django-appengine]: ../screenshots/github/codefish-django-appengine.png
+ [screenshot-repository]: ../screenshots/github/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
