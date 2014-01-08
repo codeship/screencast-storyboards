@@ -239,20 +239,21 @@ If you need help with setting up your own application, please use the support li
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/django/codefish-django-appengine-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/django/
+ codefish-django-appengine-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/django/technology-version.png
  [screenshot-test-commands]: ../screenshots/django/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/github/django/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/django/push.png
+ [screenshot-codeship-push]: ../screenshots/github/codefish-django-appengine/push.png
  [screenshot-first-build-running]: ../screenshots/django/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/django/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/django/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/django/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/django/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/django/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/github/codefish-django-appengine/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/github/codefish-django-appengine/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/github/codefish-django-appengine/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/github/codefish-django-appengine/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/github/codefish-django-appengine/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/django/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/django/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/django/appengine/new-deployment.png

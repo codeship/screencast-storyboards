@@ -245,20 +245,21 @@ If you need help with setting up your own application, please use the support li
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/django/codefish-django-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/django/
+ codefish-django-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/django/technology-version.png
  [screenshot-test-commands]: ../screenshots/django/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/bitbucket/django/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/bitbucket/django/push.png
+ [screenshot-codeship-push]: ../screenshots/bitbucket/codefish-django/push.png
  [screenshot-first-build-running]: ../screenshots/django/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/bitbucket/django/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/bitbucket/django/first-build-finished.png
- [screenshot-build-log]: ../screenshots/bitbucket/django/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/django/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/bitbucket/django/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/bitbucket/codefish-django/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/bitbucket/codefish-django/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/bitbucket/codefish-django/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/codefish-django/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/bitbucket/codefish-django/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/django/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/django/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/django/dotcloud/new-deployment.png

@@ -259,20 +259,21 @@ If you need help with setting up your own application, please use the support li
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/node/codefish-node-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/node/
+ codefish-node-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/node/technology-version.png
  [screenshot-test-commands]: ../screenshots/node/test-commands.png
  [screenshot-codeship-dasboard]: ../screenshots/bitbucket/node/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/bitbucket/node/push.png
+ [screenshot-codeship-push]: ../screenshots/bitbucket/codefish-node/push.png
  [screenshot-first-build-running]: ../screenshots/node/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/bitbucket/node/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/bitbucket/node/first-build-finished.png
- [screenshot-build-log]: ../screenshots/bitbucket/node/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/node/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/bitbucket/node/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/bitbucket/codefish-node/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/bitbucket/codefish-node/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/bitbucket/codefish-node/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/codefish-node/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/bitbucket/codefish-node/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/node/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/node/nodejitsu/new-deployment.png
