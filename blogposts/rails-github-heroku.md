@@ -241,7 +241,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-codeship-technology-selected]: ../screenshots/rails/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/rails/technology-version.png
  [screenshot-test-commands]: ../screenshots/rails/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/rails/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/codefish-rails/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/rails/codeship-image.png
  [screenshot-codeship-push]: ../screenshots/github/codefish-rails/push.png
  [screenshot-first-build-running]: ../screenshots/rails/first-build-running.png

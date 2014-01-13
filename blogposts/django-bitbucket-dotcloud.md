@@ -250,7 +250,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/django/technology-version.png
  [screenshot-test-commands]: ../screenshots/django/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/bitbucket/django/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/bitbucket/codefish-django/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
  [screenshot-codeship-push]: ../screenshots/bitbucket/codefish-django/push.png
  [screenshot-first-build-running]: ../screenshots/django/first-build-running.png

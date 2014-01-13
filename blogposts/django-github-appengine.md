@@ -232,7 +232,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/django/technology-version.png
  [screenshot-test-commands]: ../screenshots/django/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/django/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/codefish-django-appengine/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
  [screenshot-codeship-push]: ../screenshots/github/codefish-django-appengine/push.png
  [screenshot-first-build-running]: ../screenshots/django/first-build-running.png

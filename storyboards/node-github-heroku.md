@@ -254,7 +254,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/node/technology-version.png
  [screenshot-test-commands]: ../screenshots/node/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/node/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/codefish-node/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
  [screenshot-codeship-push]: ../screenshots/github/codefish-node/push.png
  [screenshot-first-build-running]: ../screenshots/node/first-build-running.png
