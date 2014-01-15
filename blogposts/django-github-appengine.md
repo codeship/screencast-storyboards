@@ -148,6 +148,8 @@ Before we can configure our App engine deployment, we need to connect our AppEng
 
 [Click "Connect to App engine"]
 
+![App engine OAuth dialog][screenshot-deployment-oauth]
+
 Let's accept the connection.
 
 When we select "App engine" again, we can configure our deployment.
@@ -264,4 +266,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-empty-deployment]: ../screenshots/django/appengine/empty-deployment.png
  [screenshot-deployment-home-page]: ../screenshots/appengine/home-page.png
  [screenshot-new-deployment-app]: ../screenshots/django/appengine/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/appengine/oauth.png
 

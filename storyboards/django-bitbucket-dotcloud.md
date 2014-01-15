@@ -304,4 +304,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-empty-deployment]: ../screenshots/django/dotcloud/empty-deployment.png
  [screenshot-deployment-home-page]: ../screenshots/dotcloud/home-page.png
  [screenshot-new-deployment-app]: ../screenshots/django/dotcloud/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/dotcloud/oauth.png
 

@@ -289,5 +289,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-empty-deployment]: ../screenshots/node/nodejitsu/empty-deployment.png
  [screenshot-deployment-home-page]: ../screenshots/nodejitsu/home-page.png
  [screenshot-new-deployment-app]: ../screenshots/node/nodejitsu/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/nodejitsu/oauth.png
 
 

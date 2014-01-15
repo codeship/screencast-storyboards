@@ -294,4 +294,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-empty-deployment]: ../screenshots/node/heroku/empty-deployment.png
  [screenshot-deployment-home-page]: ../screenshots/heroku/home-page.png
  [screenshot-new-deployment-app]: ../screenshots/node/heroku/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/heroku/oauth.png
 
