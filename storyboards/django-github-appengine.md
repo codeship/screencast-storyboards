@@ -197,7 +197,16 @@ From now on the Codeship will deploy our application to AppEngine everytime we p
 
 
 
-Liquid error: No such template 'snippets/appengine/configure_app'
+Let's get our application ready for App engine. We create a file `app.yml` in the root directory of our application. In this configuration file we tell App engine that our web application is called "my-codefish" and that it is a python app.
+
+We say that the version is "1" and the api version is "1" as well. And finally we add a handler for all urls to be handled by `django_bootstrap.py`.
+
+![app.yml][screenshot-app-yml]
+
+I commit and push this change
+
+![Commit and push App engine config][screenshot-commit-and-push-deployment-config]
+
 
 
 and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
@@ -270,7 +279,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/django/appengine/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/appengine/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/appengine/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/django/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django-appengine/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/appengine/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/appengine/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/django/appengine/dotcloud-yml.png
@@ -280,4 +289,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-home-page]: ../screenshots/appengine/home-page.png
  [screenshot-new-deployment-app]: ../screenshots/django/appengine/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/appengine/oauth.png
+ [screenshot-app-yml]: ../screenshots/django/appengine/app-yml.png
 

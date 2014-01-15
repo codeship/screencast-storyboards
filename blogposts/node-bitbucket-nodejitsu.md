@@ -280,7 +280,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/node/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-node/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/nodejitsu/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/nodejitsu/dotcloud-yml.png
@@ -290,5 +290,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-home-page]: ../screenshots/nodejitsu/home-page.png
  [screenshot-new-deployment-app]: ../screenshots/node/nodejitsu/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/nodejitsu/oauth.png
+ [screenshot-app-yml]: ../screenshots/node/nodejitsu/app-yml.png
 
 

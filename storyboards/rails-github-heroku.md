@@ -283,7 +283,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/rails/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-rails/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/rails/heroku/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/rails/heroku/dotcloud-yml.png
@@ -293,4 +293,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-home-page]: ../screenshots/heroku/home-page.png
  [screenshot-new-deployment-app]: ../screenshots/rails/heroku/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/heroku/oauth.png
+ [screenshot-app-yml]: ../screenshots/rails/heroku/app-yml.png
 
