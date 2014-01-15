@@ -271,4 +271,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-dotcloud-yml]: ../screenshots/django/dotcloud/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/django/dotcloud/wsgi-py.png
  [screenshot-deployment-documentation-page]: ../screenshots/django/dotcloud/documentation-page.png
+ [screenshot-empty-deployment]: ../screenshots/django/dotcloud/empty-deployment.png
+ [screenshot-deployment-home-page]: ../screenshots/dotcloud/home-page.png
+ [screenshot-new-deployment-app]: ../screenshots/django/dotcloud/new-deployment-app.png
 

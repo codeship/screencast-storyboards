@@ -144,19 +144,31 @@ As we want to deploy to AppEngine we click on the "AppEngine" button.
 
 
 
+Before we can configure our App engine deployment, we need to connect our AppEngine account to Codeship.
 
+[Click "Connect to App engine"]
 
-To retrieve your API key, just follow the link to Dotcloud.
+Let's accept the connection.
 
-![Dotcloud API key][screenshot-dotcloud-api-key]
+When we select "App engine" again, we can configure our deployment.
 
-Copy the key and insert it into your deployment configuration at the Codeship.
+![Empty App Engine deployment][screenshot-empty-deployment]
 
-![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
+We can leave the path as it is, but I'd like to enter the URL to our application.
 
-You can name your application whatever you like. The application will be automatically created the first time you deploy to Dotcloud.
+So let's create an application on App engine.
 
+![App engine home page][screenshot-deployment-home-page]
 
+[go to appengine.google.com and click "create application"]
+
+I enter "my-codefish" as identifier and "Codefish" as application name. Now I accept the terms and create the application.
+
+![Creating an app engine app][screenshot-new-deployment-app]
+
+[close app engine tab]
+
+Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
 
 
 
@@ -170,27 +182,7 @@ From now on the Codeship will deploy your application to AppEngine everytime you
 
 
 
-
-
-Let's get your application ready for Dotcloud. Dotcloud expects a file `dotcloud.yml` in the root directory of your application. In this configuration file you need to tell Dotcloud that your web application is of type "python".
-
-    www:
-      type: python
-
-Dotcloud also needs a `wsgi.py` file in the root directory of your application. Just copy the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py)
-
-![Dotcloud Django documentation page][screenshot-deployment-documentation-page]
-
-and replace the app name `hellodjango` with your own Django application's name.
-
-![Dotcloud wsgi.py][screenshot-dotcloud-wsgi-py]
-
-Now you can commit and push this change
-
-![Commit and push Dotcloud config][screenshot-commit-and-push-deployment-config]
-
-
-
+Liquid error: No such template 'snippets/appengine/configure_app'
 
 
 And immediately another build will start running on the Codeship. Let's go back to your project overview.
@@ -269,4 +261,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-dotcloud-yml]: ../screenshots/django/appengine/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/django/appengine/wsgi-py.png
  [screenshot-deployment-documentation-page]: ../screenshots/django/appengine/documentation-page.png
+ [screenshot-empty-deployment]: ../screenshots/django/appengine/empty-deployment.png
+ [screenshot-deployment-home-page]: ../screenshots/appengine/home-page.png
+ [screenshot-new-deployment-app]: ../screenshots/django/appengine/new-deployment-app.png
 
