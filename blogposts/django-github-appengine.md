@@ -164,7 +164,7 @@ So let's create an application on App Engine.
 
 [go to appengine.google.com and click "create application"]
 
-I enter "my-codefish" as identifier and "Codefish" as application name. Now I accept the terms and create the application.
+I enter "my-codefish" as identifier and "Codefish" as application name and I create the application.
 
 ![Creating an App Engine app][screenshot-new-deployment-app]
 
@@ -223,6 +223,8 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-django-appengine
  
+ 
+ [codefish-live]: http://my-codefish.appspot.com
  
  [screenshot-repository]: ../screenshots/github/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
