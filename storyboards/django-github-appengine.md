@@ -11,10 +11,10 @@
 
 
 
-Deploying Django from GitHub to AppEngine
+Deploying Django from GitHub to App Engine
 ======================
 
-In this screencast we're gonna deploy a Django application from a GitHub repository to AppEngine using the Codeship.
+In this screencast we're gonna deploy a Django application from a GitHub repository to App Engine using the Codeship.
 
 
 
@@ -28,7 +28,7 @@ I've got a simple Django application called [codefish][codefish-repo] which cont
 
 
 
-We're gonna deploy this application to AppEngine using the Codeship.
+We're gonna deploy this application to App Engine using the Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
@@ -141,7 +141,7 @@ We've already pushed to our repository, watched our build log and got a green bu
 
 
 
-Now let's deploy our application to AppEngine. We go to our project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy our application to App Engine. We go to our project settings by clicking on the settings icon in the projects dropdown.
 
 ![Codeship go to project settings][screenshot-go-to-project-settings]
 
@@ -151,53 +151,53 @@ And then to the "Deployment" section.
 
 ![Codeship deployment settings][screenshot-deployment-settings]
 
-We want to deploy to "AppEngine".
+We want to deploy to "App Engine".
 
-![New AppEngine deployment][screenshot-new-deployment]
+![New App Engine deployment][screenshot-new-deployment]
 
 
 
-Before we can configure our App engine deployment, we need to connect our AppEngine account to Codeship.
+Before we can configure our App Engine deployment, we need to connect our AppEngine account to Codeship.
 
-[Click "Connect to App engine"]
+[Click "Connect to App Engine"]
 
-![App engine OAuth dialog][screenshot-deployment-oauth]
+![App Engine OAuth dialog][screenshot-deployment-oauth]
 
 Let's accept the connection.
 
-When we select "App engine" again, we can configure our deployment.
+When we select "App Engine" again, we can configure our deployment.
 
 ![Empty App Engine deployment][screenshot-empty-deployment]
 
 We can leave the path as it is, but I'd like to enter the URL to our application.
 
-So let's create an application on App engine.
+So let's create an application on App Engine.
 
-![App engine home page][screenshot-deployment-home-page]
+![App Engine home page][screenshot-deployment-home-page]
 
 [go to appengine.google.com and click "create application"]
 
 I enter "my-codefish" as identifier and "Codefish" as application name. Now I accept the terms and create the application.
 
-![Creating an app engine app][screenshot-new-deployment-app]
+![Creating an App Engine app][screenshot-new-deployment-app]
 
-[close app engine tab]
+[close App Engine tab]
 
 Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
 
 
 
-![Complete AppEngine deployment][screenshot-complete-deployment]
+![Complete App Engine deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
 
-![Saved AppEngine deployment][screenshot-saved-deployment]
+![Saved App Engine deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to AppEngine everytime we push to our GitHub repository.
+From now on the Codeship will deploy our application to App Engine everytime we push to our GitHub repository.
 
 
 
-Let's get our application ready for App engine. We create a file `app.yml` in the root directory of our application. In this configuration file we tell App engine that our web application is called "my-codefish" and that it is a python app.
+Let's get our application ready for App Engine. We create a file `app.yml` in the root directory of our application. In this configuration file we tell App Engine that our web application is called "my-codefish" and that it is a python app.
 
 We say that the version is "1" and the api version is "1" as well. And finally we add a handler for all urls to be handled by `django_bootstrap.py`.
 
@@ -205,7 +205,7 @@ We say that the version is "1" and the api version is "1" as well. And finally w
 
 I commit and push this change
 
-![Commit and push App engine config][screenshot-commit-and-push-deployment-config]
+![Commit and push App Engine config][screenshot-commit-and-push-deployment-config]
 
 
 
@@ -213,7 +213,7 @@ and immediately another build starts running on the Codeship. Let's go back to o
 
 ![Deploy build started][screenshot-deploy-build-started]
 
-After the commands we already know from our first build, our application also gets deployed to AppEngine now.
+After the commands we already know from our first build, our application also gets deployed to App Engine now.
 
 ![Build Deployment][screenshot-build-deployment]
 

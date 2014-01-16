@@ -11,10 +11,10 @@
 
 
 
-How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to AppEngine
+How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to App Engine
 ======================
 
-In this blog post we're gonna deploy a Django application from a GitHub repository to AppEngine using [the Codeship][codeship].
+In this blog post we're gonna deploy a Django application from a GitHub repository to App Engine using [the Codeship][codeship].
 
 
 
@@ -28,7 +28,7 @@ We've set up a simple Django application called [codefish][codefish-repo] which 
 
 
 
-Together, we're gonna deploy this application to AppEngine using the Codeship.
+Together, we're gonna deploy this application to App Engine using the Codeship.
 
 [![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
@@ -128,7 +128,7 @@ You've already pushed to your repository, watched your build log and got a green
 
 
 
-Now let's deploy your application to AppEngine. Go to your project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy your application to App Engine. Go to your project settings by clicking on the settings icon in the projects dropdown.
 
 [![Go to your project settings by clicking on the settings icon in the projects dropdown][screenshot-go-to-project-settings]][screenshot-go-to-project-settings]
 
@@ -138,53 +138,53 @@ Then navigate to the "Deployment" section.
 
 [![You are on the Deployment Setup screen now][screenshot-deployment-settings]][screenshot-deployment-settings]
 
-As we want to deploy to AppEngine we click on the "AppEngine" button.
+As we want to deploy to App Engine we click on the "App Engine" button.
 
-[![Click on the AppEngine button][screenshot-new-deployment]][screenshot-new-deployment]
+[![Click on the App Engine button][screenshot-new-deployment]][screenshot-new-deployment]
 
 
 
-Before we can configure our App engine deployment, we need to connect our AppEngine account to Codeship.
+Before we can configure our App Engine deployment, we need to connect our AppEngine account to Codeship.
 
-[Click "Connect to App engine"]
+[Click "Connect to App Engine"]
 
-![App engine OAuth dialog][screenshot-deployment-oauth]
+![App Engine OAuth dialog][screenshot-deployment-oauth]
 
 Let's accept the connection.
 
-When we select "App engine" again, we can configure our deployment.
+When we select "App Engine" again, we can configure our deployment.
 
 ![Empty App Engine deployment][screenshot-empty-deployment]
 
 We can leave the path as it is, but I'd like to enter the URL to our application.
 
-So let's create an application on App engine.
+So let's create an application on App Engine.
 
-![App engine home page][screenshot-deployment-home-page]
+![App Engine home page][screenshot-deployment-home-page]
 
 [go to appengine.google.com and click "create application"]
 
 I enter "my-codefish" as identifier and "Codefish" as application name. Now I accept the terms and create the application.
 
-![Creating an app engine app][screenshot-new-deployment-app]
+![Creating an App Engine app][screenshot-new-deployment-app]
 
-[close app engine tab]
+[close App Engine tab]
 
 Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
 
 
 
-[![Copy and paste the AppEngine API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+[![Copy and paste the App Engine API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to AppEngine everytime you push to your GitHub repository.
+From now on the Codeship will deploy your application to App Engine everytime you push to your GitHub repository.
 
 
 
-Let's get our application ready for App engine. We create a file `app.yml` in the root directory of our application. In this configuration file we tell App engine that our web application is called "my-codefish" and that it is a python app.
+Let's get our application ready for App Engine. We create a file `app.yml` in the root directory of our application. In this configuration file we tell App Engine that our web application is called "my-codefish" and that it is a python app.
 
 We say that the version is "1" and the api version is "1" as well. And finally we add a handler for all urls to be handled by `django_bootstrap.py`.
 
@@ -192,7 +192,7 @@ We say that the version is "1" and the api version is "1" as well. And finally w
 
 I commit and push this change
 
-![Commit and push App engine config][screenshot-commit-and-push-deployment-config]
+![Commit and push App Engine config][screenshot-commit-and-push-deployment-config]
 
 
 
@@ -200,7 +200,7 @@ And immediately another build will start running on the Codeship. Let's go back 
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 
-After the commands we already know from your first build, your application also gets deployed to AppEngine now.
+After the commands we already know from your first build, your application also gets deployed to App Engine now.
 
 [![After some initial commands were run your application gets deployed][screenshot-build-deployment]][screenshot-build-deployment]
 
@@ -208,7 +208,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your AppEngine app now, your deployed application appears. You can find mine on [codefish-django.appspot.com][codefish-live].
+When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [codefish-django.appspot.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 

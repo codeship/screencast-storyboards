@@ -4,7 +4,7 @@
 {% assign tests = "tests" %}
 {% assign repository = "GitHub" %}
 {% assign repository_slug = "github" %}
-{% assign deployment = "AppEngine" %}
+{% assign deployment = "App Engine" %}
 {% assign deployment_slug = "appengine" %}
 {% assign repo_name = "codefish-django-appengine" %}
 {% assign app_url = "codefish-django.appspot.com" %}
