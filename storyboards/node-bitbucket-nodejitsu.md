@@ -22,7 +22,7 @@ In this screencast we're gonna deploy a Node.js application from a Bitbucket rep
 
 I've got a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![Bitbucket codefish-node][screenshot-codefish-repo]
+![Bitbucket codefish-node][screenshot-repository]
 
 
 
@@ -253,26 +253,26 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-live]: http://codefish.nodejitsu.com
  
- [screenshot-codefish-repo]: ../screenshots/bitbucket/node/repository.png
+ [screenshot-repository]: ../screenshots/bitbucket/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/node/repo-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/node/codefish-node-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/node/technology-version.png
  [screenshot-test-commands]: ../screenshots/node/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/bitbucket/node/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/bitbucket/codefish-node/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/bitbucket/node/push.png
+ [screenshot-codeship-push]: ../screenshots/bitbucket/codefish-node/push.png
  [screenshot-first-build-running]: ../screenshots/node/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/bitbucket/node/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/bitbucket/node/first-build-finished.png
- [screenshot-build-log]: ../screenshots/bitbucket/node/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/node/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/bitbucket/node/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/bitbucket/codefish-node/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/bitbucket/codefish-node/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/bitbucket/codefish-node/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/codefish-node/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/bitbucket/codefish-node/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/node/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/node/nodejitsu/new-deployment.png
@@ -295,11 +295,16 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/node/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-node/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/nodejitsu/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/nodejitsu/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/node/nodejitsu/wsgi-py.png
  [screenshot-deployment-documentation-page]: ../screenshots/node/nodejitsu/documentation-page.png
+ [screenshot-empty-deployment]: ../screenshots/node/nodejitsu/empty-deployment.png
+ [screenshot-deployment-home-page]: ../screenshots/nodejitsu/home-page.png
+ [screenshot-new-deployment-app]: ../screenshots/node/nodejitsu/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/nodejitsu/oauth.png
+ [screenshot-app-yml]: ../screenshots/node/nodejitsu/app-yml.png
 
 

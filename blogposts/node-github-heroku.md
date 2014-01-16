@@ -22,7 +22,7 @@ In this blog post we're gonna deploy a Node.js application from a GitHub reposit
 
 We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-node on GitHub][screenshot-codefish-repo]][screenshot-codefish-repo]
+[![codefish-node on GitHub][screenshot-repository]][screenshot-repository]
 
 
 
@@ -232,26 +232,26 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-live]: http://codefish-app.herokuapp.com
  
- [screenshot-codefish-repo]: ../screenshots/github/node/repository.png
+ [screenshot-repository]: ../screenshots/github/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/node/repo-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/node/codefish-node-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/node/technology-version.png
  [screenshot-test-commands]: ../screenshots/node/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/node/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/codefish-node/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/node/push.png
+ [screenshot-codeship-push]: ../screenshots/github/codefish-node/push.png
  [screenshot-first-build-running]: ../screenshots/node/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/node/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/node/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/node/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/node/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/node/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/github/codefish-node/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/github/codefish-node/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/github/codefish-node/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/github/codefish-node/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/github/codefish-node/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/node/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/node/heroku/new-deployment.png
@@ -274,10 +274,15 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/node/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/node/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-node/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/heroku/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/heroku/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/node/heroku/wsgi-py.png
  [screenshot-deployment-documentation-page]: ../screenshots/node/heroku/documentation-page.png
+ [screenshot-empty-deployment]: ../screenshots/node/heroku/empty-deployment.png
+ [screenshot-deployment-home-page]: ../screenshots/heroku/home-page.png
+ [screenshot-new-deployment-app]: ../screenshots/node/heroku/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/heroku/oauth.png
+ [screenshot-app-yml]: ../screenshots/node/heroku/app-yml.png
 

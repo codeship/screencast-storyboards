@@ -22,7 +22,7 @@ In this screencast we're gonna deploy a Ruby on Rails application from a GitHub 
 
 I've got a simple Ruby on Rails application called [codefish][codefish-repo] which contains some RSpec examples. If you want to follow along these setup steps on your computer, just fork the repository. [move mouse pointer over "fork" button]
 
-![GitHub codefish-rails][screenshot-codefish-repo]
+![GitHub codefish-rails][screenshot-repository]
 
 
 
@@ -241,26 +241,26 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-live]: http://codefish-app.herokuapp.com
  
- [screenshot-codefish-repo]: ../screenshots/github/rails/repository.png
+ [screenshot-repository]: ../screenshots/github/codefish-rails/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/rails/repo-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/rails/codefish-rails-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/rails/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/rails/technology-version.png
  [screenshot-test-commands]: ../screenshots/rails/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/rails/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/codefish-rails/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/rails/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/rails/push.png
+ [screenshot-codeship-push]: ../screenshots/github/codefish-rails/push.png
  [screenshot-first-build-running]: ../screenshots/rails/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/rails/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/rails/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/rails/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/rails/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/rails/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/github/codefish-rails/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/github/codefish-rails/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/github/codefish-rails/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/github/codefish-rails/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/github/codefish-rails/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/rails/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/rails/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/rails/heroku/new-deployment.png
@@ -283,10 +283,15 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/rails/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-rails/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/rails/heroku/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/rails/heroku/dotcloud-yml.png
  [screenshot-dotcloud-wsgi-py]: ../screenshots/rails/heroku/wsgi-py.png
  [screenshot-deployment-documentation-page]: ../screenshots/rails/heroku/documentation-page.png
+ [screenshot-empty-deployment]: ../screenshots/rails/heroku/empty-deployment.png
+ [screenshot-deployment-home-page]: ../screenshots/heroku/home-page.png
+ [screenshot-new-deployment-app]: ../screenshots/rails/heroku/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/heroku/oauth.png
+ [screenshot-app-yml]: ../screenshots/rails/heroku/app-yml.png
 

@@ -11,10 +11,10 @@
 
 
 
-How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to dotCloud
+How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to App Engine
 ======================
 
-In this blog post we're gonna deploy a Django application from a GitHub repository to dotCloud using [the Codeship][codeship].
+In this blog post we're gonna deploy a Django application from a GitHub repository to App Engine using [the Codeship][codeship].
 
 
 
@@ -22,13 +22,13 @@ In this blog post we're gonna deploy a Django application from a GitHub reposito
 
 We've set up a simple Django application called [codefish][codefish-repo] which contains some tests. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-django on GitHub][screenshot-repository]][screenshot-repository]
+[![codefish-django-appengine on GitHub][screenshot-repository]][screenshot-repository]
 
 
 
 
 
-Together, we're gonna deploy this application to dotCloud using the Codeship.
+Together, we're gonna deploy this application to App Engine using the Codeship.
 
 [![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
@@ -128,7 +128,7 @@ You've already pushed to your repository, watched your build log and got a green
 
 
 
-Now let's deploy your application to dotCloud. Go to your project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy your application to App Engine. Go to your project settings by clicking on the settings icon in the projects dropdown.
 
 [![Go to your project settings by clicking on the settings icon in the projects dropdown][screenshot-go-to-project-settings]][screenshot-go-to-project-settings]
 
@@ -138,58 +138,61 @@ Then navigate to the "Deployment" section.
 
 [![You are on the Deployment Setup screen now][screenshot-deployment-settings]][screenshot-deployment-settings]
 
-As we want to deploy to dotCloud we click on the "dotCloud" button.
+As we want to deploy to App Engine we click on the "App Engine" button.
 
-[![Click on the dotCloud button][screenshot-new-deployment]][screenshot-new-deployment]
-
-
+[![Click on the App Engine button][screenshot-new-deployment]][screenshot-new-deployment]
 
 
 
-To retrieve your API key, just follow the link to Dotcloud.
+Before we can configure our App Engine deployment, we need to connect our App Engine account to Codeship.
 
-![Dotcloud API key][screenshot-dotcloud-api-key]
+[Click "Connect to App Engine"]
 
-Copy the key and insert it into your deployment configuration at the Codeship.
+![App Engine OAuth dialog][screenshot-deployment-oauth]
 
-![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
+Let's accept the connection.
 
-You can name your application whatever you like. The application will be automatically created the first time you deploy to Dotcloud.
+When we select "App Engine" again, we can configure our deployment.
+
+![Empty App Engine deployment][screenshot-empty-deployment]
+
+We can leave the path as it is, but I'd like to enter the URL to our application.
+
+So let's create an application on App Engine.
+
+![App Engine home page][screenshot-deployment-home-page]
+
+[go to appengine.google.com and click "create application"]
+
+I enter "my-codefish" as identifier and "Codefish" as application name and I create the application.
+
+![Creating an App Engine app][screenshot-new-deployment-app]
+
+[close App Engine tab]
+
+Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
 
 
 
-
-
-[![Copy and paste the dotCloud API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+[![Copy and paste the App Engine API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to dotCloud everytime you push to your GitHub repository.
+From now on the Codeship will deploy your application to App Engine everytime you push to your GitHub repository.
 
 
 
+Let's get our application ready for App Engine. We create a file `app.yml` in the root directory of our application. In this configuration file we tell App Engine that our web application is called "my-codefish" and that it is a python app.
 
+We say that the version is "1" and the api version is "1" as well. And finally we add a handler for all urls to be handled by `django_bootstrap.py`.
 
-Let's get your application ready for Dotcloud. Dotcloud expects a file `dotcloud.yml` in the root directory of your application. In this configuration file you need to tell Dotcloud that your web application is of type "python".
+![app.yml][screenshot-app-yml]
 
-    www:
-      type: python
+I commit and push this change
 
-Dotcloud also needs a `wsgi.py` file in the root directory of your application. Just copy the content from [the Dotcloud Django documentation page](http://docs.dotcloud.com/tutorials/python/django/#wsgi-py)
-
-![Dotcloud Django documentation page][screenshot-deployment-documentation-page]
-
-and replace the app name `hellodjango` with your own Django application's name.
-
-![Dotcloud wsgi.py][screenshot-dotcloud-wsgi-py]
-
-Now you can commit and push this change
-
-![Commit and push Dotcloud config][screenshot-commit-and-push-deployment-config]
-
-
+![Commit and push App Engine config][screenshot-commit-and-push-deployment-config]
 
 
 
@@ -197,7 +200,7 @@ And immediately another build will start running on the Codeship. Let's go back 
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 
-After the commands we already know from your first build, your application also gets deployed to dotCloud now.
+After the commands we already know from your first build, your application also gets deployed to App Engine now.
 
 [![After some initial commands were run your application gets deployed][screenshot-build-deployment]][screenshot-build-deployment]
 
@@ -205,7 +208,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your dotCloud app now, your deployed application appears. You can find mine on [codefish-clemens.dotcloud.com][codefish-live].
+When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [my-codefish.appspot.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -218,62 +221,62 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
+ [codefish-repo]: https://github.com/codeship-tutorials/codefish-django-appengine
  
  
- [codefish-live]: http://codefish-clemens.dotcloud.com
+ [codefish-live]: http://my-codefish.appspot.com
  
- [screenshot-repository]: ../screenshots/github/codefish-django/repository.png
+ [screenshot-repository]: ../screenshots/github/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
  [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/django/codefish-django-selection-filtered.png
+ [screenshot-repo-selection-filtered]: ../screenshots/django/codefish-django-appengine-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/django/technology-version.png
  [screenshot-test-commands]: ../screenshots/django/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/codefish-django/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/github/codefish-django-appengine/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/codefish-django/push.png
+ [screenshot-codeship-push]: ../screenshots/github/codefish-django-appengine/push.png
  [screenshot-first-build-running]: ../screenshots/django/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/codefish-django/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/codefish-django/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/codefish-django/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/codefish-django/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/codefish-django/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/github/codefish-django-appengine/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/github/codefish-django-appengine/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/github/codefish-django-appengine/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/github/codefish-django-appengine/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/github/codefish-django-appengine/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/django/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/django/deployment-settings.png
- [screenshot-new-deployment]: ../screenshots/django/dotcloud/new-deployment.png
- [screenshot-heroku-apps]: ../screenshots/dotcloud/heroku-apps.png
- [screenshot-create-heroku-app]: ../screenshots/dotcloud/create-heroku-app.png
- [screenshot-heroku-app-created]: ../screenshots/dotcloud/heroku-app-created.png
- [screenshot-heroku-deployment-name]: ../screenshots/django/dotcloud/heroku-deployment-name.png
- [screenshot-show-api-key]: ../screenshots/dotcloud/show-api-key.png
- [screenshot-complete-deployment]: ../screenshots/django/dotcloud/complete-deployment.png
- [screenshot-saved-deployment]: ../screenshots/django/dotcloud/saved-deployment.png
+ [screenshot-new-deployment]: ../screenshots/django/appengine/new-deployment.png
+ [screenshot-heroku-apps]: ../screenshots/appengine/heroku-apps.png
+ [screenshot-create-heroku-app]: ../screenshots/appengine/create-heroku-app.png
+ [screenshot-heroku-app-created]: ../screenshots/appengine/heroku-app-created.png
+ [screenshot-heroku-deployment-name]: ../screenshots/django/appengine/heroku-deployment-name.png
+ [screenshot-show-api-key]: ../screenshots/appengine/show-api-key.png
+ [screenshot-complete-deployment]: ../screenshots/django/appengine/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/django/appengine/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/django/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/github/django/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/django/dotcloud/deploy-build-started.png
- [screenshot-build-deployment]: ../screenshots/django/dotcloud/build-deployment.png
- [screenshot-build-deployment-complete]: ../screenshots/django/dotcloud/build-deployment-complete.png
- [screenshot-deployed-application]: ../screenshots/django/dotcloud/deployed-application.png
+ [screenshot-deploy-build-started]: ../screenshots/django/appengine/deploy-build-started.png
+ [screenshot-build-deployment]: ../screenshots/django/appengine/build-deployment.png
+ [screenshot-build-deployment-complete]: ../screenshots/django/appengine/build-deployment-complete.png
+ [screenshot-deployed-application]: ../screenshots/django/appengine/deployed-application.png
  [screenshot-select-post-hook]: ../screenshots/github/django/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/github/django/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/github/django/hook-added.png
- [screenshot-deployment-username]: ../screenshots/django/dotcloud/username.png
- [screenshot-create-deployment-token]: ../screenshots/django/dotcloud/create-token.png
- [screenshot-add-deployment-config]: ../screenshots/dotcloud/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django/commit-and-push-deployment-config.png
- [screenshot-dotcloud-api-key]: ../screenshots/dotcloud/api-key.png
- [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/dotcloud/deployment-api-key.png
- [screenshot-dotcloud-yml]: ../screenshots/django/dotcloud/dotcloud-yml.png
- [screenshot-dotcloud-wsgi-py]: ../screenshots/django/dotcloud/wsgi-py.png
- [screenshot-deployment-documentation-page]: ../screenshots/django/dotcloud/documentation-page.png
- [screenshot-empty-deployment]: ../screenshots/django/dotcloud/empty-deployment.png
- [screenshot-deployment-home-page]: ../screenshots/dotcloud/home-page.png
- [screenshot-new-deployment-app]: ../screenshots/django/dotcloud/new-deployment-app.png
- [screenshot-deployment-oauth]: ../screenshots/dotcloud/oauth.png
- [screenshot-app-yml]: ../screenshots/django/dotcloud/app-yml.png
+ [screenshot-deployment-username]: ../screenshots/django/appengine/username.png
+ [screenshot-create-deployment-token]: ../screenshots/django/appengine/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/appengine/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django-appengine/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: ../screenshots/appengine/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/appengine/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/django/appengine/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/django/appengine/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/django/appengine/documentation-page.png
+ [screenshot-empty-deployment]: ../screenshots/django/appengine/empty-deployment.png
+ [screenshot-deployment-home-page]: ../screenshots/appengine/home-page.png
+ [screenshot-new-deployment-app]: ../screenshots/django/appengine/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/appengine/oauth.png
+ [screenshot-app-yml]: ../screenshots/django/appengine/app-yml.png
 
