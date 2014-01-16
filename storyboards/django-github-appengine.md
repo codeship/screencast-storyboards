@@ -157,7 +157,7 @@ We want to deploy to "App Engine".
 
 
 
-Before we can configure our App Engine deployment, we need to connect our AppEngine account to Codeship.
+Before we can configure our App Engine deployment, we need to connect our App Engine account to Codeship.
 
 [Click "Connect to App Engine"]
 
@@ -233,10 +233,10 @@ If you need help with setting up your own application, please use the support li
 
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
- 
+
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
- 
- 
+
+
  [screenshot-repository]: ../screenshots/github/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
