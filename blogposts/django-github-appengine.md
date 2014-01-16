@@ -144,7 +144,7 @@ As we want to deploy to App Engine we click on the "App Engine" button.
 
 
 
-Before we can configu<a href="#">re our App</a> Engine deployment, we need to connect our App Engine account to Codeship.
+Before we can configure our App Engine deployment, we need to connect our App Engine account to Codeship.
 
 [Click "Connect to App Engine"]
 
@@ -208,7 +208,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [codefish-django.appspot.com][codefish-live].
+When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [my-codefish.appspot.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -220,10 +220,10 @@ If you need help with setting up your own application, please use the support li
 
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
-
- [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
-
-
+ 
+ [codefish-repo]: https://github.com/codeship-tutorials/codefish-django-appengine
+ 
+ 
  [screenshot-repository]: ../screenshots/github/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png

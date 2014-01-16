@@ -221,7 +221,7 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
-When we open [codefish-django.appspot.com][codefish-live] now, our deployed application appears.
+When we open [my-codefish.appspot.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -233,10 +233,10 @@ If you need help with setting up your own application, please use the support li
 
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
-
- [codefish-repo]: https://github.com/codeship-tutorials/codefish-django
-
-
+ 
+ [codefish-repo]: https://github.com/codeship-tutorials/codefish-django-appengine
+ 
+ 
  [screenshot-repository]: ../screenshots/github/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
  [screenshot-oauth]: ../screenshots/github/oauth.png
