@@ -11,6 +11,7 @@
 
 
 
+
 Deploying Django from Bitbucket to App Engine
 ======================
 
@@ -195,13 +196,13 @@ So let's create an application on App Engine.
 
 [go to appengine.google.com and click "create application"]
 
-I enter "my-codefish" as identifier and "Codefish" as application name and I create the application.
+I enter "the-codefish" as identifier and "Codefish" as application name and I create the application.
 
 ![Creating an App Engine app][screenshot-new-deployment-app]
 
 [close App Engine tab]
 
-Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+Now I can enter my application URL `http://the-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
 
 
 
@@ -239,7 +240,7 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
-When we open [my-codefish.appspot.com][codefish-live] now, our deployed application appears.
+When we open [the-codefish.appspot.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -255,7 +256,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-django-appengine
  
  
- [codefish-live]: http://my-codefish.appspot.com
+ [codefish-live]: http://the-codefish.appspot.com
  
  [screenshot-repository]: ../screenshots/bitbucket/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png

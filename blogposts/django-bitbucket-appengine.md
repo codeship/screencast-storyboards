@@ -11,6 +11,7 @@
 
 
 
+
 How to set up Continuous Integration and Continuous Deployment for a Django Application from Bitbucket to App Engine
 ======================
 
@@ -180,13 +181,13 @@ So let's create an application on App Engine.
 
 [go to appengine.google.com and click "create application"]
 
-I enter "my-codefish" as identifier and "Codefish" as application name and I create the application.
+I enter "the-codefish" as identifier and "Codefish" as application name and I create the application.
 
 ![Creating an App Engine app][screenshot-new-deployment-app]
 
 [close App Engine tab]
 
-Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+Now I can enter my application URL `http://the-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
 
 
 
@@ -224,7 +225,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [my-codefish.appspot.com][codefish-live].
+When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [the-codefish.appspot.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -240,7 +241,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-django-appengine
  
  
- [codefish-live]: http://my-codefish.appspot.com
+ [codefish-live]: http://the-codefish.appspot.com
  
  [screenshot-repository]: ../screenshots/bitbucket/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png

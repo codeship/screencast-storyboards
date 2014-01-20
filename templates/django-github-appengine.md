@@ -7,6 +7,7 @@
 {% assign deployment = "App Engine" %}
 {% assign deployment_slug = "appengine" %}
 {% assign repo_name = "codefish-django-appengine" %}
+{% assign app_name = "my-codefish" %}
 {% assign app_url = "my-codefish.appspot.com" %}
 
 {% include 'snippets/header' %}
