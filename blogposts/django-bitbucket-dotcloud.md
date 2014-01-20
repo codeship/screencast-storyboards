@@ -275,9 +275,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-build-deployment]: ../screenshots/django/dotcloud/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/django/dotcloud/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/django/dotcloud/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/bitbucket/django/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/bitbucket/django/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/bitbucket/django/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/bitbucket/codefish-django/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/bitbucket/codefish-django/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/bitbucket/codefish-django/hook-added.png
  [screenshot-deployment-username]: ../screenshots/django/dotcloud/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/dotcloud/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/dotcloud/add-config.png

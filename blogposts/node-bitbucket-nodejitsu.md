@@ -274,9 +274,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-build-deployment]: ../screenshots/node/nodejitsu/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/node/nodejitsu/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/node/nodejitsu/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/bitbucket/node/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/bitbucket/node/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/bitbucket/node/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/bitbucket/codefish-node/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/bitbucket/codefish-node/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/bitbucket/codefish-node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png

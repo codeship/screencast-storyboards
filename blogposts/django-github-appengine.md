@@ -262,9 +262,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-build-deployment]: ../screenshots/django/appengine/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/django/appengine/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/django/appengine/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/github/django/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/github/django/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/github/django/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/github/codefish-django-appengine/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/github/codefish-django-appengine/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/github/codefish-django-appengine/hook-added.png
  [screenshot-deployment-username]: ../screenshots/django/appengine/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/appengine/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/appengine/add-config.png

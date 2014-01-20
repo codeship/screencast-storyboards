@@ -277,9 +277,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-build-deployment]: ../screenshots/rails/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/rails/heroku/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/rails/heroku/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/github/rails/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/github/rails/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/github/rails/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/github/codefish-rails/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/github/codefish-rails/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/github/codefish-rails/hook-added.png
  [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png

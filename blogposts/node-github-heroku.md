@@ -268,9 +268,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-build-deployment]: ../screenshots/node/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/node/heroku/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/node/heroku/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/github/node/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/github/node/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/github/node/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/github/codefish-node/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/github/codefish-node/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/github/codefish-node/hook-added.png
  [screenshot-deployment-username]: ../screenshots/node/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
