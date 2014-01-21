@@ -163,29 +163,27 @@ As we want to deploy to App Engine we click on the "App Engine" button.
 
 
 
-Before you can configure your App Engine deployment, you need to connect your App Engine account to Codeship by clicking the link.
+Before you can configure your App Engine deployment, you need to connect your App Engine account to Codeship by clicking the "Connect to App Engine" link.
 
 ![App Engine OAuth dialog][screenshot-deployment-oauth]
 
 Let's accept the connection.
 
-When you select "App Engine" again, you can configure your deployment.
+When you select "App Engine" again now, you can configure your deployment.
 
 ![Empty App Engine deployment][screenshot-empty-deployment]
 
 You can leave the path as it is, but if you'd like the Codeship to check if your deployment worked, you should insert the URL of your application.
 
-So let's go to [appengine.google.com][https://appengine.google.com] and create an application first.
+So let's go to [appengine.google.com](https://appengine.google.com) and create your application first.
 
 ![App Engine home page][screenshot-deployment-home-page]
 
-There you need to enter an identifier for your app (in my case "the-codefish") and a title (in my case "Codefish") and create the application.
+There you need to enter an identifier for your app (in my case "my-codefish") and a title (in my case "Codefish") and create the application.
 
 ![Creating an App Engine app][screenshot-new-deployment-app]
 
-[close App Engine tab]
-
-Now you can enter your application URL `http://YOUR_APP_IDENTIFIER.appspot.com` into your deployment configuration. This way the Codeship can check if your application works after deployment.
+Now you can enter your application URL `http://YOUR_APP_IDENTIFIER.appspot.com` into your deployment configuration.
 
 
 
@@ -225,7 +223,7 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
-When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [the-codefish.appspot.com][codefish-live].
+When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [my-codefish.appspot.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -241,7 +239,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-django-appengine
  
  
- [codefish-live]: http://the-codefish.appspot.com
+ [codefish-live]: http://my-codefish.appspot.com
  
  [screenshot-repository]: ../screenshots/bitbucket/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
