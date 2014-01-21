@@ -12,10 +12,10 @@
 
 
 
-How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to App Engine
+How to set up Continuous Integration and Continuous Deployment for a Django Application from Bitbucket to App Engine
 ======================
 
-In this blog post we're gonna deploy a Django application from a GitHub repository to App Engine using [the Codeship][codeship].
+In this blog post we're gonna deploy a Django application from a Bitbucket repository to App Engine using [the Codeship][codeship].
 
 
 
@@ -23,7 +23,7 @@ In this blog post we're gonna deploy a Django application from a GitHub reposito
 
 We've set up a simple Django application called [codefish][codefish-repo] which contains some tests. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
 
-[![codefish-django-appengine on GitHub][screenshot-repository]][screenshot-repository]
+[![codefish-django-appengine on Bitbucket][screenshot-repository]][screenshot-repository]
 
 
 
@@ -33,9 +33,9 @@ Together, we're gonna deploy this application to App Engine using the Codeship.
 
 [![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
-First, sign in to the Codeship with GitHub. The Codeship needs access to your GitHub repositories to be able to set them up. Let's allow access.
+First, sign in to the Codeship with Bitbucket. The Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
 
-[![GitHub Access][screenshot-oauth]][screenshot-oauth]
+[![Bitbucket Access][screenshot-oauth]][screenshot-oauth]
 
 We're back at the Codeship. Now let's create your first project.
 
@@ -45,11 +45,11 @@ We're back at the Codeship. Now let's create your first project.
 
 
 
-The first step of your project setup is to select GitHub as your repository provider.
+The first step of your project setup is to select Bitbucket as your repository provider.
 
 [![Select your repository provider][screenshot-repo-provider-selection]][screenshot-repo-provider-selection]
 
-In the list of your GitHub repositories
+In the list of your Bitbucket repositories
 
 [![Search for your repository in the list][screenshot-repo-selection]][screenshot-repo-selection]
 
@@ -82,6 +82,22 @@ If you want to run your tests with `python manage.py test`, you don't need to ch
 Now let's finish your setup and go to the dashboard.
 
 [![Finish your setup. You are on the Dashboard now][screenshot-codeship-dasboard]][screenshot-codeship-dasboard]
+
+
+
+
+
+To start your first build, you need to add a push hook to your Bitbucket repository. Copy the hook url and follow the link to the service hook settings of your repository. Add a "POST" hook there,
+
+[![Bitbucket select POST hook][screenshot-select-post-hook]][screenshot-select-post-hook]
+
+paste the hook url
+
+[![Bitbucket paste hook URL][screenshot-paste-hook-url]][screenshot-paste-hook-url]
+
+and save the hook.
+
+[![Bitbucket hook URL][screenshot-hook-added]][screenshot-hook-added]
 
 
 
@@ -179,7 +195,7 @@ Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to App Engine everytime you push to your GitHub repository.
+From now on the Codeship will deploy your application to App Engine everytime you push to your Bitbucket repository.
 
 
 
@@ -224,31 +240,31 @@ If you need help with setting up your own application, please use the support li
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
  
- [codefish-repo]: https://github.com/codeship-tutorials/codefish-django-appengine
+ [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-django-appengine
  
  
  [codefish-live]: http://my-codefish.appspot.com
  
- [screenshot-repository]: ../screenshots/github/codefish-django-appengine/repository.png
+ [screenshot-repository]: ../screenshots/bitbucket/codefish-django-appengine/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
- [screenshot-oauth]: ../screenshots/github/oauth.png
+ [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
  [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
- [screenshot-repo-provider-selection]: ../screenshots/github/repo-provider-selection.png
+ [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
  [screenshot-repo-selection]: ../screenshots/repo-selection.png
  [screenshot-repo-selection-filtered]: ../screenshots/django/codefish-django-appengine-selection-filtered.png
  [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
  [screenshot-codeship-technology-selected]: ../screenshots/django/codeship-technology.png
  [screenshot-technology-version]: ../screenshots/django/technology-version.png
  [screenshot-test-commands]: ../screenshots/django/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/github/codefish-django-appengine/codeship-dashboard.png
+ [screenshot-codeship-dasboard]: ../screenshots/bitbucket/codefish-django-appengine/codeship-dashboard.png
  [screenshot-codeship-image]: ../screenshots/django/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/github/codefish-django-appengine/push.png
+ [screenshot-codeship-push]: ../screenshots/bitbucket/codefish-django-appengine/push.png
  [screenshot-first-build-running]: ../screenshots/django/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/github/codefish-django-appengine/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/github/codefish-django-appengine/first-build-finished.png
- [screenshot-build-log]: ../screenshots/github/codefish-django-appengine/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/github/codefish-django-appengine/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/github/codefish-django-appengine/go-to-project-settings.png
+ [screenshot-first-build-running-details]: ../screenshots/bitbucket/codefish-django-appengine/first-build-running-details.png
+ [screenshot-first-build-finished]: ../screenshots/bitbucket/codefish-django-appengine/first-build-finished.png
+ [screenshot-build-log]: ../screenshots/bitbucket/codefish-django-appengine/build-log.png
+ [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/codefish-django-appengine/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: ../screenshots/bitbucket/codefish-django-appengine/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/django/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/django/deployment-settings.png
  [screenshot-new-deployment]: ../screenshots/django/appengine/new-deployment.png
@@ -260,18 +276,18 @@ If you need help with setting up your own application, please use the support li
  [screenshot-complete-deployment]: ../screenshots/django/appengine/complete-deployment.png
  [screenshot-saved-deployment]: ../screenshots/django/appengine/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/django/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: ../screenshots/github/django/commit-and-push-paragraph.png
+ [screenshot-commit-and-push-paragraph]: ../screenshots/bitbucket/django/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: ../screenshots/django/appengine/deploy-build-started.png
  [screenshot-build-deployment]: ../screenshots/django/appengine/build-deployment.png
  [screenshot-build-deployment-complete]: ../screenshots/django/appengine/build-deployment-complete.png
  [screenshot-deployed-application]: ../screenshots/django/appengine/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/github/codefish-django-appengine/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/github/codefish-django-appengine/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/github/codefish-django-appengine/hook-added.png
+ [screenshot-select-post-hook]: ../screenshots/bitbucket/codefish-django-appengine/select-post-hook.png
+ [screenshot-paste-hook-url]: ../screenshots/bitbucket/codefish-django-appengine/paste-hook-url.png
+ [screenshot-hook-added]: ../screenshots/bitbucket/codefish-django-appengine/hook-added.png
  [screenshot-deployment-username]: ../screenshots/django/appengine/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/appengine/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/appengine/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django-appengine/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-django-appengine/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/appengine/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/appengine/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/django/appengine/dotcloud-yml.png

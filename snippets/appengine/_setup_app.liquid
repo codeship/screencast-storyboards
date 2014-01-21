@@ -1,3 +1,5 @@
+{% if format == "storyboard" %}
+
 Before we can configure our App Engine deployment, we need to connect our App Engine account to Codeship.
 
 [Click "Connect to App Engine"]
@@ -18,10 +20,36 @@ So let's create an application on App Engine.
 
 [go to appengine.google.com and click "create application"]
 
-I enter "my-codefish" as identifier and "Codefish" as application name and I create the application.
+I enter "{{ app_name }}" as identifier and "Codefish" as application name and I create the application.
 
 ![Creating an App Engine app][screenshot-new-deployment-app]
 
 [close App Engine tab]
 
-Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+Now I can enter my application URL `http://{{ app_url }}` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+
+{% elsif format == "blogpost" %}
+
+Before you can configure your App Engine deployment, you need to connect your App Engine account to Codeship by clicking the "Connect to App Engine" link.
+
+![App Engine OAuth dialog][screenshot-deployment-oauth]
+
+Let's accept the connection.
+
+When you select "App Engine" again now, you can configure your deployment.
+
+![Empty App Engine deployment][screenshot-empty-deployment]
+
+You can leave the path as it is, but if you'd like the Codeship to check if your deployment worked, you should insert the URL of your application.
+
+So if you haven't already, let's create your application at [appengine.google.com](https://appengine.google.com) now.
+
+![App Engine home page][screenshot-deployment-home-page]
+
+There you need to enter an identifier for your app (in my case "{{ app_name }}") and a title (in my case "Codefish") and create the application.
+
+![Creating an App Engine app][screenshot-new-deployment-app]
+
+You can enter your application URL `http://YOUR_APP_IDENTIFIER.appspot.com` into your deployment configuration.
+
+{% endif %}

@@ -2,8 +2,8 @@
 {% assign test_technology_selection = "Python" %}
 {% assign technology_slug = "django" %}
 {% assign tests = "tests" %}
-{% assign repository = "GitHub" %}
-{% assign repository_slug = "github" %}
+{% assign repository = "Bitbucket" %}
+{% assign repository_slug = "bitbucket" %}
 {% assign deployment = "App Engine" %}
 {% assign deployment_slug = "appengine" %}
 {% assign repo_name = "codefish-django-appengine" %}
@@ -16,6 +16,7 @@
 {% include 'snippets/project_setup' %}
 {% include 'snippets/django/technology_setup' %}
 {% include 'snippets/go_to_dashboard' %}
+{% include 'snippets/bitbucket/set_up_hook' %}
 {% include 'snippets/run_build' %}
 {% include 'snippets/inspect_build' %}
 {% include 'snippets/finish_road_to_success' %}
