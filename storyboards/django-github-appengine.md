@@ -158,6 +158,8 @@ We want to deploy to "App Engine".
 
 
 
+
+
 Before we can configure our App Engine deployment, we need to connect our App Engine account to Codeship.
 
 [Click "Connect to App Engine"]
@@ -185,6 +187,8 @@ I enter "my-codefish" as identifier and "Codefish" as application name and I cre
 [close App Engine tab]
 
 Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+
+
 
 
 

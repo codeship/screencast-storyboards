@@ -161,33 +161,33 @@ As we want to deploy to App Engine we click on the "App Engine" button.
 
 
 
-Before we can configure our App Engine deployment, we need to connect our App Engine account to Codeship.
 
-[Click "Connect to App Engine"]
+
+Before you can configure your App Engine deployment, you need to connect your App Engine account to Codeship by clicking the link.
 
 ![App Engine OAuth dialog][screenshot-deployment-oauth]
 
 Let's accept the connection.
 
-When we select "App Engine" again, we can configure our deployment.
+When you select "App Engine" again, you can configure your deployment.
 
 ![Empty App Engine deployment][screenshot-empty-deployment]
 
-We can leave the path as it is, but I'd like to enter the URL to our application.
+You can leave the path as it is, but if you'd like the Codeship to check if your deployment worked, you should insert the URL of your application.
 
-So let's create an application on App Engine.
+So let's go to [appengine.google.com][https://appengine.google.com] and create an application first.
 
 ![App Engine home page][screenshot-deployment-home-page]
 
-[go to appengine.google.com and click "create application"]
-
-I enter "the-codefish" as identifier and "Codefish" as application name and I create the application.
+There you need to enter an identifier for your app (in my case "the-codefish") and a title (in my case "Codefish") and create the application.
 
 ![Creating an App Engine app][screenshot-new-deployment-app]
 
 [close App Engine tab]
 
-Now I can enter my application URL `http://the-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+Now you can enter your application URL `http://YOUR_APP_IDENTIFIER.appspot.com` into your deployment configuration. This way the Codeship can check if your application works after deployment.
+
+
 
 
 
