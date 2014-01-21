@@ -165,23 +165,23 @@ As we want to deploy to App Engine we click on the "App Engine" button.
 
 Before you can configure your App Engine deployment, you need to connect your App Engine account to Codeship by clicking the "Connect to App Engine" link.
 
-![App Engine OAuth dialog][screenshot-deployment-oauth]
+[![App Engine OAuth dialog][screenshot-deployment-oauth]][screenshot-deployment-oauth]
 
 Let's accept the connection.
 
 When you select "App Engine" again now, you can configure your deployment.
 
-![Empty App Engine deployment][screenshot-empty-deployment]
+[![Empty App Engine deployment][screenshot-empty-deployment]][screenshot-empty-deployment]
 
 You can leave the path as it is, but if you'd like the Codeship to check if your deployment worked, you should insert the URL of your application.
 
 So if you haven't already, let's create your application at [appengine.google.com](https://appengine.google.com) now.
 
-![App Engine home page][screenshot-deployment-home-page]
+[![App Engine home page][screenshot-deployment-home-page]][screenshot-deployment-home-page]
 
 There you need to enter an identifier for your app (in my case "my-codefish") and a title (in my case "Codefish") and create the application.
 
-![Creating an App Engine app][screenshot-new-deployment-app]
+[![Creating an App Engine app][screenshot-new-deployment-app]][screenshot-new-deployment-app]
 
 You can enter your application URL `http://YOUR_APP_IDENTIFIER.appspot.com` into your deployment configuration.
 
@@ -205,11 +205,11 @@ Let's get your application ready for App Engine by creating a file `app.yml` in 
 
 App engine also requires a `version` and an `api_version` parameter, which you can both set to "1". And finally add a handler for all urls to be handled by your app boot script, in my case `django_bootstrap.py`.
 
-![app.yml][screenshot-app-yml]
+[![app.yml][screenshot-app-yml]][screenshot-app-yml]
 
 Now you can commit and push this change
 
-![Commit and push App Engine config][screenshot-commit-and-push-deployment-config]
+[![Commit and push App Engine config][screenshot-commit-and-push-deployment-config]][screenshot-commit-and-push-deployment-config]
 
 
 
