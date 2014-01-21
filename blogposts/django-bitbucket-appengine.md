@@ -199,15 +199,19 @@ From now on the Codeship will deploy your application to App Engine everytime yo
 
 
 
-Let's get our application ready for App Engine. We create a file `app.yml` in the root directory of our application. In this configuration file we tell App Engine that our web application is called "my-codefish" and that it is a python app.
 
-We say that the version is "1" and the api version is "1" as well. And finally we add a handler for all urls to be handled by `django_bootstrap.py`.
+
+Let's get your application ready for App Engine. You need to create a file `app.yml` in the root directory of your application. In this configuration file you tell App Engine your web application's identifier (in my case my-codefish and that it is a python app.
+
+App engine also requires a `version` and an `api_version` parameter, which you can both set to "1". And finally add a handler for all urls to be handled by your app boot script, in my case `django_bootstrap.py`.
 
 ![app.yml][screenshot-app-yml]
 
-I commit and push this change
+Now you can commit and push this change
 
 ![Commit and push App Engine config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
