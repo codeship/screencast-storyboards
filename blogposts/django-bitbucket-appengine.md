@@ -175,7 +175,7 @@ When you select "App Engine" again now, you can configure your deployment.
 
 You can leave the path as it is, but if you'd like the Codeship to check if your deployment worked, you should insert the URL of your application.
 
-So let's go to [appengine.google.com](https://appengine.google.com) and create your application first.
+So if you haven't already, let's go to [appengine.google.com](https://appengine.google.com) and create your application now.
 
 ![App Engine home page][screenshot-deployment-home-page]
 
@@ -183,7 +183,7 @@ There you need to enter an identifier for your app (in my case "my-codefish") an
 
 ![Creating an App Engine app][screenshot-new-deployment-app]
 
-Now you can enter your application URL `http://YOUR_APP_IDENTIFIER.appspot.com` into your deployment configuration.
+You can enter your application URL `http://YOUR_APP_IDENTIFIER.appspot.com` into your deployment configuration.
 
 
 
