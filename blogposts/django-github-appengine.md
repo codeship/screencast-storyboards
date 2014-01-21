@@ -159,7 +159,7 @@ When you select "App Engine" again now, you can configure your deployment.
 
 You can leave the path as it is, but if you'd like the Codeship to check if your deployment worked, you should insert the URL of your application.
 
-So if you haven't already, let's go to [appengine.google.com](https://appengine.google.com) and create your application now.
+So if you haven't already, let's create your application at [appengine.google.com](https://appengine.google.com) now.
 
 ![App Engine home page][screenshot-deployment-home-page]
 
