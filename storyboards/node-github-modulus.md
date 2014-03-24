@@ -161,7 +161,25 @@ We want to deploy to "Modulus".
 
 
 
-Liquid error: No such template 'snippets/modulus/setup_app'
+We need to fill in our Modulus API token and project name. To generate an API
+token, we need to install the Modulus command line tool first.
+[run `npm install -g modulus`]
+
+![Install modulus CLI][screenshot-install-cli]
+
+I sign in with my GitHub account
+
+![Sign in to modulus CLI][screenshot-sign-in-to-cli]
+
+and now I can generate an API token. [run `modulus token create`]
+
+![Create modulus API token][screenshot-create-api-token]
+
+We also need to create a Modulus project. Let's call it "codefish".
+[run `modulus project create`, enter "codefish" as name]u
+
+![Create modulus project][screenshot-create-deployment-project]
+
 
 
 ![Complete Modulus deployment][screenshot-complete-deployment]
