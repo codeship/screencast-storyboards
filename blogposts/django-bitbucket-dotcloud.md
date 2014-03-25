@@ -221,6 +221,10 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
+
+
+
+
 When you open the URL of your dotCloud app now, your deployed application appears. You can find mine on [codefish-clemens.dotcloud.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
@@ -295,5 +299,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-install-tool]: ../screenshots/dotcloud/install-tool.png
  [screenshot-sign-in-to-deployment]: ../screenshots/dotcloud/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/dotcloud/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/dotcloud/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/dotcloud/create-deployment-project.png
 

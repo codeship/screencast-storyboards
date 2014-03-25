@@ -156,18 +156,24 @@ token, we need to install the Modulus command line tool first.
 
 ![Install modulus CLI][screenshot-install-tool]
 
-I sign in with my GitHub account
+I sign in with my GitHub account.
 
 ![Sign in to modulus CLI][screenshot-sign-in-to-deployment]
 
-and now I can generate an API token. [run `modulus token create`]
+Now I can generate an API token [run `modulus token create`]
 
 ![Create modulus API token][screenshot-create-api-token]
 
-We also need to create a Modulus project. Let's call it "codefish".
-[run `modulus project create`, enter "codefish" as name]u
+and insert it into my deployment configuration.
+
+![Insert modulus API token][screenshot-insert-api-token]
+
+We also need to create a Modulus project. Let's call it "codefish"
+[run `modulus project create`, enter "codefish" as name]
 
 ![Create modulus project][screenshot-create-deployment-project]
+
+and insert "codefish" as project name into my deployment configuration.
 
 
 
@@ -181,17 +187,12 @@ From now on the Codeship will deploy your application to Modulus everytime you p
 
 
 
+We still need to tell Modulus how to run to run our application.
 
+In our `package.json` file we add `"main": "start.js"`, because this file will
+start our application's server.
 
-Let's push a change and see if it gets deployed. Change something in your application first,
-
-[![Add a new paragraph you can then commit and push][screenshot-added-paragraph]][screenshot-added-paragraph]
-
-then commit and push the change.
-
-[![Commit and push the change][screenshot-commit-and-push-paragraph]][screenshot-commit-and-push-paragraph]
-
-
+![Add Modulus config][screenshot-add-deployment-config]
 
 
 
@@ -206,6 +207,14 @@ After the commands we already know from your first build, your application also 
 And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
+
+
+
+In the deployment log we can look up our application's URL.
+
+![Look up application URL][screenshot-look-up-url]
+
+
 
 When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-app.herokuapp.com][codefish-live].
 
@@ -279,5 +288,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-install-tool]: ../screenshots/modulus/install-tool.png
  [screenshot-sign-in-to-deployment]: ../screenshots/modulus/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/modulus/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/modulus/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/modulus/create-deployment-project.png
 

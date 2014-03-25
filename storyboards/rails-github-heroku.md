@@ -223,6 +223,10 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
+
+
+
+
 When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
@@ -297,5 +301,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-install-tool]: ../screenshots/heroku/install-tool.png
  [screenshot-sign-in-to-deployment]: ../screenshots/heroku/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/heroku/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/heroku/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/heroku/create-deployment-project.png
 

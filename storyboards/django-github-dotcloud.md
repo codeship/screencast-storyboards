@@ -217,6 +217,10 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
+
+
+
+
 When we open [codefish-clemens.dotcloud.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
@@ -291,5 +295,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-install-tool]: ../screenshots/dotcloud/install-tool.png
  [screenshot-sign-in-to-deployment]: ../screenshots/dotcloud/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/dotcloud/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/dotcloud/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/dotcloud/create-deployment-project.png
 

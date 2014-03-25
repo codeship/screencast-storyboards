@@ -227,6 +227,10 @@ And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
 
+
+
+
+
 When you open the URL of your App Engine app now, your deployed application appears. You can find mine on [my-codefish.appspot.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
@@ -301,5 +305,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-install-tool]: ../screenshots/appengine/install-tool.png
  [screenshot-sign-in-to-deployment]: ../screenshots/appengine/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/appengine/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/appengine/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/appengine/create-deployment-project.png
 

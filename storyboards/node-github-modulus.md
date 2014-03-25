@@ -68,7 +68,7 @@ We select "Node.js" as our technology. This prepopulates the setup commands and 
 
 
 
-The Codeship suggests Node.js 0.10.18, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.15`.
+The Codeship suggests Node.js 0.10.25, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.26`.
 
 ![Node Version][screenshot-technology-version]
 
@@ -167,18 +167,24 @@ token, we need to install the Modulus command line tool first.
 
 ![Install modulus CLI][screenshot-install-tool]
 
-I sign in with my GitHub account
+I sign in with my GitHub account.
 
 ![Sign in to modulus CLI][screenshot-sign-in-to-deployment]
 
-and now I can generate an API token. [run `modulus token create`]
+Now I can generate an API token [run `modulus token create`]
 
 ![Create modulus API token][screenshot-create-api-token]
 
-We also need to create a Modulus project. Let's call it "codefish".
-[run `modulus project create`, enter "codefish" as name]u
+and insert it into my deployment configuration.
+
+![Insert modulus API token][screenshot-insert-api-token]
+
+We also need to create a Modulus project. Let's call it "codefish"
+[run `modulus project create`, enter "codefish" as name]
 
 ![Create modulus project][screenshot-create-deployment-project]
+
+and insert "codefish" as project name into my deployment configuration.
 
 
 
@@ -192,17 +198,12 @@ From now on the Codeship will deploy our application to Modulus everytime we pus
 
 
 
+We still need to tell Modulus how to run to run our application.
 
+In our `package.json` file we add `"main": "start.js"`, because this file will
+start our application's server.
 
-Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Node.js app with the Codeship." to the landing page.
-
-![Added Paragraph][screenshot-added-paragraph]
-
-I commit and push the change
-
-![Commit and push paragraph][screenshot-commit-and-push-paragraph]
-
-
+![Add Modulus config][screenshot-add-deployment-config]
 
 
 
@@ -217,6 +218,14 @@ After the commands we already know from our first build, our application also ge
 And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
+
+
+
+In the deployment log we can look up our application's URL.
+
+![Look up application URL][screenshot-look-up-url]
+
+
 
 When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
 
@@ -290,5 +299,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-install-tool]: ../screenshots/modulus/install-tool.png
  [screenshot-sign-in-to-deployment]: ../screenshots/modulus/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/modulus/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/modulus/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/modulus/create-deployment-project.png
 

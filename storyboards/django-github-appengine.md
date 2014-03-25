@@ -230,6 +230,10 @@ And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
+
+
+
+
 When we open [my-codefish.appspot.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
@@ -304,5 +308,6 @@ If you need help with setting up your own application, please use the support li
  [screenshot-install-tool]: ../screenshots/appengine/install-tool.png
  [screenshot-sign-in-to-deployment]: ../screenshots/appengine/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/appengine/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/appengine/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/appengine/create-deployment-project.png
 

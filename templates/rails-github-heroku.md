@@ -22,5 +22,6 @@
 {% include 'snippets/heroku/setup_app' %}
 {% include 'snippets/save_deployment' %}
 {% include 'snippets/push_paragraph' %}
-{% include 'snippets/deployment_and_end' %}
+{% include 'snippets/deployment' %}
+{% include 'snippets/open_deployed_application' %}
 {% include 'snippets/urls' %}
