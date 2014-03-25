@@ -162,12 +162,12 @@ We want to deploy to "Modulus".
 
 
 We need to fill in our Modulus API token and project name. To generate an API
-token, we need to install the Modulus command line tool first.
-[run `npm install -g modulus`]
+token, let's install the Modulus command line tool first.
+[run `sudo npm install -g modulus`]
 
 ![Install modulus CLI][screenshot-install-tool]
 
-I sign in with my GitHub account.
+I sign in to Modulus with my GitHub account.
 
 ![Sign in to modulus CLI][screenshot-sign-in-to-deployment]
 
@@ -179,12 +179,8 @@ and insert it into my deployment configuration.
 
 ![Insert modulus API token][screenshot-insert-api-token]
 
-We also need to create a Modulus project. Let's call it "codefish"
-[run `modulus project create`, enter "codefish" as name]
-
-![Create modulus project][screenshot-create-deployment-project]
-
-and insert "codefish" as project name into my deployment configuration.
+Let's name the application "codefish". It will automatically be created
+if it doesn't exist yet.
 
 
 
@@ -198,7 +194,7 @@ From now on the Codeship will deploy our application to Modulus everytime we pus
 
 
 
-We still need to tell Modulus how to run to run our application.
+We still need to tell Modulus how to run our application.
 
 In our `package.json` file we add `"main": "start.js"`, because this file will
 start our application's server.
@@ -231,7 +227,7 @@ In the deployment log we can look up our application's URL.
 
 
 
-When we open [codefish-11817.onmodulus.net][codefish-live] now, our deployed application appears.
+When we open [codefish-11838.onmodulus.net][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -247,7 +243,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-node
  
  
- [codefish-live]: http://codefish-11817.onmodulus.net
+ [codefish-live]: http://codefish-11838.onmodulus.net
  
  [screenshot-repository]: ../screenshots/github/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
@@ -306,6 +302,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-sign-in-to-deployment]: ../screenshots/modulus/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/modulus/create-api-token.png
  [screenshot-insert-api-token]: ../screenshots/modulus/insert-api-token.png
- [screenshot-create-deployment-project]: ../screenshots/modulus/create-deployment-project.png
  [screenshot-look-up-url]: ../screenshots/modulus/look-up-url.png
 

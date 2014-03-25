@@ -327,6 +327,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-sign-in-to-deployment]: ../screenshots/appengine/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/appengine/create-api-token.png
  [screenshot-insert-api-token]: ../screenshots/appengine/insert-api-token.png
- [screenshot-create-deployment-project]: ../screenshots/appengine/create-deployment-project.png
  [screenshot-look-up-url]: ../screenshots/appengine/look-up-url.png
 

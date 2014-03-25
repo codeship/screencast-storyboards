@@ -293,6 +293,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-sign-in-to-deployment]: ../screenshots/heroku/sign-in-to-deployment.png
  [screenshot-create-api-token]: ../screenshots/heroku/create-api-token.png
  [screenshot-insert-api-token]: ../screenshots/heroku/insert-api-token.png
- [screenshot-create-deployment-project]: ../screenshots/heroku/create-deployment-project.png
  [screenshot-look-up-url]: ../screenshots/heroku/look-up-url.png
 
