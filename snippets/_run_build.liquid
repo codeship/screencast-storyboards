@@ -1,6 +1,6 @@
 {% if format == "storyboard" %}
 
-We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
+We can trigger a build for our application by pushing to our repository. Let's add Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
 
 ![Codeship welcome screen][screenshot-codeship-image]
@@ -9,7 +9,7 @@ Now let's commit and push this change.
 
 ![{{ repository }} Push][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
 ![Codeship running build][screenshot-first-build-running]
 
@@ -23,7 +23,7 @@ And a few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
-We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
+We see all the commands that were run. After a few initial preparation commands Codeship ran the commands that we specified a few moments ago.
 
 {% elsif format == "blogpost" %}
 
@@ -35,9 +35,9 @@ Now commit and push this change.
 
 [![Commit and push your change][screenshot-codeship-push]][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
-[![A new build got triggered on the Codeship][screenshot-first-build-running]][screenshot-first-build-running]
+[![A new build got triggered on Codeship][screenshot-first-build-running]][screenshot-first-build-running]
 
 You can access the build details by clicking the arrow on the right. Here you can follow the running build.
 
@@ -47,6 +47,6 @@ And a few seconds later your build succeeded! Great!
 
 [![Look at all the commands that are running][screenshot-first-build-finished]][screenshot-first-build-finished]
 
-You see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that you specified a few moments ago.
+You see all the commands that were run. After a few initial preparation commands Codeship ran the commands that you specified a few moments ago.
 
 {% endif %}

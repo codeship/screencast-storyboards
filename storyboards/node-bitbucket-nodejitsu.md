@@ -14,7 +14,7 @@
 Deploying Node.js from Bitbucket to Nodejitsu
 ======================
 
-In this screencast we're gonna deploy a Node.js application from a Bitbucket repository to Nodejitsu using the Codeship.
+In this screencast we're going to deploy a Node.js application from a Bitbucket repository to Nodejitsu using Codeship.
 
 
 
@@ -28,15 +28,15 @@ I've got a simple Node.js application called [codefish][codefish-repo] which con
 
 
 
-We're gonna deploy this application to Nodejitsu using the Codeship.
+We're going to deploy this application to Nodejitsu using Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with Bitbucket. The Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to Codeship with Bitbucket. Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![Bitbucket OAuth][screenshot-oauth]
 
-We're back at the Codeship. Now let's create our first project. [click create project button]
+We're back at Codeship. Now let's create our first project. [click create project button]
 
 ![Codeship welcome screen][screenshot-codeship-welcome]
 
@@ -68,7 +68,7 @@ We select "Node.js" as our technology. This prepopulates the setup commands and 
 
 
 
-The Codeship suggests Node.js 0.10.25, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.26`.
+Codeship suggests Node.js 0.10.25, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.26`.
 
 ![Node Version][screenshot-technology-version]
 
@@ -110,7 +110,7 @@ and save the hook.
 
 
 
-We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
+We can trigger a build for our application by pushing to our repository. Let's add Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
 
 ![Codeship welcome screen][screenshot-codeship-image]
@@ -119,7 +119,7 @@ Now let's commit and push this change.
 
 ![Bitbucket Push][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
 ![Codeship running build][screenshot-first-build-running]
 
@@ -133,7 +133,7 @@ And a few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
-We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
+We see all the commands that were run. After a few initial preparation commands Codeship ran the commands that we specified a few moments ago.
 
 
 
@@ -201,7 +201,7 @@ Now let's save our deployment configuration.
 
 ![Saved Nodejitsu deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Nodejitsu everytime we push to our Bitbucket repository.
+From now on Codeship will deploy our application to Nodejitsu everytime we push to our Bitbucket repository.
 
 
 
@@ -223,7 +223,7 @@ I commit and push this change
 
 
 
-and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 

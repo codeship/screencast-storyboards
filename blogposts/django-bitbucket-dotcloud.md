@@ -14,7 +14,7 @@
 How to set up Continuous Integration and Continuous Deployment for a Django Application from Bitbucket to dotCloud
 ======================
 
-In this blog post we're gonna deploy a Django application from a Bitbucket repository to dotCloud using [the Codeship][codeship].
+In this blog post we're going to deploy a Django application from a Bitbucket repository to dotCloud using [Codeship][codeship].
 
 
 
@@ -28,17 +28,17 @@ We've set up a simple Django application called [codefish][codefish-repo] which 
 
 
 
-Together, we're gonna deploy this application to dotCloud using the Codeship.
+Together, we're going to deploy this application to dotCloud using Codeship.
 
-[![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
+[![Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
-First, sign in to the Codeship with Bitbucket. The Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
+First, sign in to Codeship with Bitbucket. Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
 
 [![Bitbucket Access][screenshot-oauth]][screenshot-oauth]
 
-We're back at the Codeship. Now let's create your first project.
+We're back at Codeship. Now let's create your first project.
 
-[![Let's set up our first project on the Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
+[![Let's set up our first project on Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
 
 
 
@@ -110,9 +110,9 @@ Now commit and push this change.
 
 [![Commit and push your change][screenshot-codeship-push]][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
-[![A new build got triggered on the Codeship][screenshot-first-build-running]][screenshot-first-build-running]
+[![A new build got triggered on Codeship][screenshot-first-build-running]][screenshot-first-build-running]
 
 You can access the build details by clicking the arrow on the right. Here you can follow the running build.
 
@@ -122,7 +122,7 @@ And a few seconds later your build succeeded! Great!
 
 [![Look at all the commands that are running][screenshot-first-build-finished]][screenshot-first-build-finished]
 
-You see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that you specified a few moments ago.
+You see all the commands that were run. After a few initial preparation commands Codeship ran the commands that you specified a few moments ago.
 
 
 
@@ -166,7 +166,7 @@ To retrieve your API key, just follow the link to Dotcloud.
 
 ![Dotcloud API key][screenshot-dotcloud-api-key]
 
-Copy the key and insert it into your deployment configuration at the Codeship.
+Copy the key and insert it into your deployment configuration at Codeship.
 
 ![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
 
@@ -176,13 +176,13 @@ You can name your application whatever you like. The application will be automat
 
 
 
-[![Copy and paste the dotCloud API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+[![Copy and paste the dotCloud API key to Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to dotCloud everytime you push to your Bitbucket repository.
+From now on Codeship will deploy your application to dotCloud everytime you push to your Bitbucket repository.
 
 
 
@@ -209,7 +209,7 @@ Now you can commit and push this change
 
 
 
-And immediately another build will start running on the Codeship. Let's go back to your project overview.
+And immediately another build will start running on Codeship. Let's go back to your project overview.
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 

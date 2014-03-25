@@ -14,7 +14,7 @@
 Deploying Ruby on Rails from GitHub to Heroku
 ======================
 
-In this screencast we're gonna deploy a Ruby on Rails application from a GitHub repository to Heroku using the Codeship.
+In this screencast we're going to deploy a Ruby on Rails application from a GitHub repository to Heroku using Codeship.
 
 
 
@@ -28,15 +28,15 @@ I've got a simple Ruby on Rails application called [codefish][codefish-repo] whi
 
 
 
-We're gonna deploy this application to Heroku using the Codeship.
+We're going to deploy this application to Heroku using Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to Codeship with GitHub. Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![GitHub OAuth][screenshot-oauth]
 
-We're back at the Codeship. Now let's create our first project. [click create project button]
+We're back at Codeship. Now let's create our first project. [click create project button]
 
 ![Codeship welcome screen][screenshot-codeship-welcome]
 
@@ -68,7 +68,7 @@ We select "Ruby on Rails" as our technology. This prepopulates the setup command
 
 
 
-The Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `ruby -v` in the terminal, I find out that I use Ruby `2.0.0p195`.
+Codeship suggests Ruby 1.9.3, but I want to use the same Ruby version as on my computer. When I type `ruby -v` in the terminal, I find out that I use Ruby `2.0.0p195`.
 
 ![Ruby Version][screenshot-technology-version]
 
@@ -90,7 +90,7 @@ Now let's finish our setup and go to the dashboard.
 
 
 
-We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
+We can trigger a build for our application by pushing to our repository. Let's add Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
 
 ![Codeship welcome screen][screenshot-codeship-image]
@@ -99,7 +99,7 @@ Now let's commit and push this change.
 
 ![GitHub Push][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
 ![Codeship running build][screenshot-first-build-running]
 
@@ -113,7 +113,7 @@ And a few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
-We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
+We see all the commands that were run. After a few initial preparation commands Codeship ran the commands that we specified a few moments ago.
 
 
 
@@ -181,7 +181,7 @@ To retrieve my Heroku API key, I follow the link to my Heroku account and click 
 
 ![Show Heroku API key][screenshot-show-api-key]
 
-I copy it and insert it into my deployment configuration at the Codeship.
+I copy it and insert it into my deployment configuration at Codeship.
 
 
 
@@ -193,13 +193,13 @@ Now let's save our deployment configuration.
 
 ![Saved Heroku deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Heroku everytime we push to our GitHub repository.
+From now on Codeship will deploy our application to Heroku everytime we push to our GitHub repository.
 
 
 
 
 
-Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with the Codeship." to the landing page.
+Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Ruby on Rails app with Codeship." to the landing page.
 
 ![Added Paragraph][screenshot-added-paragraph]
 
@@ -211,7 +211,7 @@ I commit and push the change
 
 
 
-and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 

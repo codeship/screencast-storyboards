@@ -14,7 +14,7 @@
 How to set up Continuous Integration and Continuous Deployment for a Ruby on Rails Application from Bitbucket to Heroku
 ======================
 
-In this blog post we're gonna deploy a Ruby on Rails application from a Bitbucket repository to Heroku using [the Codeship][codeship].
+In this blog post we're going to deploy a Ruby on Rails application from a Bitbucket repository to Heroku using [Codeship][codeship].
 
 
 
@@ -28,17 +28,17 @@ We've set up a simple Ruby on Rails application called [codefish][codefish-repo]
 
 
 
-Together, we're gonna deploy this application to Heroku using the Codeship.
+Together, we're going to deploy this application to Heroku using Codeship.
 
-[![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
+[![Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
-First, sign in to the Codeship with Bitbucket. The Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
+First, sign in to Codeship with Bitbucket. Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
 
 [![Bitbucket Access][screenshot-oauth]][screenshot-oauth]
 
-We're back at the Codeship. Now let's create your first project.
+We're back at Codeship. Now let's create your first project.
 
-[![Let's set up our first project on the Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
+[![Let's set up our first project on Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
 
 
 
@@ -68,7 +68,7 @@ Codefish is a Ruby on Rails application. Therefore let's choose "Ruby on Rails" 
 
 
 
-The Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. To find out the Ruby version of your project, type `ruby -v` in the Terminal.
+Codeship suggests Ruby 1.9.3, but you can use whatever Ruby version you like. To find out the Ruby version of your project, type `ruby -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
@@ -114,9 +114,9 @@ Now commit and push this change.
 
 [![Commit and push your change][screenshot-codeship-push]][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
-[![A new build got triggered on the Codeship][screenshot-first-build-running]][screenshot-first-build-running]
+[![A new build got triggered on Codeship][screenshot-first-build-running]][screenshot-first-build-running]
 
 You can access the build details by clicking the arrow on the right. Here you can follow the running build.
 
@@ -126,7 +126,7 @@ And a few seconds later your build succeeded! Great!
 
 [![Look at all the commands that are running][screenshot-first-build-finished]][screenshot-first-build-finished]
 
-You see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that you specified a few moments ago.
+You see all the commands that were run. After a few initial preparation commands Codeship ran the commands that you specified a few moments ago.
 
 
 
@@ -178,27 +178,27 @@ and create your app.
 
 [![You successfully created your Heroku App][screenshot-heroku-app-created]][screenshot-heroku-app-created]
 
-Back at your deployment configuration on the Codeship enter the application name.
+Back at your deployment configuration on Codeship enter the application name.
 
-[![Back on the Codeship we enter the application name codefish-app][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
+[![Back on Codeship we enter the application name codefish-app][screenshot-heroku-deployment-name]][screenshot-heroku-deployment-name]
 
 To retrieve your Heroku API key, follow the link to your Heroku account and click "Show API key".
 
 [![Click on the link to get your Heroku API key][screenshot-show-api-key]][screenshot-show-api-key]
 
-Copy it and insert it into your deployment configuration at the Codeship.
+Copy it and insert it into your deployment configuration at Codeship.
 
 
 
 
 
-[![Copy and paste the Heroku API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+[![Copy and paste the Heroku API key to Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Heroku everytime you push to your Bitbucket repository.
+From now on Codeship will deploy your application to Heroku everytime you push to your Bitbucket repository.
 
 
 
@@ -216,7 +216,7 @@ then commit and push the change.
 
 
 
-And immediately another build will start running on the Codeship. Let's go back to your project overview.
+And immediately another build will start running on Codeship. Let's go back to your project overview.
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 

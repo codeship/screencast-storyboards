@@ -15,7 +15,7 @@
 Deploying Django from GitHub to App Engine
 ======================
 
-In this screencast we're gonna deploy a Django application from a GitHub repository to App Engine using the Codeship.
+In this screencast we're going to deploy a Django application from a GitHub repository to App Engine using Codeship.
 
 
 
@@ -29,15 +29,15 @@ I've got a simple Django application called [codefish][codefish-repo] which cont
 
 
 
-We're gonna deploy this application to App Engine using the Codeship.
+We're going to deploy this application to App Engine using Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to Codeship with GitHub. Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![GitHub OAuth][screenshot-oauth]
 
-We're back at the Codeship. Now let's create our first project. [click create project button]
+We're back at Codeship. Now let's create our first project. [click create project button]
 
 ![Codeship welcome screen][screenshot-codeship-welcome]
 
@@ -89,7 +89,7 @@ Now let's finish our setup and go to the dashboard.
 
 
 
-We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
+We can trigger a build for our application by pushing to our repository. Let's add Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
 
 ![Codeship welcome screen][screenshot-codeship-image]
@@ -98,7 +98,7 @@ Now let's commit and push this change.
 
 ![GitHub Push][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
 ![Codeship running build][screenshot-first-build-running]
 
@@ -112,7 +112,7 @@ And a few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
-We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
+We see all the commands that were run. After a few initial preparation commands Codeship ran the commands that we specified a few moments ago.
 
 
 
@@ -186,7 +186,7 @@ I enter "my-codefish" as identifier and "Codefish" as application name and I cre
 
 [close App Engine tab]
 
-Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way Codeship can check if my application works after deployment.
 
 
 
@@ -198,7 +198,7 @@ Now let's save our deployment configuration.
 
 ![Saved App Engine deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to App Engine everytime we push to our GitHub repository.
+From now on Codeship will deploy our application to App Engine everytime we push to our GitHub repository.
 
 
 
@@ -218,7 +218,7 @@ I commit and push this change
 
 
 
-and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 

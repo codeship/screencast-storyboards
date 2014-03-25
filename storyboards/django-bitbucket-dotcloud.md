@@ -14,7 +14,7 @@
 Deploying Django from Bitbucket to dotCloud
 ======================
 
-In this screencast we're gonna deploy a Django application from a Bitbucket repository to dotCloud using the Codeship.
+In this screencast we're going to deploy a Django application from a Bitbucket repository to dotCloud using Codeship.
 
 
 
@@ -28,15 +28,15 @@ I've got a simple Django application called [codefish][codefish-repo] which cont
 
 
 
-We're gonna deploy this application to dotCloud using the Codeship.
+We're going to deploy this application to dotCloud using Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with Bitbucket. The Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to Codeship with Bitbucket. Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![Bitbucket OAuth][screenshot-oauth]
 
-We're back at the Codeship. Now let's create our first project. [click create project button]
+We're back at Codeship. Now let's create our first project. [click create project button]
 
 ![Codeship welcome screen][screenshot-codeship-welcome]
 
@@ -106,7 +106,7 @@ and save the hook.
 
 
 
-We can trigger a build for our application by pushing to our repository. Let's add the Codeship status image [move mouse over green badge] to the README file.
+We can trigger a build for our application by pushing to our repository. Let's add Codeship status image [move mouse over green badge] to the README file.
 [add markdown code for image to editor]
 
 ![Codeship welcome screen][screenshot-codeship-image]
@@ -115,7 +115,7 @@ Now let's commit and push this change.
 
 ![Bitbucket Push][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
 ![Codeship running build][screenshot-first-build-running]
 
@@ -129,7 +129,7 @@ And a few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
-We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
+We see all the commands that were run. After a few initial preparation commands Codeship ran the commands that we specified a few moments ago.
 
 
 
@@ -181,7 +181,7 @@ To retrieve our API key, let's follow the link to Dotcloud.
 
 ![Dotcloud API key][screenshot-dotcloud-api-key]
 
-We copy the key [copy and close tab] and insert it into our deployment configuration at the Codeship.
+We copy the key [copy and close tab] and insert it into our deployment configuration at Codeship.
 
 ![Dotcloud deployment with API key][screenshot-dotcloud-deployment-api-key]
 
@@ -197,7 +197,7 @@ Now let's save our deployment configuration.
 
 ![Saved dotCloud deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to dotCloud everytime we push to our Bitbucket repository.
+From now on Codeship will deploy our application to dotCloud everytime we push to our Bitbucket repository.
 
 
 
@@ -223,7 +223,7 @@ I commit and push this change
 
 
 
-and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 
