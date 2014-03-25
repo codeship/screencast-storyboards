@@ -275,7 +275,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/django/appengine/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/appengine/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/appengine/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django-appengine/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django-appengine/appengine/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/appengine/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/appengine/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/django/appengine/dotcloud-yml.png

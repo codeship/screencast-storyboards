@@ -269,7 +269,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/django/dotcloud/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/dotcloud/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/dotcloud/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-django/dotcloud/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/dotcloud/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/dotcloud/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/django/dotcloud/dotcloud-yml.png

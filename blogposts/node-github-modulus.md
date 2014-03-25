@@ -280,7 +280,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/node/modulus/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/modulus/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/modulus/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-node/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-node/modulus/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/modulus/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/modulus/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/modulus/dotcloud-yml.png

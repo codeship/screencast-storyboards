@@ -305,7 +305,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/rails/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/rails/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-rails/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-rails/heroku/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/rails/heroku/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/rails/heroku/dotcloud-yml.png
