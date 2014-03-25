@@ -103,7 +103,7 @@ and save the hook.
 
 
 
-You can trigger a build for your application by pushing to your repository. Let's add the Codeship status image to the README file. I use markdown syntax to insert the image.
+You can trigger a build for your application by pushing to your repository. Let's add the the Codeship status image to the README file. I use markdown syntax to insert the image.
 
 [![Copy the code for the Codeship status badge to your README file][screenshot-codeship-image]][screenshot-codeship-image]
 
