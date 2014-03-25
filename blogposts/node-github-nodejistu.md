@@ -275,5 +275,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/node/nodejitsu/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/nodejitsu/oauth.png
  [screenshot-app-yml]: ../screenshots/node/nodejitsu/app-yml.png
+ [screenshot-install-tool]: ../screenshots/nodejitsu/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/nodejitsu/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/nodejitsu/create-api-token.png
+ [screenshot-create-deployment-project]: ../screenshots/nodejitsu/create-deployment-project.png
 
 

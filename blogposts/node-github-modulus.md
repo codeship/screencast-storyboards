@@ -154,11 +154,11 @@ We need to fill in our Modulus API token and project name. To generate an API
 token, we need to install the Modulus command line tool first.
 [run `npm install -g modulus`]
 
-![Install modulus CLI][screenshot-install-cli]
+![Install modulus CLI][screenshot-install-tool]
 
 I sign in with my GitHub account
 
-![Sign in to modulus CLI][screenshot-sign-in-to-cli]
+![Sign in to modulus CLI][screenshot-sign-in-to-deployment]
 
 and now I can generate an API token. [run `modulus token create`]
 
@@ -276,4 +276,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/node/modulus/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/modulus/oauth.png
  [screenshot-app-yml]: ../screenshots/node/modulus/app-yml.png
+ [screenshot-install-tool]: ../screenshots/modulus/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/modulus/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/modulus/create-api-token.png
+ [screenshot-create-deployment-project]: ../screenshots/modulus/create-deployment-project.png
 

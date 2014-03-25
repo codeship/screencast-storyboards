@@ -299,4 +299,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/rails/heroku/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/heroku/oauth.png
  [screenshot-app-yml]: ../screenshots/rails/heroku/app-yml.png
+ [screenshot-install-tool]: ../screenshots/heroku/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/heroku/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/heroku/create-api-token.png
+ [screenshot-create-deployment-project]: ../screenshots/heroku/create-deployment-project.png
 

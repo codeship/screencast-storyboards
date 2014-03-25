@@ -301,4 +301,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/django/appengine/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/appengine/oauth.png
  [screenshot-app-yml]: ../screenshots/django/appengine/app-yml.png
+ [screenshot-install-tool]: ../screenshots/appengine/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/appengine/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/appengine/create-api-token.png
+ [screenshot-create-deployment-project]: ../screenshots/appengine/create-deployment-project.png
 

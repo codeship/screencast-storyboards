@@ -288,4 +288,8 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/django/dotcloud/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/dotcloud/oauth.png
  [screenshot-app-yml]: ../screenshots/django/dotcloud/app-yml.png
+ [screenshot-install-tool]: ../screenshots/dotcloud/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/dotcloud/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/dotcloud/create-api-token.png
+ [screenshot-create-deployment-project]: ../screenshots/dotcloud/create-deployment-project.png
 
