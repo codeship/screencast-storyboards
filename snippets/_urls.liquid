@@ -11,7 +11,7 @@
  [codefish-live]: http://codefish.nodejitsu.com
  {% elsif deployment == "dotCloud" %}
  [codefish-live]: http://codefish-clemens.dotcloud.com
- {% elsif deployment == "App Engine" %}
+ {% else %}
  [codefish-live]: http://{{ app_url }}
  {% endif %}
  [screenshot-repository]: ../screenshots/{{ repository_slug }}/{{ repo_name }}/repository.png
@@ -72,3 +72,4 @@
  [screenshot-create-api-token]: ../screenshots/{{ deployment_slug }}/create-api-token.png
  [screenshot-insert-api-token]: ../screenshots/{{ deployment_slug }}/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/{{ deployment_slug }}/create-deployment-project.png
+ [screenshot-look-up-url]: ../screenshots/{{ deployment_slug }}/look-up-url.png

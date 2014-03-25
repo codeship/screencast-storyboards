@@ -297,4 +297,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-create-api-token]: ../screenshots/nodejitsu/create-api-token.png
  [screenshot-insert-api-token]: ../screenshots/nodejitsu/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/nodejitsu/create-deployment-project.png
+ [screenshot-look-up-url]: ../screenshots/nodejitsu/look-up-url.png
 

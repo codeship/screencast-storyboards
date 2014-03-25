@@ -194,6 +194,10 @@ start our application's server.
 
 ![Add Modulus config][screenshot-add-deployment-config]
 
+I commit and push this change
+
+![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
+
 
 
 And immediately another build will start running on the Codeship. Let's go back to your project overview.
@@ -216,7 +220,7 @@ In the deployment log we can look up our application's URL.
 
 
 
-When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-app.herokuapp.com][codefish-live].
+When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-11817.onmodulus.net][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -231,6 +235,8 @@ If you need help with setting up your own application, please use the support li
  
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-node
  
+ 
+ [codefish-live]: http://codefish-11817.onmodulus.net
  
  [screenshot-repository]: ../screenshots/github/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
@@ -290,4 +296,5 @@ If you need help with setting up your own application, please use the support li
  [screenshot-create-api-token]: ../screenshots/modulus/create-api-token.png
  [screenshot-insert-api-token]: ../screenshots/modulus/insert-api-token.png
  [screenshot-create-deployment-project]: ../screenshots/modulus/create-deployment-project.png
+ [screenshot-look-up-url]: ../screenshots/modulus/look-up-url.png
 
