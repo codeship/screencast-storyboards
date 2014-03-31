@@ -68,7 +68,7 @@ Codefish is a Node.js application. Therefore let's choose "Node.js" as your tech
 
 
 
-Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
+Codeship suggests Node.js 0.10.25, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
