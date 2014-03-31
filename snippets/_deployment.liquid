@@ -1,0 +1,29 @@
+{% if format == "storyboard" %}
+
+and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+
+![Deploy build started][screenshot-deploy-build-started]
+
+After the commands we already know from our first build, our application also gets deployed to {{ deployment }} now.
+
+![Build Deployment][screenshot-build-deployment]
+
+And about 2 minutes later our application is online.
+
+![Build Deployment Complete][screenshot-build-deployment-complete]
+
+{% elsif format == "blogpost" %}
+
+And immediately another build will start running on Codeship. Let's go back to your project overview.
+
+[![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
+
+After the commands we already know from your first build, your application also gets deployed to {{ deployment }} now.
+
+[![After some initial commands were run your application gets deployed][screenshot-build-deployment]][screenshot-build-deployment]
+
+And about 2 minutes later your application is online.
+
+[![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
+
+{% endif %}

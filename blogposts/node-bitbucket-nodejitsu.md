@@ -14,7 +14,7 @@
 How to set up Continuous Integration and Continuous Deployment for a Node.js Application from Bitbucket to Nodejitsu
 ======================
 
-In this blog post we're gonna deploy a Node.js application from a Bitbucket repository to Nodejitsu using [the Codeship][codeship].
+In this blog post we're going to deploy a Node.js application from a Bitbucket repository to Nodejitsu using [Codeship][codeship].
 
 
 
@@ -28,17 +28,17 @@ We've set up a simple Node.js application called [codefish][codefish-repo] which
 
 
 
-Together, we're gonna deploy this application to Nodejitsu using the Codeship.
+Together, we're going to deploy this application to Nodejitsu using Codeship.
 
-[![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
+[![Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
-First, sign in to the Codeship with Bitbucket. The Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
+First, sign in to Codeship with Bitbucket. Codeship needs access to your Bitbucket repositories to be able to set them up. Let's allow access.
 
 [![Bitbucket Access][screenshot-oauth]][screenshot-oauth]
 
-We're back at the Codeship. Now let's create your first project.
+We're back at Codeship. Now let's create your first project.
 
-[![Let's set up our first project on the Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
+[![Let's set up our first project on Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
 
 
 
@@ -68,7 +68,7 @@ Codefish is a Node.js application. Therefore let's choose "Node.js" as your tech
 
 
 
-The Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
+Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
@@ -108,7 +108,7 @@ and save the hook.
 
 
 
-You can trigger a build for your application by pushing to your repository. Let's add the Codeship status image to the README file. I use markdown syntax to insert the image.
+You can trigger a build for your application by pushing to your repository. Let's add the the Codeship status image to the README file. I use markdown syntax to insert the image.
 
 [![Copy the code for the Codeship status badge to your README file][screenshot-codeship-image]][screenshot-codeship-image]
 
@@ -116,19 +116,19 @@ Now commit and push this change.
 
 [![Commit and push your change][screenshot-codeship-push]][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
-[![A new build got triggered on the Codeship][screenshot-first-build-running]][screenshot-first-build-running]
+[![A new build got triggered on Codeship][screenshot-first-build-running]][screenshot-first-build-running]
 
 You can access the build details by clicking the arrow on the right. Here you can follow the running build.
 
 [![Click on the arrow to the right to access the build details][screenshot-first-build-running-details]][screenshot-first-build-running-details]
 
-And a few seconds later your build succeeded! Great!
+A few seconds later your build succeeded! Great!
 
 [![Look at all the commands that are running][screenshot-first-build-finished]][screenshot-first-build-finished]
 
-You see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that you specified a few moments ago.
+You see all the commands that were run. After a few initial preparation commands Codeship ran the commands that you specified a few moments ago.
 
 
 
@@ -180,13 +180,13 @@ Copy the token and insert it into your Codeship deployment configuration.
 
 
 
-[![Copy and paste the Nodejitsu API key to the Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+[![Copy and paste the Nodejitsu API key to Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on the Codeship will deploy your application to Nodejitsu everytime you push to your Bitbucket repository.
+From now on Codeship will deploy your application to Nodejitsu everytime you push to your Bitbucket repository.
 
 
 
@@ -208,7 +208,7 @@ Now you can commit and push this change
 
 
 
-And immediately another build will start running on the Codeship. Let's go back to your project overview.
+And immediately another build will start running on Codeship. Let's go back to your project overview.
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 
@@ -219,6 +219,10 @@ After the commands we already know from your first build, your application also 
 And about 2 minutes later your application is online.
 
 [![After about 2 minutes your application is online][screenshot-build-deployment-complete]][screenshot-build-deployment-complete]
+
+
+
+
 
 When you open the URL of your Nodejitsu app now, your deployed application appears. You can find mine on [codefish.nodejitsu.com][codefish-live].
 
@@ -280,7 +284,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-node/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-node/nodejitsu/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/nodejitsu/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/nodejitsu/dotcloud-yml.png
@@ -291,5 +295,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/node/nodejitsu/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/nodejitsu/oauth.png
  [screenshot-app-yml]: ../screenshots/node/nodejitsu/app-yml.png
-
+ [screenshot-install-tool]: ../screenshots/nodejitsu/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/nodejitsu/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/nodejitsu/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/nodejitsu/insert-api-token.png
+ [screenshot-look-up-url]: ../screenshots/nodejitsu/look-up-url.png
 

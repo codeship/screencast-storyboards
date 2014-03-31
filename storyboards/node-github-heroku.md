@@ -14,7 +14,7 @@
 Deploying Node.js from GitHub to Heroku
 ======================
 
-In this screencast we're gonna deploy a Node.js application from a GitHub repository to Heroku using the Codeship.
+In this screencast we're going to deploy a Node.js application from a GitHub repository to Heroku using Codeship.
 
 
 
@@ -28,15 +28,15 @@ I've got a simple Node.js application called [codefish][codefish-repo] which con
 
 
 
-We're gonna deploy this application to Heroku using the Codeship.
+We're going to deploy this application to Heroku using Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with GitHub. The Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to Codeship with GitHub. Codeship needs access to our GitHub repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![GitHub OAuth][screenshot-oauth]
 
-We're back at the Codeship. Now let's create our first project. [click create project button]
+We're back at Codeship. Now let's create our first project. [click create project button]
 
 ![Codeship welcome screen][screenshot-codeship-welcome]
 
@@ -68,7 +68,7 @@ We select "Node.js" as our technology. This prepopulates the setup commands and 
 
 
 
-The Codeship suggests Node.js 0.10.18, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.15`.
+Codeship suggests Node.js 0.10.25, but I want to use the same Node version as on my computer. When I type `node -v` in the terminal, I find out that I use Node `0.10.26`.
 
 ![Node Version][screenshot-technology-version]
 
@@ -101,7 +101,7 @@ Now let's commit and push this change.
 
 ![GitHub Push][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
 ![Codeship running build][screenshot-first-build-running]
 
@@ -111,11 +111,11 @@ We can access the build details by clicking the arrow on the right. Here we can 
 
 By the way, if you ever need help, check out the Codeship documentation. [move mouse over documentation link] If you encounter any problems, contact the Codeship crew by clicking on the support links in the top-right or the bottom-right corner. [move mouse over support links]
 
-And a few seconds later our build succeeded! Great!
+A few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
-We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
+We see all the commands that were run. After a few initial preparation commands Codeship ran the commands that we specified a few moments ago.
 
 
 
@@ -183,7 +183,7 @@ To retrieve my Heroku API key, I follow the link to my Heroku account and click 
 
 ![Show Heroku API key][screenshot-show-api-key]
 
-I copy it and insert it into my deployment configuration at the Codeship.
+I copy it and insert it into my deployment configuration at Codeship.
 
 
 
@@ -195,13 +195,13 @@ Now let's save our deployment configuration.
 
 ![Saved Heroku deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to Heroku everytime we push to our GitHub repository.
+From now on Codeship will deploy our application to Heroku everytime we push to our GitHub repository.
 
 
 
 
 
-Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Node.js app with the Codeship." to the landing page.
+Now let's push a change and see if it gets deployed. I add a paragraph "I just deployed my Node.js app with Codeship." to the landing page.
 
 ![Added Paragraph][screenshot-added-paragraph]
 
@@ -213,7 +213,7 @@ I commit and push the change
 
 
 
-and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 
@@ -224,6 +224,10 @@ After the commands we already know from our first build, our application also ge
 And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
+
+
+
+
 
 When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
 
@@ -285,7 +289,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/node/heroku/username.png
  [screenshot-create-deployment-token]: ../screenshots/node/heroku/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/heroku/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-node/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/github/codefish-node/heroku/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/heroku/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/heroku/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/node/heroku/dotcloud-yml.png
@@ -296,4 +300,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/node/heroku/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/heroku/oauth.png
  [screenshot-app-yml]: ../screenshots/node/heroku/app-yml.png
+ [screenshot-install-tool]: ../screenshots/heroku/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/heroku/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/heroku/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/heroku/insert-api-token.png
+ [screenshot-look-up-url]: ../screenshots/heroku/look-up-url.png
 

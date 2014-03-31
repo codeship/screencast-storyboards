@@ -15,7 +15,7 @@
 Deploying Django from Bitbucket to App Engine
 ======================
 
-In this screencast we're gonna deploy a Django application from a Bitbucket repository to App Engine using the Codeship.
+In this screencast we're going to deploy a Django application from a Bitbucket repository to App Engine using Codeship.
 
 
 
@@ -29,15 +29,15 @@ I've got a simple Django application called [codefish][codefish-repo] which cont
 
 
 
-We're gonna deploy this application to App Engine using the Codeship.
+We're going to deploy this application to App Engine using Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with Bitbucket. The Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to Codeship with Bitbucket. Codeship needs access to our Bitbucket repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![Bitbucket OAuth][screenshot-oauth]
 
-We're back at the Codeship. Now let's create our first project. [click create project button]
+We're back at Codeship. Now let's create our first project. [click create project button]
 
 ![Codeship welcome screen][screenshot-codeship-welcome]
 
@@ -116,7 +116,7 @@ Now let's commit and push this change.
 
 ![Bitbucket Push][screenshot-codeship-push]
 
-This triggered a new build on the Codeship.
+This triggered a new build on Codeship.
 
 ![Codeship running build][screenshot-first-build-running]
 
@@ -126,11 +126,11 @@ We can access the build details by clicking the arrow on the right. Here we can 
 
 By the way, if you ever need help, check out the Codeship documentation. [move mouse over documentation link] If you encounter any problems, contact the Codeship crew by clicking on the support links in the top-right or the bottom-right corner. [move mouse over support links]
 
-And a few seconds later our build succeeded! Great!
+A few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
-We see all the commands that were run. After a few initial preparation commands the Codeship ran the commands that we specified a few moments ago.
+We see all the commands that were run. After a few initial preparation commands Codeship ran the commands that we specified a few moments ago.
 
 
 
@@ -204,7 +204,7 @@ I enter "my-codefish" as identifier and "Codefish" as application name and I cre
 
 [close App Engine tab]
 
-Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way the Codeship can check if my application works after deployment.
+Now I can enter my application URL `http://my-codefish.appspot.com` into my deployment configuration. This way Codeship can check if my application works after deployment.
 
 
 
@@ -216,7 +216,7 @@ Now let's save our deployment configuration.
 
 ![Saved App Engine deployment][screenshot-saved-deployment]
 
-From now on the Codeship will deploy our application to App Engine everytime we push to our Bitbucket repository.
+From now on Codeship will deploy our application to App Engine everytime we push to our Bitbucket repository.
 
 
 
@@ -236,7 +236,7 @@ I commit and push this change
 
 
 
-and immediately another build starts running on the Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 
@@ -247,6 +247,10 @@ After the commands we already know from our first build, our application also ge
 And about 2 minutes later our application is online.
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
+
+
+
+
 
 When we open [my-codefish.appspot.com][codefish-live] now, our deployed application appears.
 
@@ -308,7 +312,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-deployment-username]: ../screenshots/django/appengine/username.png
  [screenshot-create-deployment-token]: ../screenshots/django/appengine/create-token.png
  [screenshot-add-deployment-config]: ../screenshots/appengine/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-django-appengine/commit-and-push-deployment-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-django-appengine/appengine/commit-and-push-deployment-config.png
  [screenshot-dotcloud-api-key]: ../screenshots/appengine/api-key.png
  [screenshot-dotcloud-deployment-api-key]: ../screenshots/django/appengine/deployment-api-key.png
  [screenshot-dotcloud-yml]: ../screenshots/django/appengine/dotcloud-yml.png
@@ -319,4 +323,9 @@ If you need help with setting up your own application, please use the support li
  [screenshot-new-deployment-app]: ../screenshots/django/appengine/new-deployment-app.png
  [screenshot-deployment-oauth]: ../screenshots/appengine/oauth.png
  [screenshot-app-yml]: ../screenshots/django/appengine/app-yml.png
+ [screenshot-install-tool]: ../screenshots/appengine/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/appengine/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/appengine/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/appengine/insert-api-token.png
+ [screenshot-look-up-url]: ../screenshots/appengine/look-up-url.png
 
