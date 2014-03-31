@@ -124,7 +124,7 @@ You can access the build details by clicking the arrow on the right. Here you ca
 
 [![Click on the arrow to the right to access the build details][screenshot-first-build-running-details]][screenshot-first-build-running-details]
 
-And a few seconds later your build succeeded! Great!
+A few seconds later your build succeeded! Great!
 
 [![Look at all the commands that are running][screenshot-first-build-finished]][screenshot-first-build-finished]
 

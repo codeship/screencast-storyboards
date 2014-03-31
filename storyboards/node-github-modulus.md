@@ -111,7 +111,7 @@ We can access the build details by clicking the arrow on the right. Here we can 
 
 By the way, if you ever need help, check out the Codeship documentation. [move mouse over documentation link] If you encounter any problems, contact the Codeship crew by clicking on the support links in the top-right or the bottom-right corner. [move mouse over support links]
 
-And a few seconds later our build succeeded! Great!
+A few seconds later our build succeeded! Great!
 
 ![Codeship finished build][screenshot-first-build-finished]
 
@@ -179,7 +179,7 @@ and insert it into my deployment configuration.
 
 ![Insert modulus API token][screenshot-insert-api-token]
 
-Let's name the application "codefish". It will automatically be created
+We'll name the Modulus application "codefish". It will automatically be created
 if it doesn't exist yet.
 
 
