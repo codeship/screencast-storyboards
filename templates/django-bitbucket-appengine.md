@@ -24,5 +24,6 @@
 {% include 'snippets/appengine/setup_app' %}
 {% include 'snippets/save_deployment' %}
 {% include 'snippets/appengine/configure_app' %}
-{% include 'snippets/deployment_and_end' %}
+{% include 'snippets/deployment' %}
+{% include 'snippets/open_deployed_application' %}
 {% include 'snippets/urls' %}

@@ -1,29 +1,29 @@
 {% if format == "storyboard" %}
 
-We're gonna deploy this application to {{ deployment }} using the Codeship.
+We're going to deploy this application to {{ deployment }} using Codeship.
 
 ![Codeship landingpage][screenshot-codefish-landingpage]
 
-Let's sign in to the Codeship with {{ repository }}. The Codeship needs access to our {{ repository }} repositories to be able to set them up. [scroll slowly] Let's allow access.
+Let's sign in to Codeship with {{ repository }}. Codeship needs access to our {{ repository }} repositories to be able to set them up. [scroll slowly] Let's allow access.
 
 ![{{ repository }} OAuth][screenshot-oauth]
 
-We're back at the Codeship. Now let's create our first project. [click create project button]
+We're back at Codeship. Now let's create our first project. [click create project button]
 
 ![Codeship welcome screen][screenshot-codeship-welcome]
 
 {% elsif format == "blogpost" %}
 
-Together, we're gonna deploy this application to {{ deployment }} using the Codeship.
+Together, we're going to deploy this application to {{ deployment }} using Codeship.
 
-[![The Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
+[![Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
-First, sign in to the Codeship with {{ repository }}. The Codeship needs access to your {{ repository }} repositories to be able to set them up. Let's allow access.
+First, sign in to Codeship with {{ repository }}. Codeship needs access to your {{ repository }} repositories to be able to set them up. Let's allow access.
 
 [![{{ repository }} Access][screenshot-oauth]][screenshot-oauth]
 
-We're back at the Codeship. Now let's create your first project.
+We're back at Codeship. Now let's create your first project.
 
-[![Let's set up our first project on the Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
+[![Let's set up our first project on Codeship][screenshot-codeship-welcome]][screenshot-codeship-welcome]
 
 {% endif %}
