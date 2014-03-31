@@ -166,26 +166,30 @@ As we want to deploy to Modulus we click on the "Modulus" button.
 
 
 
-We need to fill in our Modulus API token and project name. To generate an API
-token, let's install the Modulus command line tool first.
-[run `sudo npm install -g modulus`]
+
+
+Next you need to fill in your Modulus API token and project name. To generate an API
+token install the Modulus command line tool first.
 
 ![Install modulus CLI][screenshot-install-tool]
 
-I sign in to Modulus with my GitHub account.
+Sign in to Modulus with your Github credentials or the credentials you've used
+to sign up on Modulus.
 
 ![Sign in to modulus CLI][screenshot-sign-in-to-deployment]
 
-Now I can generate an API token [run `modulus token create`]
+Now you can generate an API token
 
 ![Create modulus API token][screenshot-create-api-token]
 
-and insert it into my deployment configuration.
+and insert it into your deployment configuration.
 
 ![Insert modulus API token][screenshot-insert-api-token]
 
-We'll name the Modulus application "codefish". It will automatically be created
-if it doesn't exist yet.
+In the last config step add the name of your Modulus application. If that
+application doesn't exist already it will be created.
+
+
 
 
 
@@ -199,16 +203,20 @@ From now on Codeship will deploy your application to Modulus everytime you push 
 
 
 
-We still need to tell Modulus how to run our application.
 
-In our `package.json` file we add `"main": "start.js"`, because this file will
-start our application's server.
+
+You still need to tell Modulus how to run your application.
+
+In your `package.json` add `"main": "start.js"`, because this file will
+start your application's server.
 
 ![Add Modulus config][screenshot-add-deployment-config]
 
-I commit and push this change
+Now commit and push this change
 
 ![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
@@ -226,13 +234,17 @@ And about 2 minutes later your application is online.
 
 
 
-In the deployment log we can look up our application's URL.
+
+
+In the deployment log you can look up your application's URL.
 
 ![Look up application URL][screenshot-look-up-url]
 
 
 
-When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-11838.onmodulus.net][codefish-live].
+
+
+When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-11988.onmodulus.com][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -248,7 +260,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-node
  
  
- [codefish-live]: http://codefish-11838.onmodulus.net
+ [codefish-live]: http://codefish-11988.onmodulus.com
  
  [screenshot-repository]: ../screenshots/bitbucket/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png

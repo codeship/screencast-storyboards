@@ -1,3 +1,5 @@
+{% if format == "storyboard" %}
+
 We still need to tell Modulus how to run our application.
 
 In our `package.json` file we add `"main": "start.js"`, because this file will
@@ -8,3 +10,18 @@ start our application's server.
 I commit and push this change
 
 ![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
+
+{% elsif format == "blogpost" %}
+
+You still need to tell Modulus how to run your application.
+
+In your `package.json` add `"main": "start.js"`, because this file will
+start your application's server.
+
+![Add Modulus config][screenshot-add-deployment-config]
+
+Now commit and push this change
+
+![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
+
+{% endif %}

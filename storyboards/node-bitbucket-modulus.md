@@ -179,6 +179,8 @@ We want to deploy to "Modulus".
 
 
 
+
+
 We need to fill in our Modulus API token and project name. To generate an API
 token, let's install the Modulus command line tool first.
 [run `sudo npm install -g modulus`]
@@ -202,6 +204,8 @@ if it doesn't exist yet.
 
 
 
+
+
 ![Complete Modulus deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
@@ -209,6 +213,8 @@ Now let's save our deployment configuration.
 ![Saved Modulus deployment][screenshot-saved-deployment]
 
 From now on Codeship will deploy our application to Modulus everytime we push to our Bitbucket repository.
+
+
 
 
 
@@ -222,6 +228,8 @@ start our application's server.
 I commit and push this change
 
 ![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
@@ -239,13 +247,17 @@ And about 2 minutes later our application is online.
 
 
 
+
+
 In the deployment log we can look up our application's URL.
 
 ![Look up application URL][screenshot-look-up-url]
 
 
 
-When we open [codefish-11838.onmodulus.net][codefish-live] now, our deployed application appears.
+
+
+When we open [codefish-11988.onmodulus.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -261,7 +273,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-node
  
  
- [codefish-live]: http://codefish-11838.onmodulus.net
+ [codefish-live]: http://codefish-11988.onmodulus.com
  
  [screenshot-repository]: ../screenshots/bitbucket/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png

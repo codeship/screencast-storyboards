@@ -7,7 +7,7 @@
 {% assign deployment = "Modulus" %}
 {% assign deployment_slug = "modulus" %}
 {% assign repo_name = "codefish-node" %}
-{% assign app_url = "codefish-11838.onmodulus.net" %}
+{% assign app_url = "codefish-11988.onmodulus.com" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}

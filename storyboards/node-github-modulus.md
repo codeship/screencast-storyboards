@@ -161,6 +161,8 @@ We want to deploy to "Modulus".
 
 
 
+
+
 We need to fill in our Modulus API token and project name. To generate an API
 token, let's install the Modulus command line tool first.
 [run `sudo npm install -g modulus`]
@@ -184,6 +186,8 @@ if it doesn't exist yet.
 
 
 
+
+
 ![Complete Modulus deployment][screenshot-complete-deployment]
 
 Now let's save our deployment configuration.
@@ -191,6 +195,8 @@ Now let's save our deployment configuration.
 ![Saved Modulus deployment][screenshot-saved-deployment]
 
 From now on Codeship will deploy our application to Modulus everytime we push to our GitHub repository.
+
+
 
 
 
@@ -204,6 +210,8 @@ start our application's server.
 I commit and push this change
 
 ![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
@@ -221,9 +229,13 @@ And about 2 minutes later our application is online.
 
 
 
+
+
 In the deployment log we can look up our application's URL.
 
 ![Look up application URL][screenshot-look-up-url]
+
+
 
 
 
