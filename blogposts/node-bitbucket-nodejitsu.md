@@ -20,7 +20,7 @@ In this blog post we're going to deploy a Node.js application from a Bitbucket r
 
 
 
-We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got your own project to set up but you want to follow along on your computer, just fork the repository.
 
 [![codefish-node on Bitbucket][screenshot-repository]][screenshot-repository]
 

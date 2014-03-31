@@ -21,7 +21,7 @@ In this blog post we're going to deploy a Django application from a GitHub repos
 
 
 
-We've set up a simple Django application called [codefish][codefish-repo] which contains some tests. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Django application called [codefish][codefish-repo] which contains some tests. We'll use screenshots of this application in this blog post. If you haven't got your own project to set up but you want to follow along on your computer, just fork the repository.
 
 [![codefish-django-appengine on GitHub][screenshot-repository]][screenshot-repository]
 
