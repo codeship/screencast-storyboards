@@ -259,68 +259,68 @@ If you need help with setting up your own application, please use the support li
 
  [codeship]: https://www.codeship.io/
  [codeship-twitter]: http://www.twitter.com/codeship
- 
+
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-node
- 
- 
+
+
  [codefish-live]: http://codefish-11988.onmodulus.net
- 
- [screenshot-repository]: ../screenshots/bitbucket/codefish-node/repository.png
- [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
- [screenshot-oauth]: ../screenshots/bitbucket/oauth.png
- [screenshot-codeship-welcome]: ../screenshots/codeship-welcome.png
- [screenshot-repo-provider-selection]: ../screenshots/bitbucket/repo-provider-selection.png
- [screenshot-repo-selection]: ../screenshots/repo-selection.png
- [screenshot-repo-selection-filtered]: ../screenshots/node/codefish-node-selection-filtered.png
- [screenshot-codeship-technology]: ../screenshots/codeship-technology.png
- [screenshot-codeship-technology-selected]: ../screenshots/node/codeship-technology.png
- [screenshot-technology-version]: ../screenshots/node/technology-version.png
- [screenshot-test-commands]: ../screenshots/node/test-commands.png
- [screenshot-codeship-dasboard]: ../screenshots/bitbucket/codefish-node/codeship-dashboard.png
- [screenshot-codeship-image]: ../screenshots/node/codeship-image.png
- [screenshot-codeship-push]: ../screenshots/bitbucket/codefish-node/push.png
- [screenshot-first-build-running]: ../screenshots/node/first-build-running.png
- [screenshot-first-build-running-details]: ../screenshots/bitbucket/codefish-node/first-build-running-details.png
- [screenshot-first-build-finished]: ../screenshots/bitbucket/codefish-node/first-build-finished.png
- [screenshot-build-log]: ../screenshots/bitbucket/codefish-node/build-log.png
- [screenshot-build-without-road-to-success]: ../screenshots/bitbucket/codefish-node/build-without-road-to-success.png
- [screenshot-go-to-project-settings]: ../screenshots/bitbucket/codefish-node/go-to-project-settings.png
- [screenshot-project-settings]: ../screenshots/node/project-settings.png
- [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
- [screenshot-new-deployment]: ../screenshots/node/modulus/new-deployment.png
- [screenshot-heroku-apps]: ../screenshots/modulus/heroku-apps.png
- [screenshot-create-heroku-app]: ../screenshots/modulus/create-heroku-app.png
- [screenshot-heroku-app-created]: ../screenshots/modulus/heroku-app-created.png
- [screenshot-heroku-deployment-name]: ../screenshots/node/modulus/heroku-deployment-name.png
- [screenshot-show-api-key]: ../screenshots/modulus/show-api-key.png
- [screenshot-complete-deployment]: ../screenshots/node/modulus/complete-deployment.png
- [screenshot-saved-deployment]: ../screenshots/node/modulus/saved-deployment.png
- [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: ../screenshots/bitbucket/node/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/node/modulus/deploy-build-started.png
- [screenshot-build-deployment]: ../screenshots/node/modulus/build-deployment.png
- [screenshot-build-deployment-complete]: ../screenshots/node/modulus/build-deployment-complete.png
- [screenshot-deployed-application]: ../screenshots/node/modulus/deployed-application.png
- [screenshot-select-post-hook]: ../screenshots/bitbucket/codefish-node/select-post-hook.png
- [screenshot-paste-hook-url]: ../screenshots/bitbucket/codefish-node/paste-hook-url.png
- [screenshot-hook-added]: ../screenshots/bitbucket/codefish-node/hook-added.png
- [screenshot-deployment-username]: ../screenshots/node/modulus/username.png
- [screenshot-create-deployment-token]: ../screenshots/node/modulus/create-token.png
- [screenshot-add-deployment-config]: ../screenshots/modulus/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-node/modulus/commit-and-push-deployment-config.png
- [screenshot-dotcloud-api-key]: ../screenshots/modulus/api-key.png
- [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/modulus/deployment-api-key.png
- [screenshot-dotcloud-yml]: ../screenshots/node/modulus/dotcloud-yml.png
- [screenshot-dotcloud-wsgi-py]: ../screenshots/node/modulus/wsgi-py.png
- [screenshot-deployment-documentation-page]: ../screenshots/node/modulus/documentation-page.png
- [screenshot-empty-deployment]: ../screenshots/node/modulus/empty-deployment.png
- [screenshot-deployment-home-page]: ../screenshots/modulus/home-page.png
- [screenshot-new-deployment-app]: ../screenshots/node/modulus/new-deployment-app.png
- [screenshot-deployment-oauth]: ../screenshots/modulus/oauth.png
- [screenshot-app-yml]: ../screenshots/node/modulus/app-yml.png
- [screenshot-install-tool]: ../screenshots/modulus/install-tool.png
- [screenshot-sign-in-to-deployment]: ../screenshots/modulus/sign-in-to-deployment.png
- [screenshot-create-api-token]: ../screenshots/modulus/create-api-token.png
- [screenshot-insert-api-token]: ../screenshots/modulus/insert-api-token.png
- [screenshot-look-up-url]: ../screenshots/modulus/look-up-url.png
+
+ [screenshot-repository]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/repository.png
+ [screenshot-codefish-landingpage]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/codeship-landingpage.png
+ [screenshot-oauth]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/oauth.png
+ [screenshot-codeship-welcome]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/codeship-welcome.png
+ [screenshot-repo-provider-selection]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/repo-provider-selection.png
+ [screenshot-repo-selection]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/repo-selection.png
+ [screenshot-repo-selection-filtered]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/codefish-node-selection-filtered.png
+ [screenshot-codeship-technology]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/codeship-technology.png
+ [screenshot-codeship-technology-selected]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/codeship-technology.png
+ [screenshot-technology-version]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/technology-version.png
+ [screenshot-test-commands]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/test-commands.png
+ [screenshot-codeship-dasboard]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/codeship-dashboard.png
+ [screenshot-codeship-image]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/codeship-image.png
+ [screenshot-codeship-push]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/push.png
+ [screenshot-first-build-running]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/first-build-running.png
+ [screenshot-first-build-running-details]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/first-build-running-details.png
+ [screenshot-first-build-finished]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/first-build-finished.png
+ [screenshot-build-log]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/build-log.png
+ [screenshot-build-without-road-to-success]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/build-without-road-to-success.png
+ [screenshot-go-to-project-settings]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/go-to-project-settings.png
+ [screenshot-project-settings]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/project-settings.png
+ [screenshot-deployment-settings]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/deployment-settings.png
+ [screenshot-new-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/new-deployment.png
+ [screenshot-heroku-apps]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/heroku-apps.png
+ [screenshot-create-heroku-app]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/create-heroku-app.png
+ [screenshot-heroku-app-created]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/heroku-app-created.png
+ [screenshot-heroku-deployment-name]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/heroku-deployment-name.png
+ [screenshot-show-api-key]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/show-api-key.png
+ [screenshot-complete-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/complete-deployment.png
+ [screenshot-saved-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/saved-deployment.png
+ [screenshot-added-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/added-paragraph.png
+ [screenshot-commit-and-push-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/node/commit-and-push-paragraph.png
+ [screenshot-deploy-build-started]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/deploy-build-started.png
+ [screenshot-build-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/build-deployment.png
+ [screenshot-build-deployment-complete]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/build-deployment-complete.png
+ [screenshot-deployed-application]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/deployed-application.png
+ [screenshot-select-post-hook]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/select-post-hook.png
+ [screenshot-paste-hook-url]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/paste-hook-url.png
+ [screenshot-hook-added]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/hook-added.png
+ [screenshot-deployment-username]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/username.png
+ [screenshot-create-deployment-token]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/create-token.png
+ [screenshot-add-deployment-config]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/add-config.png
+ [screenshot-commit-and-push-deployment-config]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/modulus/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/deployment-api-key.png
+ [screenshot-dotcloud-yml]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/wsgi-py.png
+ [screenshot-deployment-documentation-page]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/documentation-page.png
+ [screenshot-empty-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/empty-deployment.png
+ [screenshot-deployment-home-page]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/home-page.png
+ [screenshot-new-deployment-app]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/new-deployment-app.png
+ [screenshot-deployment-oauth]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/oauth.png
+ [screenshot-app-yml]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/app-yml.png
+ [screenshot-install-tool]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/install-tool.png
+ [screenshot-sign-in-to-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/sign-in-to-deployment.png
+ [screenshot-create-api-token]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/create-api-token.png
+ [screenshot-insert-api-token]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/insert-api-token.png
+ [screenshot-look-up-url]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/modulus/look-up-url.png
 
