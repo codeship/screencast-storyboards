@@ -11,6 +11,8 @@
 
 
 
+<iframe src="" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
+
 How to set up Continuous Integration and Continuous Deployment for a Node.js Application from GitHub to Modulus
 ======================
 
@@ -20,7 +22,7 @@ In this blog post we're going to deploy a Node.js application from a GitHub repo
 
 
 
-We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got your own project to set up but you want to follow along on your computer, just fork the repository.
 
 [![codefish-node on GitHub][screenshot-repository]][screenshot-repository]
 
@@ -68,7 +70,7 @@ Codefish is a Node.js application. Therefore let's choose "Node.js" as your tech
 
 
 
-Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
+Codeship suggests Node.js 0.10.25, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 
@@ -150,26 +152,30 @@ As we want to deploy to Modulus we click on the "Modulus" button.
 
 
 
-We need to fill in our Modulus API token and project name. To generate an API
-token, let's install the Modulus command line tool first.
-[run `sudo npm install -g modulus`]
+
+
+Next you need to fill in your Modulus API token and project name. To generate an API
+token install the Modulus command line tool first.
 
 ![Install modulus CLI][screenshot-install-tool]
 
-I sign in to Modulus with my GitHub account.
+Sign in to Modulus with your Github credentials or the credentials you've used
+to sign up on Modulus.
 
 ![Sign in to modulus CLI][screenshot-sign-in-to-deployment]
 
-Now I can generate an API token [run `modulus token create`]
+Now you can generate an API token
 
 ![Create modulus API token][screenshot-create-api-token]
 
-and insert it into my deployment configuration.
+and insert it into your deployment configuration.
 
 ![Insert modulus API token][screenshot-insert-api-token]
 
-We'll name the Modulus application "codefish". It will automatically be created
-if it doesn't exist yet.
+In the last config step add the name of your Modulus application. If that
+application doesn't exist already it will be created.
+
+
 
 
 
@@ -183,16 +189,20 @@ From now on Codeship will deploy your application to Modulus everytime you push 
 
 
 
-We still need to tell Modulus how to run our application.
 
-In our `package.json` file we add `"main": "start.js"`, because this file will
-start our application's server.
+
+You still need to tell Modulus how to run your application.
+
+In your `package.json` add `"main": "start.js"`, because this file will
+start your application's server.
 
 ![Add Modulus config][screenshot-add-deployment-config]
 
-I commit and push this change
+Now commit and push this change
 
 ![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
+
+
 
 
 
@@ -210,9 +220,13 @@ And about 2 minutes later your application is online.
 
 
 
-In the deployment log we can look up our application's URL.
+
+
+In the deployment log you can look up your application's URL.
 
 ![Look up application URL][screenshot-look-up-url]
+
+
 
 
 

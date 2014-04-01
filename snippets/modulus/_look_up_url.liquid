@@ -1,3 +1,13 @@
+{% if format == "storyboard" %}
+
 In the deployment log we can look up our application's URL.
 
 ![Look up application URL][screenshot-look-up-url]
+
+{% elsif format == "blogpost" %}
+
+In the deployment log you can look up your application's URL.
+
+![Look up application URL][screenshot-look-up-url]
+
+{% endif %}

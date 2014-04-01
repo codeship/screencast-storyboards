@@ -11,6 +11,8 @@
 
 
 
+<iframe src="" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
+
 How to set up Continuous Integration and Continuous Deployment for a Node.js Application from GitHub to Nodejitsu
 ======================
 
@@ -20,7 +22,7 @@ In this blog post we're going to deploy a Node.js application from a GitHub repo
 
 
 
-We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got an own project to set up but you want to follow along on your computer, just fork the repository.
+We've set up a simple Node.js application called [codefish][codefish-repo] which contains some Jasmine specs. We'll use screenshots of this application in this blog post. If you haven't got your own project to set up but you want to follow along on your computer, just fork the repository.
 
 [![codefish-node on GitHub][screenshot-repository]][screenshot-repository]
 
@@ -68,7 +70,7 @@ Codefish is a Node.js application. Therefore let's choose "Node.js" as your tech
 
 
 
-Codeship suggests Node.js 0.10.18, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
+Codeship suggests Node.js 0.10.25, but you can use whatever Node version you like. To find out the Node version of your project, type `node -v` in the Terminal.
 
 [![Type ruby -v and find out your Ruby version][screenshot-technology-version]][screenshot-technology-version]
 

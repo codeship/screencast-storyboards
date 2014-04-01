@@ -11,12 +11,13 @@
 
 
 
-<iframe src="" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
 
-How to set up Continuous Integration and Continuous Deployment for a Node.js Application from Bitbucket to Nodejitsu
+<iframe src="http://player.vimeo.com/video/84305070" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
+
+How to set up Continuous Integration and Continuous Deployment for a Node.js Application from Bitbucket to Modulus
 ======================
 
-In this blog post we're going to deploy a Node.js application from a Bitbucket repository to Nodejitsu using [Codeship][codeship].
+In this blog post we're going to deploy a Node.js application from a Bitbucket repository to Modulus using [Codeship][codeship].
 
 
 
@@ -30,7 +31,7 @@ We've set up a simple Node.js application called [codefish][codefish-repo] which
 
 
 
-Together, we're going to deploy this application to Nodejitsu using Codeship.
+Together, we're going to deploy this application to Modulus using Codeship.
 
 [![Codeship Landing Page][screenshot-codefish-landingpage]][screenshot-codefish-landingpage]
 
@@ -152,7 +153,7 @@ You've already pushed to your repository, watched your build log and got a green
 
 
 
-Now let's deploy your application to Nodejitsu. Go to your project settings by clicking on the settings icon in the projects dropdown.
+Now let's deploy your application to Modulus. Go to your project settings by clicking on the settings icon in the projects dropdown.
 
 [![Go to your project settings by clicking on the settings icon in the projects dropdown][screenshot-go-to-project-settings]][screenshot-go-to-project-settings]
 
@@ -162,49 +163,61 @@ Then navigate to the "Deployment" section.
 
 [![You are on the Deployment Setup screen now][screenshot-deployment-settings]][screenshot-deployment-settings]
 
-As we want to deploy to Nodejitsu we click on the "Nodejitsu" button.
+As we want to deploy to Modulus we click on the "Modulus" button.
 
-[![Click on the Nodejitsu button][screenshot-new-deployment]][screenshot-new-deployment]
-
-
-
-
-
-Now you are asked to enter your Nodejitsu username and token.
-
-To generate your Nodejitsu token, run `jitsu tokens create codeship` on the terminal.
-
-![Create Nodejitsu token][screenshot-create-deployment-token]
-
-Copy the token and insert it into your Codeship deployment configuration.
+[![Click on the Modulus button][screenshot-new-deployment]][screenshot-new-deployment]
 
 
 
 
 
-[![Copy and paste the Nodejitsu API key to Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
+Next you need to fill in your Modulus API token and project name. To generate an API
+token install the Modulus command line tool first.
+
+![Install modulus CLI][screenshot-install-tool]
+
+Sign in to Modulus with your Github credentials or the credentials you've used
+to sign up on Modulus.
+
+![Sign in to modulus CLI][screenshot-sign-in-to-deployment]
+
+Now you can generate an API token
+
+![Create modulus API token][screenshot-create-api-token]
+
+and insert it into your deployment configuration.
+
+![Insert modulus API token][screenshot-insert-api-token]
+
+In the last config step add the name of your Modulus application. If that
+application doesn't exist already it will be created.
+
+
+
+
+
+[![Copy and paste the Modulus API key to Codeship][screenshot-complete-deployment]][screenshot-complete-deployment]
 
 Now save your deployment by clicking on the green checkmark on the right.
 
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
-From now on Codeship will deploy your application to Nodejitsu everytime you push to your Bitbucket repository.
+From now on Codeship will deploy your application to Modulus everytime you push to your Bitbucket repository.
 
 
 
 
 
-You still need to tell Nodejitsu which subdomain you want to deploy to and how to run your application.
+You still need to tell Modulus how to run your application.
 
-In my case, I added `"subdomain": "codefish"` and a `"start"` script `"node start.js"`. Please adapt these parameters to whatever fits your app.
+In your `package.json` add `"main": "start.js"`, because this file will
+start your application's server.
 
-![Add Nodejitsu config][screenshot-add-deployment-config]
+![Add Modulus config][screenshot-add-deployment-config]
 
-This way Nodejitsu will know where to publish your app and how to launch it.
+Now commit and push this change
 
-Now you can commit and push this change
-
-![Commit and push Nodejitsu config][screenshot-commit-and-push-deployment-config]
+![Commit and push Modulus config][screenshot-commit-and-push-deployment-config]
 
 
 
@@ -214,7 +227,7 @@ And immediately another build will start running on Codeship. Let's go back to y
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 
-After the commands we already know from your first build, your application also gets deployed to Nodejitsu now.
+After the commands we already know from your first build, your application also gets deployed to Modulus now.
 
 [![After some initial commands were run your application gets deployed][screenshot-build-deployment]][screenshot-build-deployment]
 
@@ -226,7 +239,15 @@ And about 2 minutes later your application is online.
 
 
 
-When you open the URL of your Nodejitsu app now, your deployed application appears. You can find mine on [codefish.nodejitsu.com][codefish-live].
+In the deployment log you can look up your application's URL.
+
+![Look up application URL][screenshot-look-up-url]
+
+
+
+
+
+When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-11988.onmodulus.net][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -242,7 +263,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-node
  
  
- [codefish-live]: http://codefish.nodejitsu.com
+ [codefish-live]: http://codefish-11988.onmodulus.net
  
  [screenshot-repository]: ../screenshots/bitbucket/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png
@@ -266,40 +287,40 @@ If you need help with setting up your own application, please use the support li
  [screenshot-go-to-project-settings]: ../screenshots/bitbucket/codefish-node/go-to-project-settings.png
  [screenshot-project-settings]: ../screenshots/node/project-settings.png
  [screenshot-deployment-settings]: ../screenshots/node/deployment-settings.png
- [screenshot-new-deployment]: ../screenshots/node/nodejitsu/new-deployment.png
- [screenshot-heroku-apps]: ../screenshots/nodejitsu/heroku-apps.png
- [screenshot-create-heroku-app]: ../screenshots/nodejitsu/create-heroku-app.png
- [screenshot-heroku-app-created]: ../screenshots/nodejitsu/heroku-app-created.png
- [screenshot-heroku-deployment-name]: ../screenshots/node/nodejitsu/heroku-deployment-name.png
- [screenshot-show-api-key]: ../screenshots/nodejitsu/show-api-key.png
- [screenshot-complete-deployment]: ../screenshots/node/nodejitsu/complete-deployment.png
- [screenshot-saved-deployment]: ../screenshots/node/nodejitsu/saved-deployment.png
+ [screenshot-new-deployment]: ../screenshots/node/modulus/new-deployment.png
+ [screenshot-heroku-apps]: ../screenshots/modulus/heroku-apps.png
+ [screenshot-create-heroku-app]: ../screenshots/modulus/create-heroku-app.png
+ [screenshot-heroku-app-created]: ../screenshots/modulus/heroku-app-created.png
+ [screenshot-heroku-deployment-name]: ../screenshots/node/modulus/heroku-deployment-name.png
+ [screenshot-show-api-key]: ../screenshots/modulus/show-api-key.png
+ [screenshot-complete-deployment]: ../screenshots/node/modulus/complete-deployment.png
+ [screenshot-saved-deployment]: ../screenshots/node/modulus/saved-deployment.png
  [screenshot-added-paragraph]: ../screenshots/node/added-paragraph.png
  [screenshot-commit-and-push-paragraph]: ../screenshots/bitbucket/node/commit-and-push-paragraph.png
- [screenshot-deploy-build-started]: ../screenshots/node/nodejitsu/deploy-build-started.png
- [screenshot-build-deployment]: ../screenshots/node/nodejitsu/build-deployment.png
- [screenshot-build-deployment-complete]: ../screenshots/node/nodejitsu/build-deployment-complete.png
- [screenshot-deployed-application]: ../screenshots/node/nodejitsu/deployed-application.png
+ [screenshot-deploy-build-started]: ../screenshots/node/modulus/deploy-build-started.png
+ [screenshot-build-deployment]: ../screenshots/node/modulus/build-deployment.png
+ [screenshot-build-deployment-complete]: ../screenshots/node/modulus/build-deployment-complete.png
+ [screenshot-deployed-application]: ../screenshots/node/modulus/deployed-application.png
  [screenshot-select-post-hook]: ../screenshots/bitbucket/codefish-node/select-post-hook.png
  [screenshot-paste-hook-url]: ../screenshots/bitbucket/codefish-node/paste-hook-url.png
  [screenshot-hook-added]: ../screenshots/bitbucket/codefish-node/hook-added.png
- [screenshot-deployment-username]: ../screenshots/node/nodejitsu/username.png
- [screenshot-create-deployment-token]: ../screenshots/node/nodejitsu/create-token.png
- [screenshot-add-deployment-config]: ../screenshots/nodejitsu/add-config.png
- [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-node/nodejitsu/commit-and-push-deployment-config.png
- [screenshot-dotcloud-api-key]: ../screenshots/nodejitsu/api-key.png
- [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/nodejitsu/deployment-api-key.png
- [screenshot-dotcloud-yml]: ../screenshots/node/nodejitsu/dotcloud-yml.png
- [screenshot-dotcloud-wsgi-py]: ../screenshots/node/nodejitsu/wsgi-py.png
- [screenshot-deployment-documentation-page]: ../screenshots/node/nodejitsu/documentation-page.png
- [screenshot-empty-deployment]: ../screenshots/node/nodejitsu/empty-deployment.png
- [screenshot-deployment-home-page]: ../screenshots/nodejitsu/home-page.png
- [screenshot-new-deployment-app]: ../screenshots/node/nodejitsu/new-deployment-app.png
- [screenshot-deployment-oauth]: ../screenshots/nodejitsu/oauth.png
- [screenshot-app-yml]: ../screenshots/node/nodejitsu/app-yml.png
- [screenshot-install-tool]: ../screenshots/nodejitsu/install-tool.png
- [screenshot-sign-in-to-deployment]: ../screenshots/nodejitsu/sign-in-to-deployment.png
- [screenshot-create-api-token]: ../screenshots/nodejitsu/create-api-token.png
- [screenshot-insert-api-token]: ../screenshots/nodejitsu/insert-api-token.png
- [screenshot-look-up-url]: ../screenshots/nodejitsu/look-up-url.png
+ [screenshot-deployment-username]: ../screenshots/node/modulus/username.png
+ [screenshot-create-deployment-token]: ../screenshots/node/modulus/create-token.png
+ [screenshot-add-deployment-config]: ../screenshots/modulus/add-config.png
+ [screenshot-commit-and-push-deployment-config]: ../screenshots/bitbucket/codefish-node/modulus/commit-and-push-deployment-config.png
+ [screenshot-dotcloud-api-key]: ../screenshots/modulus/api-key.png
+ [screenshot-dotcloud-deployment-api-key]: ../screenshots/node/modulus/deployment-api-key.png
+ [screenshot-dotcloud-yml]: ../screenshots/node/modulus/dotcloud-yml.png
+ [screenshot-dotcloud-wsgi-py]: ../screenshots/node/modulus/wsgi-py.png
+ [screenshot-deployment-documentation-page]: ../screenshots/node/modulus/documentation-page.png
+ [screenshot-empty-deployment]: ../screenshots/node/modulus/empty-deployment.png
+ [screenshot-deployment-home-page]: ../screenshots/modulus/home-page.png
+ [screenshot-new-deployment-app]: ../screenshots/node/modulus/new-deployment-app.png
+ [screenshot-deployment-oauth]: ../screenshots/modulus/oauth.png
+ [screenshot-app-yml]: ../screenshots/node/modulus/app-yml.png
+ [screenshot-install-tool]: ../screenshots/modulus/install-tool.png
+ [screenshot-sign-in-to-deployment]: ../screenshots/modulus/sign-in-to-deployment.png
+ [screenshot-create-api-token]: ../screenshots/modulus/create-api-token.png
+ [screenshot-insert-api-token]: ../screenshots/modulus/insert-api-token.png
+ [screenshot-look-up-url]: ../screenshots/modulus/look-up-url.png
 
