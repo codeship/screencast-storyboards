@@ -11,6 +11,9 @@
 
 
 
+
+<iframe src="http://player.vimeo.com/video/84305070" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
+
 How to set up Continuous Integration and Continuous Deployment for a Node.js Application from Bitbucket to Modulus
 ======================
 
@@ -244,7 +247,7 @@ In the deployment log you can look up your application's URL.
 
 
 
-When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-11988.onmodulus.com][codefish-live].
+When you open the URL of your Modulus app now, your deployed application appears. You can find mine on [codefish-11988.onmodulus.net][codefish-live].
 
 [![Have a look at the app you just deployed][screenshot-deployed-application]][screenshot-deployed-application]
 
@@ -260,7 +263,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://bitbucket.org/codeship-tutorials/codefish-node
  
  
- [codefish-live]: http://codefish-11988.onmodulus.com
+ [codefish-live]: http://codefish-11988.onmodulus.net
  
  [screenshot-repository]: ../screenshots/bitbucket/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png

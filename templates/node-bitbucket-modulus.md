@@ -7,7 +7,8 @@
 {% assign deployment = "Modulus" %}
 {% assign deployment_slug = "modulus" %}
 {% assign repo_name = "codefish-node" %}
-{% assign app_url = "codefish-11988.onmodulus.com" %}
+{% assign app_url = "codefish-11988.onmodulus.net" %}
+{% assign video_url = "http://player.vimeo.com/video/84305070" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}
