@@ -11,6 +11,8 @@
 
 
 
+
+
 Deploying Node.js from GitHub to Modulus
 ======================
 
@@ -239,7 +241,7 @@ In the deployment log we can look up our application's URL.
 
 
 
-When we open [codefish-11838.onmodulus.net][codefish-live] now, our deployed application appears.
+When we open [codefish-11988.onmodulus.net][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
@@ -255,7 +257,7 @@ If you need help with setting up your own application, please use the support li
  [codefish-repo]: https://github.com/codeship-tutorials/codefish-node
  
  
- [codefish-live]: http://codefish-11838.onmodulus.net
+ [codefish-live]: http://codefish-11988.onmodulus.net
  
  [screenshot-repository]: ../screenshots/github/codefish-node/repository.png
  [screenshot-codefish-landingpage]: ../screenshots/codeship-landingpage.png

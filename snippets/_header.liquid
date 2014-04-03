@@ -7,7 +7,7 @@ In this screencast we're going to deploy a {{ technology }} application from a {
 
 {% elsif format == "blogpost" %}
 
-<iframe src="{{ video_url | default: 'http://player.vimeo.com/video/90149475' }}" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
+<iframe src="http://player.vimeo.com/video/{{ video_id | default: '90149475' }}" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
 
 How to set up Continuous Integration and Continuous Deployment for a {{ technology }} Application from {{ repository }} to {{ deployment }}
 ======================
