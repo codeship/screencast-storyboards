@@ -217,6 +217,7 @@ Now let's save our deployment configuration.
 ![Saved App Engine deployment][screenshot-saved-deployment]
 
 From now on Codeship will deploy our application to App Engine everytime we push to our Bitbucket repository.
+Let's go back to our Dashboard.
 
 
 
@@ -236,7 +237,7 @@ I commit and push this change
 
 
 
-and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 

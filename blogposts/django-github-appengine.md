@@ -12,7 +12,7 @@
 
 
 
-<iframe src="" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
+<iframe src="http://player.vimeo.com/video/" height="498" width="885" allowfullscreen="" frameborder="0"></iframe>
 
 How to set up Continuous Integration and Continuous Deployment for a Django Application from GitHub to App Engine
 ======================
@@ -182,6 +182,7 @@ Now save your deployment by clicking on the green checkmark on the right.
 [![Save your deployment configuration by clicking on the green checkmark][screenshot-saved-deployment]][screenshot-saved-deployment]
 
 From now on Codeship will deploy your application to App Engine everytime you push to your GitHub repository.
+Let's go back to our Dashboard.
 
 
 
@@ -201,7 +202,7 @@ Now you can commit and push this change
 
 
 
-And immediately another build will start running on Codeship. Let's go back to your project overview.
+And immediately another build will start running on Codeship.
 
 [![Go back to the project overview to see a new running build][screenshot-deploy-build-started]][screenshot-deploy-build-started]
 

@@ -215,6 +215,7 @@ Now let's save our deployment configuration.
 ![Saved Heroku deployment][screenshot-saved-deployment]
 
 From now on Codeship will deploy our application to Heroku everytime we push to our Bitbucket repository.
+Let's go back to our Dashboard.
 
 
 
@@ -232,7 +233,7 @@ I commit and push the change
 
 
 
-and immediately another build starts running on Codeship. Let's go back to our project overview. I will fast-forward until the build is finished.
+and immediately another build starts running on Codeship. I will fast-forward until the build is finished.
 
 ![Deploy build started][screenshot-deploy-build-started]
 
@@ -248,7 +249,7 @@ And about 2 minutes later our application is online.
 
 
 
-When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed application appears.
+When we open [codefish-web.herokuapp.com][codefish-live] now, our deployed application appears.
 
 ![Deployed Application][screenshot-deployed-application]
 
