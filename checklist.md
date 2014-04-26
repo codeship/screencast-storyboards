@@ -15,6 +15,8 @@ Before recording the screencast:
     2) Terminal (clear terminal)
     3) Editor (close files in editor)
 - Reset browser history, but keep cached assets and cookies
+- Increase Terminal font size
+- Auto Hide dock in preferences
 
 During recording:
 
@@ -31,3 +33,20 @@ Tips
 - Do not move mouse if not absolutely necessary
 - Move slowly while recording the screen; Can be sped up later on, but less errors
 - Cut from end to beginning, as best parts are recorded on the last try so you can easily remove earlier ones
+- Add freeze frames to make video fit audio
+- Wait for spinner or other visual elemens to finish before moving the mouse again. These can be cut out later then
+
+Export Settings:
+Framerate: 30 fps
+datarate: 100000kbit/sec
+Profile: automatic
+AAC Audio: yes
+Sample Rate: 44.1
+Audio Datarate: 320
+
+Scale to custom size:
+1280x720 (for vimeo and 16x9 view; Check if still necessary for Vimeo, otherwise leave 1280x800)
+
+Upload to Vimeo:
+
+- set private settings to "only visible for me"
