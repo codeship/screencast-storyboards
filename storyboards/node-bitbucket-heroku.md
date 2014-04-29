@@ -305,7 +305,7 @@ Ship long and prosper
  [screenshot-complete-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/heroku/complete-deployment.png
  [screenshot-saved-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/heroku/saved-deployment.png
  [screenshot-added-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/bitbucket/node/commit-and-push-paragraph.png
+ [screenshot-commit-and-push-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/bitbucket/codefish-node/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/heroku/deploy-build-started.png
  [screenshot-build-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/heroku/build-deployment-complete.png

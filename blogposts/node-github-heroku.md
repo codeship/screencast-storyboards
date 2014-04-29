@@ -270,7 +270,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-complete-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/node/heroku/complete-deployment.png
  [screenshot-saved-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/node/heroku/saved-deployment.png
  [screenshot-added-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/node/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/github/node/commit-and-push-paragraph.png
+ [screenshot-commit-and-push-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/github/codefish-node/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/node/heroku/deploy-build-started.png
  [screenshot-build-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/node/heroku/build-deployment.png
  [screenshot-build-deployment-complete]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-github-heroku/screenshots/node/heroku/build-deployment-complete.png

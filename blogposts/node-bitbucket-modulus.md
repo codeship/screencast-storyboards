@@ -297,7 +297,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-complete-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/complete-deployment.png
  [screenshot-saved-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/saved-deployment.png
  [screenshot-added-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/added-paragraph.png
- [screenshot-commit-and-push-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/node/commit-and-push-paragraph.png
+ [screenshot-commit-and-push-paragraph]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/bitbucket/codefish-node/commit-and-push-paragraph.png
  [screenshot-deploy-build-started]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/deploy-build-started.png
  [screenshot-build-deployment]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/build-deployment.png
  [screenshot-build-deployment-complete]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-modulus/screenshots/node/modulus/build-deployment-complete.png
