@@ -8,7 +8,7 @@
 {% assign deployment_slug = "heroku" %}
 {% assign repo_name = "codefish-node" %}
 {% assign app_url = "codefish-app.herokuapp.com" %}
-{% assign video_id = "90632689" %}
+{% assign video_id = "93054093" %}
 
 {% include 'snippets/header' %}
 {% include 'snippets/intro' %}
