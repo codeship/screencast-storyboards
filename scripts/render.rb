@@ -9,6 +9,7 @@ Dir["./templates/*"].each do |template|
   puts "Building for: #{file_name}"
   %w{storyboard blogpost}.each do |format|
     compiled = Liquid::Template.parse(content).render "format" => format
+    binding.pry
     File.write "./#{format}s/#{file_name}", compiled
   end
 end
