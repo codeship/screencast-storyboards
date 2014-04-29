@@ -234,7 +234,14 @@ When we open [codefish-app.herokuapp.com][codefish-live] now, our deployed appli
 
 ![Deployed Application][screenshot-deployed-application]
 
+#########RECORD VIDEO FROM HERE
+
 If you need help with setting up your own application, please use the support link in the top-right corner or tweet us at [codeship][codeship-twitter]!
+
+Take a look at all of our other deployment videos and blogposts at blog.codeship.io.
+If you want to give Codeship a try click the sign up link that will open right after the video.
+
+Ship long and prosper
 
 ![Build Deployment Complete][screenshot-build-deployment-complete]
 
