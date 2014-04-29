@@ -1,7 +1,11 @@
 require 'bundler/setup'
 Bundler.require
 
+$LOAD_PATH.unshift File.dirname(__FILE__)
+
 Liquid::Template.file_system = Liquid::LocalFileSystem.new(".")
+
+require 'tags/image_path'
 
 Dir["./templates/*"].each do |template|
   content = File.read(template)
@@ -9,7 +13,6 @@ Dir["./templates/*"].each do |template|
   puts "Building for: #{file_name}"
   %w{storyboard blogpost}.each do |format|
     compiled = Liquid::Template.parse(content).render "format" => format
-    binding.pry
     File.write "./#{format}s/#{file_name}", compiled
   end
 end

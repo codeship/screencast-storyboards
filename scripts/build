@@ -2,4 +2,4 @@
 
 set -e
 
-bundle exec ruby scripts/render.rb
+bundle exec ruby lib/render.rb
