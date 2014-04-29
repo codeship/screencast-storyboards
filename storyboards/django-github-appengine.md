@@ -273,6 +273,7 @@ Ship long and prosper
  [screenshot-test-commands]: https://raw.githubusercontent.com/codeship/screencast-storyboards/django-github-appengine/screenshots/django/test-commands.png
  [screenshot-codeship-dasboard]: https://raw.githubusercontent.com/codeship/screencast-storyboards/django-github-appengine/screenshots/github/codefish-django-appengine/codeship-dashboard.png
  [screenshot-codeship-image]: https://raw.githubusercontent.com/codeship/screencast-storyboards/django-github-appengine/screenshots/django/codeship-image.png
+ [screenshot-codeship-readme]: https://raw.githubusercontent.com/codeship/screencast-storyboards/django-github-appengine/screenshots/django/readme.png
  [screenshot-codeship-push]: https://raw.githubusercontent.com/codeship/screencast-storyboards/django-github-appengine/screenshots/github/codefish-django-appengine/push.png
  [screenshot-first-build-running]: https://raw.githubusercontent.com/codeship/screencast-storyboards/django-github-appengine/screenshots/django/first-build-running.png
  [screenshot-first-build-running-details]: https://raw.githubusercontent.com/codeship/screencast-storyboards/django-github-appengine/screenshots/github/codefish-django-appengine/first-build-running-details.png

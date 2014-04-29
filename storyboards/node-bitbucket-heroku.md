@@ -287,6 +287,7 @@ Ship long and prosper
  [screenshot-test-commands]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/test-commands.png
  [screenshot-codeship-dasboard]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/bitbucket/codefish-node/codeship-dashboard.png
  [screenshot-codeship-image]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/codeship-image.png
+ [screenshot-codeship-readme]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/readme.png
  [screenshot-codeship-push]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/bitbucket/codefish-node/push.png
  [screenshot-first-build-running]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/node/first-build-running.png
  [screenshot-first-build-running-details]: https://raw.githubusercontent.com/codeship/screencast-storyboards/node-bitbucket-heroku/screenshots/bitbucket/codefish-node/first-build-running-details.png

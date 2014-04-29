@@ -110,7 +110,7 @@ and save the hook.
 
 You can trigger a build for your application by pushing to your repository. Let's add the the Codeship status image to the README file. I use markdown syntax to insert the image.
 
-[![Copy the code for the Codeship status badge to your README file][screenshot-codeship-image]][screenshot-codeship-image]
+[![Copy the code for the Codeship status badge to your README file][screenshot-codeship-readme]][screenshot-codeship-readme]
 
 Now commit and push this change.
 
@@ -266,6 +266,7 @@ If you need help with setting up your own application, please use the support li
  [screenshot-test-commands]: https://raw.githubusercontent.com/codeship/screencast-storyboards/rails-bitbucket-heroku/screenshots/rails/test-commands.png
  [screenshot-codeship-dasboard]: https://raw.githubusercontent.com/codeship/screencast-storyboards/rails-bitbucket-heroku/screenshots/bitbucket/codefish-rails/codeship-dashboard.png
  [screenshot-codeship-image]: https://raw.githubusercontent.com/codeship/screencast-storyboards/rails-bitbucket-heroku/screenshots/rails/codeship-image.png
+ [screenshot-codeship-readme]: https://raw.githubusercontent.com/codeship/screencast-storyboards/rails-bitbucket-heroku/screenshots/rails/readme.png
  [screenshot-codeship-push]: https://raw.githubusercontent.com/codeship/screencast-storyboards/rails-bitbucket-heroku/screenshots/bitbucket/codefish-rails/push.png
  [screenshot-first-build-running]: https://raw.githubusercontent.com/codeship/screencast-storyboards/rails-bitbucket-heroku/screenshots/rails/first-build-running.png
  [screenshot-first-build-running-details]: https://raw.githubusercontent.com/codeship/screencast-storyboards/rails-bitbucket-heroku/screenshots/bitbucket/codefish-rails/first-build-running-details.png
